@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>偉人と歩む (v35)</title>
+  <style>
+    :root { --bg: #f5f7fa; --bar-h: 26px; --row-gap: 14px; --name-col: 130px; --accent: #667eea; }
+    * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; background: var(--bg); color: #2d3436; padding-bottom: 40px; overflow-x: hidden; }
+    body.modal-open { overflow: hidden; }
+
+    .controls-area { background: #fff; padding: 10px 15px; position: sticky; top: 0; z-index: 5000; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+    .header-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+    .header-title { font-size: 1.05rem; font-weight: 800; color: #333; }
+    .header-btns { display: flex; gap: 8px; align-items: center; }
+    .lang-btn { border: 1px solid #ddd; background: #fff; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; cursor: pointer; }
+    .lang-btn.active { background: #333; color: #fff; border-color: #333; }
+    .person-count { font-size: 0.7rem; color: #999; font-weight: 600; }
+    .search-box input { width: 100%; padding: 8px 12px; border: 1px solid #e0e0e0; border-radius: 8px; background: #f9f9f9; font-size: 14px; }
+    .ui-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 8px 0; }
+    .ui-item { display: flex; flex-direction: column; gap: 2px; }
+    .ui-label-row { display: flex; justify-content: space-between; align-items: baseline; }
+    .ui-label { font-size: 0.6rem; font-weight: 700; color: #999; letter-spacing: 0.5px; }
+    .ui-val { font-size: 0.85rem; font-weight: 900; color: var(--accent); }
+    input[type="range"] { width: 100%; accent-color: var(--accent); cursor: pointer; }
+    .mode-tabs { display: flex; background: #eee; border-radius: 8px; padding: 3px; gap: 3px; margin-bottom: 6px; }
+    .tab-btn { flex: 1; border: none; background: transparent; padding: 5px; border-radius: 6px; font-weight: 800; font-size: 0.75rem; color: #666; cursor: pointer; }
+    .tab-btn.active { background: #fff; color: var(--accent); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .category-filters { display: flex; gap: 5px; flex-wrap: wrap; }
+    .category-btn { padding: 3px 8px; border: none; border-radius: 12px; font-size: 0.65rem; font-weight: 700; cursor: pointer; color: #fff; opacity: 0.4; transition: opacity 0.15s; }
+    .category-btn.active { opacity: 1; }
+
+    .scale-float { position: sticky; top: var(--controls-h, 160px); z-index: 4000; background: rgba(255,255,255,0.97); backdrop-filter: blur(8px); border-bottom: 2px solid #333; height: 36px; overflow: hidden; }
+    .scale-inner { position: relative; height: 100%; }
+    .timeline-scroll { overflow-x: auto; background: #fff; -webkit-overflow-scrolling: touch; }
+    .timeline-content { position: relative; padding: 8px 0 100px 0; }
+    .grid-line { position: absolute; top: 0; bottom: 0; width: 1px; background: rgba(0,0,0,0.05); pointer-events: none; }
+    .grid-line.major { background: rgba(0,0,0,0.1); }
+    .tick-label { position: absolute; top: 10px; transform: translateX(-50%); font-size: 0.6rem; color: #444; font-weight: 700; white-space: nowrap; }
+    .my-line-age, .my-line-year { position: absolute; top: 0; bottom: 0; width: 3px; background: #e74c3c; z-index: 200; pointer-events: none; border-radius: 2px; }
+
+    .timeline-row { position: relative; min-height: var(--bar-h); height: auto; padding: 4px 0; margin-bottom: var(--row-gap); display: flex; align-items: center; }
+    .row-name { position: sticky; left: 0; z-index: 3000; width: var(--name-col); min-width: var(--name-col); padding-left: 10px; background: linear-gradient(90deg, #fff 88%, transparent 100%); cursor: pointer; }
+    .row-name-main { font-size: 0.75rem; font-weight: 900; color: #222; text-decoration: underline; text-decoration-color: rgba(0,0,0,0.15); text-underline-offset: 2px; white-space: normal; overflow: visible; max-width: none; line-height: 1.15; }
+    .row-name-sub { font-size: 0.55rem; color: #999; white-space: nowrap; }
+
+    .bar { position: absolute; height: var(--bar-h); top: 50%; transform: translateY(-50%); opacity: 0.85; border-radius: 5px; z-index: 100; }
+    .bar.alive { mask-image: linear-gradient(to right, #000 96%, transparent 100%); -webkit-mask-image: linear-gradient(to right, #000 96%, transparent 100%); }
+    .dot { position: absolute; top: 50%; transform: translate(-50%, -50%); width: 13px; height: 13px; background: #fff; border: 2px solid rgba(255,255,255,0.9); border-radius: 50%; box-shadow: 0 2px 5px rgba(0,0,0,0.3); z-index: 150; cursor: pointer; transition: transform 0.1s; }
+    .dot:active { transform: translate(-50%, -50%) scale(1.3); }
+
+    .tooltip { position: absolute; background: rgba(20, 20, 20, 0.97); color: #fff; padding: 12px 14px; border-radius: 10px; font-size: 0.8rem; width: 260px; z-index: 10000; pointer-events: auto; opacity: 0; transition: opacity 0.15s; box-shadow: 0 10px 30px rgba(0,0,0,0.5); line-height: 1.5; }
+    .tooltip.visible { opacity: 1; }
+.tooltip.arrow-below::after { content: ""; position: absolute; left: 50%; transform: translateX(-50%); top: -8px; border-width: 0 8px 8px 8px; border-style: solid; border-color: transparent transparent rgba(20,20,20,0.97) transparent; }
+.tooltip.arrow-above::after { content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -8px; border-width: 8px 8px 0 8px; border-style: solid; border-color: rgba(20,20,20,0.97) transparent transparent transparent; }
+
+    .tooltip-person { font-weight: 900; color: #f1c40f; margin-bottom: 3px; border-bottom: 1px solid #444; padding-bottom: 3px; font-size: 0.85rem; }
+    .tooltip-info { color: #74b9ff; font-weight: 800; margin-bottom: 5px; font-size: 0.75rem; }
+    .tooltip-text { color: #ddd; }
+    .tooltip-link { color: #c7ecee; text-decoration: underline; cursor: pointer; padding: 2px 0; display: inline-block; margin-top: 6px; font-size: 0.75rem; }
+
+    .wiki-modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 20000; display: none; align-items: center; justify-content: center; }
+    .wiki-modal.visible { display: flex; animation: fadeIn 0.2s ease-out; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    .wiki-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); backdrop-filter: blur(3px); }
+    .wiki-card { position: relative; width: 92%; max-width: 500px; max-height: 85vh; background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 25px 50px rgba(0,0,0,0.5); display: flex; flex-direction: column; animation: zoomUp 0.25s; }
+    @keyframes zoomUp { from { transform: scale(0.92) translateY(15px); opacity: 0; } to { transform: scale(1) translateY(0); opacity: 1; } }
+    .wiki-card-header { padding: 14px 18px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; background: #fafafa; }
+    .wiki-card-title { font-size: 1rem; font-weight: 800; color: #333; }
+    .wiki-close { background: #e0e0e0; border: none; width: 28px; height: 28px; border-radius: 50%; font-size: 16px; color: #555; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .wiki-content { padding: 18px; overflow-y: auto; color: #444; line-height: 1.6; font-size: 0.9rem; -webkit-overflow-scrolling: touch; }
+    .wiki-img { width: 100%; height: 200px; object-fit: cover; object-position: top center; border-radius: 8px; margin-bottom: 12px; background: #eee; display: none; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .wiki-btn-full { display: block; width: 100%; padding: 12px; background: #333; color: #fff; text-align: center; border-radius: 8px; text-decoration: none; font-weight: 700; margin-top: 16px; font-size: 0.85rem; }
+
+    .sort-btns { display: flex; gap: 4px; margin-top: 6px; }
+    .sort-btn { border: 1px solid #ddd; background: #fff; padding: 2px 7px; border-radius: 4px; font-size: 0.6rem; font-weight: 700; cursor: pointer; color: #777; }
+    .sort-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="controls-area" id="controlsArea">
+    <div class="header-top">
+      <div><div class="header-title" id="txt-app-title">偉人と歩む</div><div class="person-count" id="personCount"></div></div>
+      <div class="header-btns"><button class="lang-btn active" id="btn-lang-ja">JP</button><button class="lang-btn" id="btn-lang-en">EN</button></div>
+    </div>
+    <div class="search-box"><input type="text" id="searchInput" /></div>
+    <div class="ui-grid">
+      <div class="ui-item">
+        <div class="ui-label-row"><span class="ui-label" id="txt-label-age">AGE</span><span class="ui-val"><span id="headAge">31</span><span id="txt-unit-age"></span></span></div>
+        <input type="range" id="ageSlider" min="0" max="120" value="31" />
+      </div>
+      <div class="ui-item">
+        <div class="ui-label-row"><span class="ui-label" id="txt-label-zoom">ZOOM</span><span class="ui-val"><span id="headZoom">80</span><span id="txt-unit-year"></span></span></div>
+        <input type="range" id="zoomSlider" min="0" max="50" value="8" />
+      </div>
+    </div>
+    <div class="mode-tabs"><button class="tab-btn active" id="btnAge">Age</button><button class="tab-btn" id="btnYear">Year</button></div>
+    <div class="category-filters" id="categoryFilters"></div>
+    <div class="sort-btns" id="sortBtns">
+      <button class="sort-btn active" data-sort="birth" id="sortBirth">生年順</button>
+      <button class="sort-btn" data-sort="name" id="sortName">名前順</button>
+      <button class="sort-btn" data-sort="lifespan" id="sortLife">寿命順</button>
+    </div>
+  </div>
+
+  <div class="scale-float" id="scaleFloat"><div class="scale-inner" id="scaleInner"></div></div>
+  <div class="timeline-scroll" id="timelineScroll"><div class="timeline-content" id="timelineContent"></div></div>
+
+  <div class="wiki-modal" id="wikiModal">
+    <div class="wiki-overlay" id="wikiOverlay"></div>
+    <div class="wiki-card">
+      <div class="wiki-card-header"><div class="wiki-card-title" id="wikiTitle"></div><button class="wiki-close" id="wikiCloseBtn">×</button></div>
+      <div class="wiki-content" id="wikiContent"></div>
+    </div>
+  </div>
+
+<script>
+let DATA = null;
+
+async function init() {
+  try {
+    const res = await fetch('data.json');
+    DATA = await res.json();
+    startApp();
+  } catch(e) {
+    alert('Failed to load data.json');
+    console.error(e);
+  }
+}
+
+const NOW = 2026;
+let state = { lang:'ja', mode:'age', userAge:31, baseZoomYears:80, search:'', activeCats:new Set(), sort:'birth' };
+const UI = {
+  ja: { title:"偉人と歩む", age:"あなたの年齢", au:"歳", zoom:"ズーム", zu:"年", ma:"年齢比較", my:"西暦年表", noR:"該当なし", sA:"歳", sY:"", bc:"B.C. ", cur:"現在", full:"Wikipediaで全文を読む", birth:"生年順", name:"名前順", life:"寿命順", shown:"人 表示中" },
+  en: { title:"Walk with Greats", age:"Your Age", au:"y/o", zoom:"Zoom", zu:"yr", ma:"Age Compare", my:"Calendar", noR:"No results", sA:"y/o", sY:"", bc:"B.C. ", cur:"Now", full:"Read full on Wikipedia", birth:"By Birth", name:"By Name", life:"By Lifespan", shown:" shown" }
+};
+const $ = id => document.getElementById(id);
+const t = k => UI[state.lang][k];
+const fY = y => y < 0 ? `${t('bc')}${Math.abs(y)}` : `${y}`;
+
+const els = {
+  title:$('txt-app-title'), ageLbl:$('txt-label-age'), au:$('txt-unit-age'), zoomLbl:$('txt-label-zoom'), zu:$('txt-unit-year'),
+  search:$('searchInput'), ageSl:$('ageSlider'), hAge:$('headAge'), zoomSl:$('zoomSlider'), hZoom:$('headZoom'),
+  filters:$('categoryFilters'), scroll:$('timelineScroll'), content:$('timelineContent'), scaleIn:$('scaleInner'),
+  bAge:$('btnAge'), bYear:$('btnYear'), bJa:$('btn-lang-ja'), bEn:$('btn-lang-en'),
+  modal:$('wikiModal'), overlay:$('wikiOverlay'), close:$('wikiCloseBtn'), mTitle:$('wikiTitle'), mContent:$('wikiContent'),
+  pCount:$('personCount'), sortBirth:$('sortBirth'), sortName:$('sortName'), sortLife:$('sortLife')
+};
+
+function updateUI() {
+  els.title.textContent = t('title'); els.search.placeholder = '🔍 ' + t('title');
+  els.ageLbl.textContent = t('age'); els.au.textContent = t('au');
+  els.zoomLbl.textContent = t('zoom'); els.zu.textContent = t('zu');
+  els.bAge.textContent = t('ma'); els.bYear.textContent = t('my');
+  els.sortBirth.textContent = t('birth'); els.sortName.textContent = t('name'); els.sortLife.textContent = t('life');
+  renderFilters(); renderTimeline();
+}
+
+let activeTip = null;
+function clearTip() { if(activeTip) { activeTip.remove(); activeTip=null; } }
+
+function getItems() {
+  const q = state.search.toLowerCase();
+  let items = DATA.items.filter(p => state.activeCats.has(p.category) && (p.name.ja+p.name.en).toLowerCase().includes(q));
+  if(state.sort==='birth') items.sort((a,b)=>a.start-b.start);
+  else if(state.sort==='name') items.sort((a,b)=>a.name[state.lang].localeCompare(b.name[state.lang]));
+  else if(state.sort==='lifespan') items.sort((a,b)=>((b.isAlive?NOW:b.end)-b.start)-((a.isAlive?NOW:a.end)-a.start));
+  return items;
+}
+
+function computeScale(items) {
+  const pl=150; let mn,mx,pw;
+  if(state.mode==='age') { mn=0; mx=Math.max(...items.map(p=>(p.isAlive?NOW:p.end)-p.start),100)+10; pw=Math.max(window.innerWidth,(mx/state.baseZoomYears)*window.innerWidth); }
+  else { mn=Math.min(...items.map(p=>p.start)); mx=Math.max(...items.map(p=>p.isAlive?NOW:p.end)); pw=Math.max(window.innerWidth,((mx-mn)/state.baseZoomYears)*window.innerWidth); }
+  return { min:mn, max:mx, range:mx-mn, plotLeft:pl, plotWidth:pw, totalWidth:pl+pw+20 };
+}
+const xOf = (v,s) => s.plotLeft+((v-s.min)/s.range)*s.plotWidth;
+
+function showTip(dot, p, ev) {
+  clearTip();
+  const tip = document.createElement('div'); tip.className='tooltip visible';
+  tip.onclick=e=>e.stopPropagation();
+  const pN=p.name[state.lang], eL=ev.label[state.lang], eT=ev.text[state.lang];
+  const wUrl=(ev.wiki&&ev.wiki[state.lang])?ev.wiki[state.lang]:(p.main_wiki?p.main_wiki[state.lang]:null);
+  tip.innerHTML=`<div class="tooltip-person">${pN}</div><div class="tooltip-info">${ev.age}${t('sA')} (${fY(p.start+ev.age)}) ・ ${eL}</div><div class="tooltip-text">${eT}</div>${wUrl?`<span class="tooltip-link" data-url="${wUrl}" data-title="${eL} (${pN})">📖 Wikipedia</span>`:''}`;
+  els.content.appendChild(tip); activeTip=tip;
+  const dx=parseFloat(dot.style.left), dy=dot.parentElement.offsetTop+13;
+  let left=dx-130, top=dy+20;
+let placement='below';
+if(top+170>dy+250) { top=dy-170; placement='above'; }
+if(left<10) left=10;
+tip.classList.remove('arrow-above','arrow-below');
+tip.classList.add(placement==='above'?'arrow-above':'arrow-below');
+tip.style.left=left+'px'; tip.style.top=top+'px';
+
+  const lnk=tip.querySelector('.tooltip-link');
+  if(lnk) lnk.onclick=e=>{ e.stopPropagation(); openModal(lnk.dataset.url, lnk.dataset.title); };
+}
+
+async function openModal(url, title) {
+  els.mTitle.textContent=title;
+  els.mContent.innerHTML='<div style="text-align:center;padding:40px;color:#999;">Loading...</div>';
+  els.modal.classList.add('visible'); document.body.classList.add('modal-open');
+  try {
+    const m=url.match(/https:\/\/([a-z]+)\.wikipedia\.org\/wiki\/(.+)/);
+    if(!m) throw new Error('x');
+    const r=await fetch(`https://${m[1]}.wikipedia.org/api/rest_v1/page/summary/${m[2]}`);
+    const d=await r.json();
+    let h='';
+    if(d.thumbnail) h+=`<img class="wiki-img" src="${d.thumbnail.source}" style="display:block" />`;
+    h+=`<div>${d.extract_html||d.extract||'No content'}</div>`;
+    h+=`<a href="${url}" target="_blank" class="wiki-btn-full">${t('full')}</a>`;
+    els.mContent.innerHTML=h;
+  } catch(e) { els.mContent.innerHTML=`<div style="padding:20px;">Preview unavailable.<br><a href="${url}" target="_blank" class="wiki-btn-full">${t('full')}</a></div>`; }
+}
+els.close.onclick=els.overlay.onclick=()=>{ els.modal.classList.remove('visible'); document.body.classList.remove('modal-open'); };
+
+function renderFilters() {
+  els.filters.innerHTML='';
+  DATA.categories.forEach(c=>{
+    const b=document.createElement('button'); b.className='category-btn'+(state.activeCats.has(c.id)?' active':'');
+    b.textContent=c.label[state.lang]; b.style.background=c.color;
+    b.onclick=()=>{ state.activeCats.has(c.id)?state.activeCats.delete(c.id):state.activeCats.add(c.id); renderFilters(); renderTimeline(); };
+    els.filters.appendChild(b);
+  });
+}
+
+function renderTimeline() {
+  clearTip();
+  const items=getItems();
+  els.content.innerHTML=''; els.scaleIn.innerHTML='';
+  els.pCount.textContent=items.length+t('shown');
+  if(!items.length) return;
+
+  const s=computeScale(items);
+  els.content.style.width=els.scaleIn.style.width=s.totalWidth+'px';
+  const step=state.baseZoomYears<=20?5:state.baseZoomYears<=80?10:state.baseZoomYears<=200?25:50;
+
+  for(let v=Math.floor(s.min/step)*step;v<=s.max;v+=step) {
+    if(v<s.min) continue;
+    const x=xOf(v,s);
+    const gl=document.createElement('div'); gl.className='grid-line'+(v%(step*2)===0?' major':''); gl.style.left=x+'px'; els.content.appendChild(gl);
+    let lb=state.mode==='year'?fY(v):v;
+    const tl=document.createElement('div'); tl.className='tick-label'; tl.style.left=x+'px'; tl.textContent=lb; els.scaleIn.appendChild(tl);
+  }
+
+  if(state.mode==='age') { const l=document.createElement('div'); l.className='my-line-age'; l.style.left=xOf(state.userAge,s)+'px'; els.content.appendChild(l); }
+
+  items.forEach(p=>{
+    const row=document.createElement('div'); row.className='timeline-row';
+    const lifeEnd=p.isAlive?NOW:p.end;
+    const bs=state.mode==='age'?s.plotLeft:xOf(p.start,s);
+    const be=state.mode==='age'?xOf(lifeEnd-p.start,s):xOf(lifeEnd,s);
+
+    const subTxt=`${fY(p.start)} - ${p.isAlive?t('cur'):fY(p.end)}`;
+    const nameBox=document.createElement('div'); nameBox.className='row-name';
+    nameBox.innerHTML=`<div class="row-name-main">${p.name[state.lang]}</div><div class="row-name-sub">${subTxt}</div>`;
+    nameBox.onclick=()=>openModal(p.main_wiki[state.lang],p.name[state.lang]);
+    row.appendChild(nameBox);
+
+    const cat=DATA.categories.find(c=>c.id===p.category);
+    const bar=document.createElement('div'); bar.className='bar'+(p.isAlive?' alive':'');
+    bar.style.background=cat.color; bar.style.left=bs+'px'; bar.style.width=Math.max(2,be-bs)+'px';
+    row.appendChild(bar);
+
+    if(state.mode==='year') {
+      const ux=xOf(p.start+state.userAge,s);
+      if(ux>=bs&&ux<=be) { const l=document.createElement('div'); l.className='my-line-year'; l.style.left=ux+'px'; row.appendChild(l); }
+    }
+
+    p.events.forEach(ev=>{
+      const d=document.createElement('div'); d.className='dot';
+      d.style.left=xOf(state.mode==='age'?ev.age:p.start+ev.age,s)+'px';
+      d.onclick=e=>{ e.stopPropagation(); showTip(d,p,ev); };
+      row.appendChild(d);
+    });
+    els.content.appendChild(row);
+  });
+}
+
+els.ageSl.oninput=e=>{ state.userAge=+e.target.value; els.hAge.textContent=state.userAge; renderTimeline(); };
+els.zoomSl.oninput=e=>{ state.baseZoomYears=e.target.value==0?1:e.target.value*10; els.hZoom.textContent=state.baseZoomYears; renderTimeline(); };
+els.search.oninput=e=>{ state.search=e.target.value; renderTimeline(); };
+els.bAge.onclick=()=>{ state.mode='age'; els.bAge.classList.add('active'); els.bYear.classList.remove('active'); renderTimeline(); };
+els.bYear.onclick=()=>{ state.mode='year'; els.bYear.classList.add('active'); els.bAge.classList.remove('active'); renderTimeline(); };
+els.bJa.onclick=()=>{ state.lang='ja'; els.bJa.classList.add('active'); els.bEn.classList.remove('active'); updateUI(); };
+els.bEn.onclick=()=>{ state.lang='en'; els.bEn.classList.add('active'); els.bJa.classList.remove('active'); updateUI(); };
+els.scroll.onscroll=()=>els.scaleIn.style.transform=`translateX(${-els.scroll.scrollLeft}px)`;
+document.onclick=()=>clearTip();
+
+// Sort buttons
+document.querySelectorAll('.sort-btn').forEach(btn=>{
+  btn.onclick=()=>{
+    state.sort=btn.dataset.sort;
+    document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    renderTimeline();
+  };
+});
+
+
+function startApp() {
+  state.activeCats=new Set(DATA.categories.map(c=>c.id));
+// Adjust controls height
+setTimeout(()=>{
+  const ch=$('controlsArea').offsetHeight;
+  document.querySelector('.scale-float').style.top=ch+'px';
+},100);
+updateUI();
+
+}
+init();
+</script>
+</body>
+</html>
