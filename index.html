@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>偉人と歩む (v35)</title>
+  <title>Age of Greats</title>
   <style>
     :root { --bg: #f5f7fa; --bar-h: 26px; --row-gap: 14px; --name-col: 130px; --accent: #667eea; }
     * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -81,7 +81,7 @@
 <body>
   <div class="controls-area" id="controlsArea">
     <div class="header-top">
-      <div><div class="header-title" id="txt-app-title">偉人と歩む</div><div class="person-count" id="personCount"></div></div>
+      <div><div class="header-title" id="txt-app-title">Age of Greats</div><div class="person-count" id="personCount"></div></div>
       <div class="header-btns"><button class="lang-btn active" id="btn-lang-ja">JP</button><button class="lang-btn" id="btn-lang-en">EN</button></div>
     </div>
     <div class="search-box"><input type="text" id="searchInput" /></div>
@@ -94,7 +94,7 @@
         <div class="ui-label-row"><span class="ui-label" id="txt-label-zoom">ZOOM</span><span class="ui-val"><span id="headZoom">80</span><span id="txt-unit-year"></span></span></div>
         <input type="range" id="zoomSlider" min="0" max="50" value="8" />
       </div>
-    </div>
+  </div>
     <div class="mode-tabs"><button class="tab-btn active" id="btnAge">Age</button><button class="tab-btn" id="btnYear">Year</button></div>
     <div class="category-filters" id="categoryFilters"></div>
     <div class="sort-btns" id="sortBtns">
@@ -132,8 +132,8 @@ async function init() {
 const NOW = 2026;
 let state = { lang:'ja', mode:'age', userAge:31, baseZoomYears:80, search:'', activeCats:new Set(), sort:'birth' };
 const UI = {
-  ja: { title:"偉人と歩む", age:"あなたの年齢", au:"歳", zoom:"ズーム", zu:"年", ma:"年齢比較", my:"西暦年表", noR:"該当なし", sA:"歳", sY:"", bc:"B.C. ", cur:"現在", full:"Wikipediaで全文を読む", birth:"生年順", name:"名前順", life:"寿命順", shown:"人 表示中" },
-  en: { title:"Walk with Greats", age:"Your Age", au:"y/o", zoom:"Zoom", zu:"yr", ma:"Age Compare", my:"Calendar", noR:"No results", sA:"y/o", sY:"", bc:"B.C. ", cur:"Now", full:"Read full on Wikipedia", birth:"By Birth", name:"By Name", life:"By Lifespan", shown:" shown" }
+  ja: { title:"偉人を検索", age:"あなたの年齢", au:"歳", zoom:"ズーム", zu:"年", ma:"年齢比較", my:"西暦年表", noR:"該当なし", sA:"歳", sY:"", bc:"B.C. ", cur:"現在", full:"Wikipediaで全文を読む", birth:"生年順", name:"名前順", life:"寿命順", shown:"人 表示中" },
+  en: { title:"Search Greats", age:"Your Age", au:"y/o", zoom:"Zoom", zu:"yr", ma:"Age Compare", my:"Calendar", noR:"No results", sA:"y/o", sY:"", bc:"B.C. ", cur:"Now", full:"Read full on Wikipedia", birth:"By Birth", name:"By Name", life:"By Lifespan", shown:" shown" }
 };
 const $ = id => document.getElementById(id);
 const t = k => UI[state.lang][k];
@@ -280,7 +280,36 @@ function renderTimeline() {
 }
 
 els.ageSl.oninput=e=>{ state.userAge=+e.target.value; els.hAge.textContent=state.userAge; renderTimeline(); };
-els.zoomSl.oninput=e=>{ state.baseZoomYears=e.target.value==0?1:e.target.value*10; els.hZoom.textContent=state.baseZoomYears; renderTimeline(); };
+els.zoomSl.oninput=e=>{
+  // 西暦モードのときは、ズーム変更前後で画面中央の西暦が変わらないようにする
+  let centerYear=null;
+  if(state.mode==='year') {
+    const items=getItems();
+    if(items.length){
+      const sBefore=computeScale(items);
+      const vp=els.scroll.clientWidth||window.innerWidth;
+      const centerX=els.scroll.scrollLeft+vp/2;
+      const rel=(centerX-sBefore.plotLeft)/sBefore.plotWidth;
+      centerYear=sBefore.min+rel*sBefore.range;
+      if(centerYear<sBefore.min) centerYear=sBefore.min;
+      if(centerYear>sBefore.max) centerYear=sBefore.max;
+    }
+  }
+
+  state.baseZoomYears=e.target.value==0?1:e.target.value*10;
+  els.hZoom.textContent=state.baseZoomYears;
+  renderTimeline();
+
+  if(state.mode==='year' && centerYear!=null){
+    const items=getItems();
+    if(items.length){
+      const sAfter=computeScale(items);
+      const vp=els.scroll.clientWidth||window.innerWidth;
+      const targetX=xOf(centerYear,sAfter);
+      els.scroll.scrollLeft=Math.max(0,targetX-vp/2);
+    }
+  }
+};
 els.search.oninput=e=>{ state.search=e.target.value; renderTimeline(); };
 els.bAge.onclick=()=>{ state.mode='age'; els.bAge.classList.add('active'); els.bYear.classList.remove('active'); renderTimeline(); };
 els.bYear.onclick=()=>{ state.mode='year'; els.bYear.classList.add('active'); els.bAge.classList.remove('active'); renderTimeline(); };
