@@ -132,8 +132,8 @@ async function init() {
 const NOW = 2026;
 let state = { lang:'ja', mode:'age', userAge:31, baseZoomYears:80, search:'', activeCats:new Set(), sort:'birth' };
 const UI = {
-  ja: { title:"Age of Greats", search:"偉人を検索", age:"あなたの年齢", au:"歳", zoom:"ズーム", zu:"年", ma:"年齢比較", my:"西暦年表", noR:"該当なし", sA:"歳", sY:"", bc:"B.C. ", cur:"現在", full:"Wikipediaで全文を読む", birth:"生年順", name:"名前順", life:"寿命順", shown:"人 表示中" },
-  en: { title:"Age of Greats", search:"Search Greats", age:"Your Age", au:"y/o", zoom:"Zoom", zu:"yr", ma:"Age Compare", my:"Calendar", noR:"No results", sA:"y/o", sY:"", bc:"B.C. ", cur:"Now", full:"Read full on Wikipedia", birth:"By Birth", name:"By Name", life:"By Lifespan", shown:" shown" }
+  ja: { title:"Age of Greats -同い年の、違う年-", search:"偉人を検索", age:"あなたの年齢", au:"歳", zoom:"ズーム", zu:"年", ma:"年齢比較", my:"西暦年表", noR:"該当なし", sA:"歳", sY:"", bc:"B.C. ", cur:"現在", full:"Wikipediaで全文を読む", birth:"生年順", name:"名前順", life:"寿命順", shown:"人 表示中" },
+  en: { title:"Age of Greats -Same Age, Different Story-", search:"Search Greats", age:"Your Age", au:"y/o", zoom:"Zoom", zu:"yr", ma:"Age Compare", my:"Calendar", noR:"No results", sA:"y/o", sY:"", bc:"B.C. ", cur:"Now", full:"Read full on Wikipedia", birth:"By Birth", name:"By Name", life:"By Lifespan", shown:" shown" }
 };
 const $ = id => document.getElementById(id);
 const t = k => UI[state.lang][k];
