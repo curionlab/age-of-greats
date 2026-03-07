@@ -95,8 +95,6 @@
         height: 1px;
       }
     }
-
-
 </style>
 </head>
 <body>
@@ -350,23 +348,44 @@ els.bAge.onclick=()=>{ state.mode='age'; els.bAge.classList.add('active'); els.b
 els.bYear.onclick=()=>{ state.mode='year'; els.bYear.classList.add('active'); els.bAge.classList.remove('active'); renderTimeline(); };
 els.bJa.onclick=()=>{ state.lang='ja'; els.bJa.classList.add('active'); els.bEn.classList.remove('active'); updateUI(); requestAnimationFrame(updateStickyOffsets); };
 els.bEn.onclick=()=>{ state.lang='en'; els.bEn.classList.add('active'); els.bJa.classList.remove('active'); updateUI(); requestAnimationFrame(updateStickyOffsets); };
-//els.scroll.onscroll=()=>els.scaleIn.style.transform=`translateX(${-els.scroll.scrollLeft}px)`;
 let syncingScroll=false;
 
-function syncHorizontalScroll(source) {
-  if (syncingScroll) return;
-  syncingScroll=true;
-
-  const left = source.scrollLeft;
-  els.scroll.scrollLeft = left;
-  if (els.scrollTop) els.scrollTop.scrollLeft = left;
-  els.scaleIn.style.transform=`translateX(${-left}px)`;
-
-  syncingScroll=false;
+function isDesktopMode() {
+  return window.matchMedia('(min-width: 769px)').matches;
 }
 
-els.scroll.onscroll=()=>syncHorizontalScroll(els.scroll);
-if (els.scrollTop) els.scrollTop.onscroll=()=>syncHorizontalScroll(els.scrollTop);
+function syncHorizontalScrollLeft(left) {
+  if (syncingScroll) return;
+  syncingScroll = true;
+
+  els.scroll.scrollLeft = left;
+  if (els.scrollTop) els.scrollTop.scrollLeft = left;
+  els.scaleIn.style.transform = `translateX(-${left}px)`;
+
+  syncingScroll = false;
+}
+
+function handleTimelineWheel(e) {
+  if (!isDesktopMode()) return;
+  if (!e.cancelable) return;
+
+  const horizontalDelta = e.deltaX;
+
+  if (Math.abs(horizontalDelta) < 0.5) return;
+
+  const maxScrollLeft = els.scroll.scrollWidth - els.scroll.clientWidth;
+  const nextLeft = Math.max(0, Math.min(maxScrollLeft, els.scroll.scrollLeft + horizontalDelta));
+
+  if (nextLeft === els.scroll.scrollLeft) return;
+
+  e.preventDefault();
+  syncHorizontalScrollLeft(nextLeft);
+}
+
+
+
+els.scroll.onscroll=()=>syncHorizontalScrollLeft(els.scroll.scrollLeft);
+if (els.scrollTop) els.scrollTop.onscroll=()=>syncHorizontalScrollLeft(els.scrollTop.scrollLeft);
 
 document.onclick=()=>clearTip();
 
@@ -383,11 +402,11 @@ document.querySelectorAll('.sort-btn').forEach(btn=>{
 
 function startApp() {
   state.activeCats=new Set(DATA.categories.map(c=>c.id));
-// Adjust controls height
-requestAnimationFrame(updateStickyOffsets);
-window.addEventListener('resize', updateStickyOffsets);
-updateUI();
-
+  // Adjust controls height
+  requestAnimationFrame(updateStickyOffsets);
+  window.addEventListener('resize', updateStickyOffsets);
+  updateUI();
+  els.scroll.addEventListener('wheel', handleTimelineWheel, { passive: false });
 }
 init();
 </script>
