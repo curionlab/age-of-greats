@@ -1,0 +1,463 @@
+[
+    {
+      "id": "giuseppe-arcimboldo",
+      "category": "writer",
+      "name": { "ja": "ジュゼッペ・アルチンボルド", "en": "Giuseppe Arcimboldo" },
+      "start": 1526,
+      "end": 1593,
+      "isAlive": false,
+      "mainwiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ジュゼッペ・アルチンボルド",
+        "en": "https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": { "ja": "誕生", "en": "Birth" },
+          "text": { "ja": "1526年、ミラノに生まれる。奇想の肖像画で知られるマニエリスム画家となる。", "en": "Born in Milan in 1526. He became a Mannerist painter known for fantastical portrait heads." }
+        },
+        {
+          "age": 36,
+          "label": { "ja": "宮廷画家", "en": "Court" },
+          "text": { "ja": "1562年ごろハプスブルク宮廷に仕え、皇帝家のもとで活動を広げた。", "en": "Around 1562, he entered Habsburg court service and expanded his activity under the imperial family." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ジュゼッペ・アルチンボルド",
+            "en": "https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo"
+          }
+        },
+        {
+          "age": 37,
+          "label": { "ja": "四季", "en": "Seasons" },
+          "text": { "ja": "1563年、『四季』連作を制作し、果物や花で人間の顔を組み立てる独特の表現を示した。", "en": "In 1563, he created the Four Seasons series, showing his distinctive way of constructing human faces from fruits and flowers." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ジュゼッペ・アルチンボルド",
+            "en": "https://en.wikipedia.org/wiki/The_Four_Seasons_(Arcimboldo)"
+          }
+        },
+        {
+          "age": 65,
+          "label": { "ja": "ウェルトゥムヌス", "en": "Vertumnus" },
+          "text": { "ja": "1591年、『ウェルトゥムヌスとしてのルドルフ2世』を描き、奇想肖像の極点を示した。", "en": "In 1591, he painted Vertumnus as Rudolf II, bringing the composite portrait to an extreme form." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ジュゼッペ・アルチンボルド",
+            "en": "https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo"
+          }
+        },
+        {
+          "age": 67,
+          "label": { "ja": "死去", "en": "Death" },
+          "text": { "ja": "1593年に死去。『野菜で皇帝を描く人』というだけでDBに強い個性が出る。", "en": "He died in 1593, and simply being 'the man who painted emperors with vegetables' gives a database a strong personality." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ジュゼッペ・アルチンボルド",
+            "en": "https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "paracelsus",
+      "category": "science",
+      "name": { "ja": "パラケルスス", "en": "Paracelsus" },
+      "start": 1493,
+      "end": 1541,
+      "isAlive": false,
+      "mainwiki": {
+        "ja": "https://ja.wikipedia.org/wiki/パラケルスス",
+        "en": "https://en.wikipedia.org/wiki/Paracelsus"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": { "ja": "誕生", "en": "Birth" },
+          "text": { "ja": "1493年、スイスのアインジーデルンに生まれる。医師・錬金術師・思想家として活動した。", "en": "Born in Einsiedeln, Switzerland, in 1493. He was active as a physician, alchemist, and thinker." }
+        },
+        {
+          "age": 34,
+          "label": { "ja": "バーゼル", "en": "Basel" },
+          "text": { "ja": "1527年、バーゼルで市医となり、既存の大学医学への挑戦的姿勢で知られる。", "en": "In 1527, he became city physician in Basel and became known for his confrontational stance toward established university medicine." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/パラケルスス",
+            "en": "https://en.wikipedia.org/wiki/Paracelsus"
+          }
+        },
+        {
+          "age": 37,
+          "label": { "ja": "外科書", "en": "Surgery" },
+          "text": { "ja": "1530年代に外科と治療論で影響力を広げ、化学を医療へ導入する流れを強めた。", "en": "In the 1530s, through surgery and therapeutic writing, he expanded his influence and strengthened the movement to bring chemistry into medicine." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/パラケルスス",
+            "en": "https://en.wikipedia.org/wiki/Paracelsus"
+          }
+        },
+        {
+          "age": 48,
+          "label": { "ja": "死去", "en": "Death" },
+          "text": { "ja": "1541年にザルツブルクで死去。『毒にも量がある』という発想で近代毒性学の象徴となった。", "en": "He died in Salzburg in 1541 and became a symbol of modern toxicology through the idea that the dose makes the poison." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/パラケルスス",
+            "en": "https://en.wikipedia.org/wiki/Paracelsus"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ibn-jubayr",
+      "category": "phil",
+      "name": { "ja": "イブン・ジュバイル", "en": "Ibn Jubayr" },
+      "start": 1145,
+      "end": 1217,
+      "isAlive": false,
+      "mainwiki": {
+        "ja": "https://ja.wikipedia.org/wiki/イブン・ジュバイル",
+        "en": "https://en.wikipedia.org/wiki/Ibn_Jubayr"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": { "ja": "誕生", "en": "Birth" },
+          "text": { "ja": "1145年、アンダルスに生まれる。巡礼記で知られる旅行家・文人となる。", "en": "Born in al-Andalus in 1145. He became a traveler and man of letters known for his pilgrimage narrative." }
+        },
+        {
+          "age": 38,
+          "label": { "ja": "巡礼出発", "en": "Pilgrimage" },
+          "text": { "ja": "1183年、メッカ巡礼へ出発し、地中海・エジプト・紅海・中東を旅した。", "en": "In 1183, he set out on pilgrimage to Mecca, traveling through the Mediterranean, Egypt, the Red Sea, and the Middle East." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/イブン・ジュバイル",
+            "en": "https://en.wikipedia.org/wiki/Ibn_Jubayr"
+          }
+        },
+        {
+          "age": 40,
+          "label": { "ja": "旅行記", "en": "Rihla" },
+          "text": { "ja": "1185年の帰還後、その旅を記したリフラが同時代世界の重要記録となった。", "en": "After his return in 1185, his rihla became an important record of the contemporary world." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/イブン・ジュバイル",
+            "en": "https://en.wikipedia.org/wiki/Ibn_Jubayr"
+          }
+        },
+        {
+          "age": 72,
+          "label": { "ja": "死去", "en": "Death" },
+          "text": { "ja": "1217年にエジプトで死去。旅を“世界の断面図”に変えるタイプの偉人である。", "en": "He died in Egypt in 1217 and is the kind of great figure who turns travel into a cross-section of the world." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/イブン・ジュバイル",
+            "en": "https://en.wikipedia.org/wiki/Ibn_Jubayr"
+          }
+        }
+      ]
+    },
+    {
+      "id": "athanasius-kircher",
+      "category": "science",
+      "name": { "ja": "アタナシウス・キルヒャー", "en": "Athanasius Kircher" },
+      "start": 1602,
+      "end": 1680,
+      "isAlive": false,
+      "mainwiki": {
+        "ja": "https://ja.wikipedia.org/wiki/アタナシウス・キルヒャー",
+        "en": "https://en.wikipedia.org/wiki/Athanasius_Kircher"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": { "ja": "誕生", "en": "Birth" },
+          "text": { "ja": "1602年ごろ生まれる。何にでも手を出す17世紀の超博学者として有名である。", "en": "Born around 1602. He is famous as a 17th-century polymath who reached into nearly every field." }
+        },
+        {
+          "age": 29,
+          "label": { "ja": "磁気研究", "en": "Magnetism" },
+          "text": { "ja": "1631年に磁気を扱う『Ars Magnesia』を刊行し、学術的名声を広げた。", "en": "In 1631, he published Ars Magnesia on magnetism, broadening his scholarly reputation." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/アタナシウス・キルヒャー",
+            "en": "https://en.wikipedia.org/wiki/Athanasius_Kircher"
+          }
+        },
+        {
+          "age": 55,
+          "label": { "ja": "エジプト熱", "en": "Egypt" },
+          "text": { "ja": "ヒエログリフ解読を試み、誤りも多かったがエジプト学の先駆的存在と見なされることがある。", "en": "He attempted to decipher hieroglyphs and, though often wrong, is sometimes regarded as a pioneering figure in Egyptology." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/アタナシウス・キルヒャー",
+            "en": "https://en.wikipedia.org/wiki/Athanasius_Kircher"
+          }
+        },
+        {
+          "age": 78,
+          "label": { "ja": "死去", "en": "Death" },
+          "text": { "ja": "1680年にローマで死去。正しいことも間違ったことも大量にやるタイプの天才で、DB映えが強い。", "en": "He died in Rome in 1680, a genius of the kind who produced both many truths and many errors, making him especially vivid in a database." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/アタナシウス・キルヒャー",
+            "en": "https://en.wikipedia.org/wiki/Athanasius_Kircher"
+          }
+        }
+      ]
+    },
+    {
+      "id": "leonhart-fuchs",
+      "category": "science",
+      "name": { "ja": "レオンハルト・フックス", "en": "Leonhart Fuchs" },
+      "start": 1501,
+      "end": 1566,
+      "isAlive": false,
+      "mainwiki": {
+        "ja": "https://ja.wikipedia.org/wiki/レオンハルト・フックス",
+        "en": "https://en.wikipedia.org/wiki/Leonhart_Fuchs"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": { "ja": "誕生", "en": "Birth" },
+          "text": { "ja": "1501年に生まれる。植物を図で見せる近代的植物学の立役者となる。", "en": "Born in 1501. He became a central figure in the modern visual study of plants." }
+        },
+        {
+          "age": 41,
+          "label": { "ja": "植物誌", "en": "Herbal" },
+          "text": { "ja": "1542年、薬用植物書を刊行し、精密な木版図で植物同定の水準を押し上げた。", "en": "In 1542, he published a herbal that raised the standard of plant identification through precise woodcut illustrations." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/レオンハルト・フックス",
+            "en": "https://en.wikipedia.org/wiki/Leonhart_Fuchs"
+          }
+        },
+        {
+          "age": 50,
+          "label": { "ja": "植物学の父", "en": "Botany" },
+          "text": { "ja": "16世紀半ばには、医学から独立した植物学を押し出す人物の一人とみなされる。", "en": "By the mid-16th century, he was regarded as one of the figures pushing botany toward independence from medicine." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/レオンハルト・フックス",
+            "en": "https://en.wikipedia.org/wiki/Leonhart_Fuchs"
+          }
+        },
+        {
+          "age": 65,
+          "label": { "ja": "死去", "en": "Death" },
+          "text": { "ja": "1566年に死去。花の名前『フクシア』の由来としても覚えやすい。", "en": "He died in 1566 and is also memorably linked to the flower name fuchsia." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/レオンハルト・フックス",
+            "en": "https://en.wikipedia.org/wiki/Leonhart_Fuchs"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ibn-al-nafis",
+      "category": "science",
+      "name": { "ja": "イブン・アル＝ナフィース", "en": "Ibn al-Nafis" },
+      "start": 1213,
+      "end": 1288,
+      "isAlive": false,
+      "mainwiki": {
+        "ja": "https://ja.wikipedia.org/wiki/イブン・アル＝ナフィース",
+        "en": "https://en.wikipedia.org/wiki/Ibn_al-Nafis"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": { "ja": "誕生", "en": "Birth" },
+          "text": { "ja": "1213年ごろ生まれる。医学・解剖学・法学までまたぐ学者となる。", "en": "Born around 1213. He became a scholar working across medicine, anatomy, and jurisprudence." }
+        },
+        {
+          "age": 35,
+          "label": { "ja": "カイロ", "en": "Cairo" },
+          "text": { "ja": "カイロで医師として高位に就き、ナスィリー病院の主任医師も務めた。", "en": "In Cairo he rose to high medical office and also served as chief physician of al-Naseri Hospital." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/イブン・アル＝ナフィース",
+            "en": "https://en.wikipedia.org/wiki/Ibn_al-Nafis"
+          }
+        },
+        {
+          "age": 40,
+          "label": { "ja": "肺循環", "en": "Circulation" },
+          "text": { "ja": "『カーヌーン注解』の中で肺循環を記述し、解剖生理学史で特に重要視される。", "en": "In his commentary on the Canon, he described the pulmonary circulation, making him especially important in the history of anatomy and physiology." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/イブン・アル＝ナフィース",
+            "en": "https://en.wikipedia.org/wiki/Ibn_al-Nafis"
+          }
+        },
+        {
+          "age": 75,
+          "label": { "ja": "死去", "en": "Death" },
+          "text": { "ja": "1288年に死去。血の流れを考え直した人として、年表上で非常に映える。", "en": "He died in 1288 and stands out strongly in a timeline as someone who rethought the movement of blood." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/イブン・アル＝ナフィース",
+            "en": "https://en.wikipedia.org/wiki/Ibn_al-Nafis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "trotula-of-salerno",
+      "category": "science",
+      "name": { "ja": "トロトゥラ", "en": "Trotula of Salerno" },
+      "start": 1050,
+      "end": 1097,
+      "isAlive": false,
+      "mainwiki": {
+        "ja": "https://ja.wikipedia.org/wiki/トロトゥラ",
+        "en": "https://en.wikipedia.org/wiki/Trotula"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": { "ja": "誕生", "en": "Birth" },
+          "text": { "ja": "11世紀のサレルノと結び付けられる女性医療の象徴的人物である。", "en": "She is a symbolic figure of women's medicine associated with 11th-century Salerno." }
+        },
+        {
+          "age": 30,
+          "label": { "ja": "医書伝承", "en": "Texts" },
+          "text": { "ja": "女性の健康と治療に関する文献群『トロトゥラ』と結び付けられ、中世医療史で広く知られる。", "en": "She is associated with the Trotula texts on women's health and treatment, making her widely known in medieval medical history." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/トロトゥラ",
+            "en": "https://en.wikipedia.org/wiki/Trotula"
+          }
+        },
+        {
+          "age": 47,
+          "label": { "ja": "伝説化", "en": "Legacy" },
+          "text": { "ja": "実在像には議論もあるが、『女性医療の知識が本になって残る』流れを示すのに向く。", "en": "Although her exact historical profile is debated, she is well suited to showing how knowledge of women's medicine entered written tradition." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/トロトゥラ",
+            "en": "https://en.wikipedia.org/wiki/Trotula"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gerolamo-cardano",
+      "category": "science",
+      "name": { "ja": "ジェロラモ・カルダーノ", "en": "Gerolamo Cardano" },
+      "start": 1501,
+      "end": 1576,
+      "isAlive": false,
+      "mainwiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ジェロラモ・カルダーノ",
+        "en": "https://en.wikipedia.org/wiki/Gerolamo_Cardano"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": { "ja": "誕生", "en": "Birth" },
+          "text": { "ja": "1501年に生まれる。数学者・医師・占星家・賭博研究者という異色の万能人である。", "en": "Born in 1501. He was an unusual polymath: mathematician, physician, astrologer, and analyst of gambling." }
+        },
+        {
+          "age": 44,
+          "label": { "ja": "大術", "en": "Algebra" },
+          "text": { "ja": "1545年、『アルス・マグナ』を刊行し、三次方程式などの解法普及に大きく寄与した。", "en": "In 1545, he published Ars Magna, greatly contributing to the spread of methods for solving cubic equations and more." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ジェロラモ・カルダーノ",
+            "en": "https://en.wikipedia.org/wiki/Gerolamo_Cardano"
+          }
+        },
+        {
+          "age": 60,
+          "label": { "ja": "自伝", "en": "Autobiography" },
+          "text": { "ja": "晩年には自伝も残し、天才性と破天荒さが強烈に伝わる。", "en": "In later life, he also left an autobiography that vividly conveys both his brilliance and his unruly character." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ジェロラモ・カルダーノ",
+            "en": "https://en.wikipedia.org/wiki/Gerolamo_Cardano"
+          }
+        },
+        {
+          "age": 75,
+          "label": { "ja": "死去", "en": "Death" },
+          "text": { "ja": "1576年に死去。『確率・方程式・占星術が同居する人』としてかなり面白い。", "en": "He died in 1576 and is strikingly fascinating as a figure in whom probability, equations, and astrology coexist." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ジェロラモ・カルダーノ",
+            "en": "https://en.wikipedia.org/wiki/Gerolamo_Cardano"
+          }
+        }
+      ]
+    },
+    {
+      "id": "giambattista-della-porta",
+      "category": "science",
+      "name": { "ja": "ジャンバッティスタ・デッラ・ポルタ", "en": "Giambattista della Porta" },
+      "start": 1535,
+      "end": 1615,
+      "isAlive": false,
+      "mainwiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ジャンバッティスタ・デッラ・ポルタ",
+        "en": "https://en.wikipedia.org/wiki/Giambattista_della_Porta"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": { "ja": "誕生", "en": "Birth" },
+          "text": { "ja": "1535年ごろ生まれる。自然魔術・光学・暗号・演劇にまたがる好奇心の人である。", "en": "Born around 1535. He was a man of curiosity spanning natural magic, optics, cryptography, and drama." }
+        },
+        {
+          "age": 23,
+          "label": { "ja": "自然魔術", "en": "Magia" },
+          "text": { "ja": "1558年、『自然魔術』を刊行し、実験・驚異・俗知を混ぜた知識世界を提示した。", "en": "In 1558, he published Natural Magic, presenting a world of knowledge that mixed experiment, wonder, and practical lore." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ジャンバッティスタ・デッラ・ポルタ",
+            "en": "https://en.wikipedia.org/wiki/Giambattista_della_Porta"
+          }
+        },
+        {
+          "age": 55,
+          "label": { "ja": "暗号論", "en": "Cryptology" },
+          "text": { "ja": "1563年以降の著作群で記号・通信・観察への関心を広げ、知の遊びと技術をつないだ。", "en": "In works from 1563 onward, he expanded his interest in signs, communication, and observation, linking intellectual play with technique." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ジャンバッティスタ・デッラ・ポルタ",
+            "en": "https://en.wikipedia.org/wiki/Giambattista_della_Porta"
+          }
+        },
+        {
+          "age": 80,
+          "label": { "ja": "死去", "en": "Death" },
+          "text": { "ja": "1615年に死去。科学とオカルトの境目がまだ柔らかい時代を体現する。", "en": "He died in 1615 and embodies a time when the boundary between science and occult learning was still soft." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ジャンバッティスタ・デッラ・ポルタ",
+            "en": "https://en.wikipedia.org/wiki/Giambattista_della_Porta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sofonisba-anguissola",
+      "category": "writer",
+      "name": { "ja": "ソフォニスバ・アングイッソラ", "en": "Sofonisba Anguissola" },
+      "start": 1532,
+      "end": 1625,
+      "isAlive": false,
+      "mainwiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ソフォニスバ・アングイッソラ",
+        "en": "https://en.wikipedia.org/wiki/Sofonisba_Anguissola"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": { "ja": "誕生", "en": "Birth" },
+          "text": { "ja": "1532年ごろ生まれる。女性肖像画家として国際的名声を得たルネサンス画家である。", "en": "Born around 1532. She was a Renaissance painter who achieved international renown as a woman portraitist." }
+        },
+        {
+          "age": 27,
+          "label": { "ja": "スペイン宮廷", "en": "Spain" },
+          "text": { "ja": "1559年、スペイン宮廷に入り、王妃付きの画家兼侍女として活動した。", "en": "In 1559, she entered the Spanish court and worked as both painter and lady-in-waiting to the queen." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ソフォニスバ・アングイッソラ",
+            "en": "https://en.wikipedia.org/wiki/Sofonisba_Anguissola"
+          }
+        },
+        {
+          "age": 88,
+          "label": { "ja": "若手激励", "en": "Legacy" },
+          "text": { "ja": "晩年には若い画家との交流でも知られ、女性芸術家の先例として長く記憶された。", "en": "In old age, she was also known for encounters with younger painters and was long remembered as a precedent for women artists." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ソフォニスバ・アングイッソラ",
+            "en": "https://en.wikipedia.org/wiki/Sofonisba_Anguissola"
+          }
+        },
+        {
+          "age": 93,
+          "label": { "ja": "死去", "en": "Death" },
+          "text": { "ja": "1625年に死去。『女性が宮廷肖像を制した』というだけで十分に面白い。", "en": "She died in 1625, and it is compelling enough that a woman mastered the court portrait tradition." },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ソフォニスバ・アングイッソラ",
+            "en": "https://en.wikipedia.org/wiki/Sofonisba_Anguissola"
+          }
+        }
+      ]
+    }
+  ]
+  

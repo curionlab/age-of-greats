@@ -1,0 +1,2103 @@
+[
+  {
+    "id": "churchill",
+    "category": "politics",
+    "name": {
+      "ja": "ウィンストン・チャーチル",
+      "en": "Winston Churchill"
+    },
+    "start": 1874,
+    "end": 1965,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/ウィンストン・チャーチル",
+      "en": "https://en.wikipedia.org/wiki/Winston_Churchill"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "ブレナム宮殿に誕生",
+          "en": "Born at Blenheim Palace"
+        }
+      },
+      {
+        "age": 21,
+        "label": {
+          "ja": "陸軍入隊",
+          "en": "Army"
+        },
+        "text": {
+          "ja": "サンドハースト陸軍士官学校卒業、入隊",
+          "en": "Graduates Sandhurst; joins the army"
+        }
+      },
+      {
+        "age": 25,
+        "label": {
+          "ja": "ボーア戦争脱走",
+          "en": "Boer War"
+        },
+        "text": {
+          "ja": "ボーア戦争で捕虜になるも脱走し英雄に",
+          "en": "Captured and escapes during Boer War; becomes a hero"
+        }
+      },
+      {
+        "age": 26,
+        "label": {
+          "ja": "国会議員初当選",
+          "en": "MP"
+        },
+        "text": {
+          "ja": "保守党から国会議員に初当選",
+          "en": "Elected to Parliament as a Conservative"
+        }
+      },
+      {
+        "age": 37,
+        "label": {
+          "ja": "海軍大臣",
+          "en": "First Lord"
+        },
+        "text": {
+          "ja": "海軍大臣に就任",
+          "en": "Appointed First Lord of the Admiralty"
+        }
+      },
+      {
+        "age": 40,
+        "label": {
+          "ja": "ガリポリの失敗",
+          "en": "Gallipoli"
+        },
+        "text": {
+          "ja": "ガリポリ作戦の失敗で辞任",
+          "en": "Resigns after Gallipoli Campaign failure"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ガリポリの戦い",
+          "en": "https://en.wikipedia.org/wiki/Gallipoli_campaign"
+        }
+      },
+      {
+        "age": 65,
+        "label": {
+          "ja": "首相就任",
+          "en": "Prime Minister"
+        },
+        "text": {
+          "ja": "第二次大戦勃発時に首相に就任",
+          "en": "Becomes Prime Minister at start of WWII"
+        }
+      },
+      {
+        "age": 66,
+        "label": {
+          "ja": "血と汗と涙演説",
+          "en": "Blood Speech"
+        },
+        "text": {
+          "ja": "「血と労苦と涙と汗しか提供できない」と演説",
+          "en": "Delivers famous 'blood, toil, tears and sweat' speech"
+        }
+      },
+      {
+        "age": 79,
+        "label": {
+          "ja": "ノーベル文学賞",
+          "en": "Nobel Literature"
+        },
+        "text": {
+          "ja": "第二次大戦回顧録でノーベル文学賞受賞",
+          "en": "Awarded Nobel Prize in Literature for war memoirs"
+        }
+      },
+      {
+        "age": 90,
+        "label": {
+          "ja": "死去",
+          "en": "Death"
+        },
+        "text": {
+          "ja": "脳卒中により死去、国葬が行われる",
+          "en": "Dies of stroke; given a state funeral"
+        }
+      }
+    ]
+  },
+  {
+    "id": "einstein",
+    "category": "science",
+    "name": {
+      "ja": "アインシュタイン",
+      "en": "Albert Einstein"
+    },
+    "start": 1879,
+    "end": 1955,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/アルベルト・アインシュタイン",
+      "en": "https://en.wikipedia.org/wiki/Albert_Einstein"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "ドイツ帝国ウルムに生まれる",
+          "en": "Born in Ulm, Germany"
+        }
+      },
+      {
+        "age": 5,
+        "label": {
+          "ja": "磁石の衝撃",
+          "en": "Compass"
+        },
+        "text": {
+          "ja": "方位磁針に驚き、自然法則への興味を持つ",
+          "en": "Fascinated by a compass, sparking interest in nature's laws"
+        }
+      },
+      {
+        "age": 16,
+        "label": {
+          "ja": "光の思考実験",
+          "en": "Light Thought"
+        },
+        "text": {
+          "ja": "光線と並走したらどうなるかを考え始める",
+          "en": "Begins thought experiment: what if I rode alongside a beam of light?"
+        }
+      },
+      {
+        "age": 21,
+        "label": {
+          "ja": "スイス市民権",
+          "en": "Swiss Citizen"
+        },
+        "text": {
+          "ja": "チューリッヒ工科大卒業、スイス市民権取得",
+          "en": "Graduates ETH Zurich, obtains Swiss citizenship"
+        }
+      },
+      {
+        "age": 23,
+        "label": {
+          "ja": "ミレーバと結婚",
+          "en": "Marriage"
+        },
+        "text": {
+          "ja": "大学の同級生ミレーバ・マリッチと結婚",
+          "en": "Marries fellow student Mileva Marić"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ミレヴァ・マリッチ",
+          "en": "https://en.wikipedia.org/wiki/Mileva_Marić"
+        }
+      },
+      {
+        "age": 26,
+        "label": {
+          "ja": "奇跡の年",
+          "en": "Annus Mirabilis"
+        },
+        "text": {
+          "ja": "特殊相対性理論・光量子仮説など4論文を発表",
+          "en": "Publishes four groundbreaking papers including special relativity"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/奇跡の年_(物理学)",
+          "en": "https://en.wikipedia.org/wiki/Annus_Mirabilis_papers"
+        }
+      },
+      {
+        "age": 36,
+        "label": {
+          "ja": "一般相対性理論",
+          "en": "General Relativity"
+        },
+        "text": {
+          "ja": "重力の幾何学的理論を完成",
+          "en": "Completes general theory of relativity"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/一般相対性理論",
+          "en": "https://en.wikipedia.org/wiki/General_relativity"
+        }
+      },
+      {
+        "age": 42,
+        "label": {
+          "ja": "ノーベル物理学賞",
+          "en": "Nobel Prize"
+        },
+        "text": {
+          "ja": "光電効果の法則によりノーベル賞受賞",
+          "en": "Awarded Nobel Prize for the photoelectric effect"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ノーベル物理学賞",
+          "en": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Physics"
+        }
+      },
+      {
+        "age": 54,
+        "label": {
+          "ja": "アメリカ亡命",
+          "en": "Exile to USA"
+        },
+        "text": {
+          "ja": "ナチス政権から逃れ米国プリンストンへ移住",
+          "en": "Flees Nazi Germany, settles in Princeton, USA"
+        }
+      },
+      {
+        "age": 76,
+        "label": {
+          "ja": "死去",
+          "en": "Death"
+        },
+        "text": {
+          "ja": "大動脈瘤破裂により死去。遺言で遺体を火葬",
+          "en": "Dies of aortic aneurysm; cremated per his wishes"
+        }
+      }
+    ]
+  },
+  {
+    "id": "keller",
+    "category": "phil",
+    "name": {
+      "ja": "ヘレン・ケラー",
+      "en": "Helen Keller"
+    },
+    "start": 1880,
+    "end": 1968,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/ヘレン・ケラー",
+      "en": "https://en.wikipedia.org/wiki/Helen_Keller"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "アラバマ州タスカンビアに誕生",
+          "en": "Born in Tuscumbia, Alabama"
+        }
+      },
+      {
+        "age": 1,
+        "label": {
+          "ja": "視聴覚喪失",
+          "en": "Deaf-Blind"
+        },
+        "text": {
+          "ja": "病気により視力と聴力を失う",
+          "en": "Loses sight and hearing due to illness"
+        }
+      },
+      {
+        "age": 6,
+        "label": {
+          "ja": "サリバン先生",
+          "en": "Anne Sullivan"
+        },
+        "text": {
+          "ja": "家庭教師アン・サリバンが到着",
+          "en": "Anne Sullivan arrives as her teacher"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/アン・サリバン",
+          "en": "https://en.wikipedia.org/wiki/Anne_Sullivan"
+        }
+      },
+      {
+        "age": 7,
+        "label": {
+          "ja": "ウォーター!",
+          "en": "Water!"
+        },
+        "text": {
+          "ja": "井戸水で「water」の概念を理解する奇跡",
+          "en": "Breakthrough moment at water pump: understands 'water'"
+        }
+      },
+      {
+        "age": 20,
+        "label": {
+          "ja": "ラドクリフ大学入学",
+          "en": "Radcliffe"
+        },
+        "text": {
+          "ja": "ラドクリフ大学に入学（視聴覚障害者で初の大学進学）",
+          "en": "Enters Radcliffe College, first deaf-blind person to do so"
+        }
+      },
+      {
+        "age": 24,
+        "label": {
+          "ja": "大学卒業",
+          "en": "Graduates"
+        },
+        "text": {
+          "ja": "優等で大学を卒業",
+          "en": "Graduates cum laude from Radcliffe"
+        }
+      },
+      {
+        "age": 23,
+        "label": {
+          "ja": "自伝出版",
+          "en": "Autobiography"
+        },
+        "text": {
+          "ja": "『わたしの生涯』を出版",
+          "en": "Publishes autobiography The Story of My Life"
+        }
+      },
+      {
+        "age": 37,
+        "label": {
+          "ja": "社会主義活動",
+          "en": "Activism"
+        },
+        "text": {
+          "ja": "女性参政権・労働者権利・反戦運動に参加",
+          "en": "Campaigns for women's suffrage, labor rights, and peace"
+        }
+      },
+      {
+        "age": 57,
+        "label": {
+          "ja": "来日",
+          "en": "Visits Japan"
+        },
+        "text": {
+          "ja": "日本を訪問し各地で講演",
+          "en": "Visits Japan; gives lectures across the country"
+        }
+      },
+      {
+        "age": 87,
+        "label": {
+          "ja": "死去",
+          "en": "Death"
+        },
+        "text": {
+          "ja": "コネチカット州で死去",
+          "en": "Dies in Easton, Connecticut"
+        }
+      }
+    ]
+  },
+  {
+    "id": "picasso",
+    "category": "art",
+    "name": {
+      "ja": "パブロ・ピカソ",
+      "en": "Pablo Picasso"
+    },
+    "start": 1881,
+    "end": 1973,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/パブロ・ピカソ",
+      "en": "https://en.wikipedia.org/wiki/Pablo_Picasso"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "スペイン・マラガに誕生",
+          "en": "Born in Málaga, Spain"
+        }
+      },
+      {
+        "age": 8,
+        "label": {
+          "ja": "最初の油絵",
+          "en": "First Painting"
+        },
+        "text": {
+          "ja": "8歳で最初の油絵を制作",
+          "en": "Paints his first oil painting at age 8"
+        }
+      },
+      {
+        "age": 16,
+        "label": {
+          "ja": "バルセロナ美術学校",
+          "en": "Art School"
+        },
+        "text": {
+          "ja": "王立美術アカデミーに入学",
+          "en": "Enters Royal Academy of Fine Arts in Barcelona"
+        }
+      },
+      {
+        "age": 20,
+        "label": {
+          "ja": "青の時代",
+          "en": "Blue Period"
+        },
+        "text": {
+          "ja": "友人の自殺を機に「青の時代」が始まる",
+          "en": "Blue Period begins after friend's suicide"
+        }
+      },
+      {
+        "age": 26,
+        "label": {
+          "ja": "キュビスム",
+          "en": "Cubism"
+        },
+        "text": {
+          "ja": "『アヴィニョンの娘たち』でキュビスムを開拓",
+          "en": "Pioneers Cubism with Les Demoiselles d'Avignon"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/キュビスム",
+          "en": "https://en.wikipedia.org/wiki/Cubism"
+        }
+      },
+      {
+        "age": 56,
+        "label": {
+          "ja": "ゲルニカ",
+          "en": "Guernica"
+        },
+        "text": {
+          "ja": "スペイン内戦を告発する『ゲルニカ』を制作",
+          "en": "Paints Guernica protesting Spanish Civil War"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ゲルニカ_(絵画)",
+          "en": "https://en.wikipedia.org/wiki/Guernica_(Picasso)"
+        }
+      },
+      {
+        "age": 63,
+        "label": {
+          "ja": "戦後パリ",
+          "en": "Post-War"
+        },
+        "text": {
+          "ja": "戦後パリでフランス共産党に入党",
+          "en": "Joins French Communist Party after WWII"
+        }
+      },
+      {
+        "age": 80,
+        "label": {
+          "ja": "ジャクリーヌと結婚",
+          "en": "Remarriage"
+        },
+        "text": {
+          "ja": "ジャクリーヌ・ロックと再婚",
+          "en": "Marries Jacqueline Roque"
+        }
+      },
+      {
+        "age": 91,
+        "label": {
+          "ja": "死去",
+          "en": "Death"
+        },
+        "text": {
+          "ja": "南仏ムージャンで肺水腫により死去",
+          "en": "Dies of pulmonary edema in Mougins, France"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ramanujan",
+    "category": "science",
+    "name": {
+      "ja": "シュリニヴァーサ・ラマヌジャン",
+      "en": "Srinivasa Ramanujan"
+    },
+    "start": 1887,
+    "end": 1920,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A5%E3%83%AA%E3%83%8B%E3%83%B4%E3%82%A1%E3%83%BC%E3%82%B5%E3%83%BB%E3%83%A9%E3%83%9E%E3%83%8C%E3%82%B8%E3%83%A3%E3%83%B3",
+      "en": "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "インド・エロードに誕生",
+          "en": "Born in Erode, India"
+        }
+      },
+      {
+        "age": 15,
+        "label": {
+          "ja": "数学への没頭",
+          "en": "Discovers Carr"
+        },
+        "text": {
+          "ja": "カーの『純数学要覧』に出会い、独学で高度な数学に没頭",
+          "en": "Discovers Carr's Synopsis of Pure Mathematics and plunges into self-taught advanced mathematics"
+        }
+      },
+      {
+        "age": 23,
+        "label": {
+          "ja": "最初の論文",
+          "en": "First Paper"
+        },
+        "text": {
+          "ja": "インドの雑誌に最初の数学論文を発表",
+          "en": "Publishes his first mathematics paper in an Indian journal"
+        }
+      },
+      {
+        "age": 26,
+        "label": {
+          "ja": "ハーディへの書簡",
+          "en": "Letters to Hardy"
+        },
+        "text": {
+          "ja": "ケンブリッジの数学者G.H.ハーディに有名な書簡を送り才能を認められる",
+          "en": "Sends his famous letters to G. H. Hardy at Cambridge, who recognizes his genius"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/シュリニヴァーサ・ラマヌジャン",
+          "en": "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan#Cambridge"
+        }
+      },
+      {
+        "age": 27,
+        "label": {
+          "ja": "ケンブリッジへ渡航",
+          "en": "Goes to Cambridge"
+        },
+        "text": {
+          "ja": "ハーディの招きでイギリスに渡り、ケンブリッジ大学で共同研究を行う",
+          "en": "Travels to England to collaborate with Hardy at the University of Cambridge"
+        }
+      },
+      {
+        "age": 31,
+        "label": {
+          "ja": "王立協会フェロー",
+          "en": "Fellow of Royal Society"
+        },
+        "text": {
+          "ja": "インド人として初めて英国王立協会フェローに選出される",
+          "en": "Elected a Fellow of the Royal Society, one of the first Indians so honored"
+        }
+      },
+      {
+        "age": 32,
+        "label": {
+          "ja": "死去",
+          "en": "Death"
+        },
+        "text": {
+          "ja": "病のため32歳で死去。膨大なノートは後世の研究の源泉となる",
+          "en": "Dies at 32; his notebooks become a rich source for later mathematical research"
+        }
+      }
+    ]
+  },
+  {
+    "id": "kahlo",
+    "category": "art",
+    "name": {
+      "ja": "フリーダ・カーロ",
+      "en": "Frida Kahlo"
+    },
+    "start": 1907,
+    "end": 1954,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/フリーダ・カーロ",
+      "en": "https://en.wikipedia.org/wiki/Frida_Kahlo"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "メキシコシティのコヨアカンに誕生",
+          "en": "Born in Coyoacán, Mexico City"
+        }
+      },
+      {
+        "age": 6,
+        "label": {
+          "ja": "ポリオ罹患",
+          "en": "Polio"
+        },
+        "text": {
+          "ja": "ポリオに罹患、右足に後遺症",
+          "en": "Contracts polio; right leg permanently affected"
+        }
+      },
+      {
+        "age": 15,
+        "label": {
+          "ja": "国立予備校入学",
+          "en": "Prep School"
+        },
+        "text": {
+          "ja": "国立予備校に入学、リベラと出会う",
+          "en": "Enters National Preparatory School; first meets Diego Rivera"
+        }
+      },
+      {
+        "age": 18,
+        "label": {
+          "ja": "バス事故",
+          "en": "Bus Accident"
+        },
+        "text": {
+          "ja": "バス事故で瀕死の重傷、寝たきりで絵を描き始める",
+          "en": "Severely injured in bus accident; begins painting during recovery"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/フリーダ・カーロ#バス事故",
+          "en": "https://en.wikipedia.org/wiki/Frida_Kahlo#Bus_accident"
+        }
+      },
+      {
+        "age": 22,
+        "label": {
+          "ja": "リベラと結婚",
+          "en": "Marriage"
+        },
+        "text": {
+          "ja": "21歳年上のディエゴ・リベラと結婚",
+          "en": "Marries muralist Diego Rivera, 21 years her senior"
+        }
+      },
+      {
+        "age": 31,
+        "label": {
+          "ja": "ルーブル展示",
+          "en": "Louvre"
+        },
+        "text": {
+          "ja": "メキシコ人初、ルーブル美術館に作品収蔵",
+          "en": "First Mexican artist to have a work acquired by the Louvre"
+        }
+      },
+      {
+        "age": 32,
+        "label": {
+          "ja": "二人のフリーダ",
+          "en": "Two Fridas"
+        },
+        "text": {
+          "ja": "リベラとの離婚後『二人のフリーダ』を制作",
+          "en": "Paints The Two Fridas after divorcing Rivera"
+        }
+      },
+      {
+        "age": 36,
+        "label": {
+          "ja": "再婚",
+          "en": "Remarriage"
+        },
+        "text": {
+          "ja": "リベラと再婚",
+          "en": "Remarries Diego Rivera"
+        }
+      },
+      {
+        "age": 46,
+        "label": {
+          "ja": "初の個展",
+          "en": "Solo Show"
+        },
+        "text": {
+          "ja": "メキシコでの初個展にベッドごと参加",
+          "en": "Attends first solo exhibition in Mexico from her bed"
+        }
+      },
+      {
+        "age": 47,
+        "label": {
+          "ja": "死去",
+          "en": "Death"
+        },
+        "text": {
+          "ja": "肺塞栓症により死去（毒物中毒の説も）",
+          "en": "Dies of pulmonary embolism (some suspect overdose)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "turing",
+    "category": "tech",
+    "name": {
+      "ja": "アラン・チューリング",
+      "en": "Alan Turing"
+    },
+    "start": 1912,
+    "end": 1954,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/アラン・チューリング",
+      "en": "https://en.wikipedia.org/wiki/Alan_Turing"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "ロンドンに誕生",
+          "en": "Born in London"
+        }
+      },
+      {
+        "age": 14,
+        "label": {
+          "ja": "数学の才能開花",
+          "en": "Math Talent"
+        },
+        "text": {
+          "ja": "シャーボーン校で数学の天才ぶりを発揮",
+          "en": "Displays exceptional mathematical talent at Sherborne School"
+        }
+      },
+      {
+        "age": 24,
+        "label": {
+          "ja": "チューリングマシン",
+          "en": "Turing Machine"
+        },
+        "text": {
+          "ja": "計算可能性に関する論文でチューリングマシンを提唱",
+          "en": "Proposes the Turing Machine in seminal paper"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/チューリングマシン",
+          "en": "https://en.wikipedia.org/wiki/Turing_machine"
+        }
+      },
+      {
+        "age": 27,
+        "label": {
+          "ja": "エニグマ解読",
+          "en": "Enigma"
+        },
+        "text": {
+          "ja": "ブレッチリー・パークでエニグマ暗号解読に従事",
+          "en": "Works on breaking Enigma at Bletchley Park"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/エニグマ_(暗号機)",
+          "en": "https://en.wikipedia.org/wiki/Enigma_machine"
+        }
+      },
+      {
+        "age": 33,
+        "label": {
+          "ja": "OBE受章",
+          "en": "OBE"
+        },
+        "text": {
+          "ja": "戦功によりOBE（大英帝国勲章）を受章",
+          "en": "Awarded OBE for wartime contributions"
+        }
+      },
+      {
+        "age": 38,
+        "label": {
+          "ja": "チューリングテスト",
+          "en": "Turing Test"
+        },
+        "text": {
+          "ja": "人工知能の判定基準「チューリングテスト」を提案",
+          "en": "Proposes the Turing Test for artificial intelligence"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/チューリングテスト",
+          "en": "https://en.wikipedia.org/wiki/Turing_test"
+        }
+      },
+      {
+        "age": 40,
+        "label": {
+          "ja": "逮捕・有罪",
+          "en": "Convicted"
+        },
+        "text": {
+          "ja": "同性愛の罪で逮捕、化学的去勢を強制される",
+          "en": "Convicted for homosexuality; subjected to chemical castration"
+        }
+      },
+      {
+        "age": 41,
+        "label": {
+          "ja": "死去",
+          "en": "Death"
+        },
+        "text": {
+          "ja": "青酸中毒で死去（自殺とされる）",
+          "en": "Dies of cyanide poisoning, ruled a suicide"
+        }
+      }
+    ]
+  },
+  {
+    "id": "parks",
+    "category": "politics",
+    "name": {
+      "ja": "ローザ・パークス",
+      "en": "Rosa Parks"
+    },
+    "start": 1913,
+    "end": 2005,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/ローザ・パークス",
+      "en": "https://en.wikipedia.org/wiki/Rosa_Parks"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "アラバマ州タスキーギーに誕生",
+          "en": "Born in Tuskegee, Alabama"
+        }
+      },
+      {
+        "age": 19,
+        "label": {
+          "ja": "レイモンドと結婚",
+          "en": "Marriage"
+        },
+        "text": {
+          "ja": "市民活動家レイモンド・パークスと結婚",
+          "en": "Marries civil rights activist Raymond Parks"
+        }
+      },
+      {
+        "age": 30,
+        "label": {
+          "ja": "NAACP加入",
+          "en": "NAACP"
+        },
+        "text": {
+          "ja": "全米有色人地位向上協会に加入",
+          "en": "Joins the NAACP"
+        }
+      },
+      {
+        "age": 42,
+        "label": {
+          "ja": "バス席拒否事件",
+          "en": "Bus Protest"
+        },
+        "text": {
+          "ja": "白人に席を譲ることを拒否し逮捕される",
+          "en": "Refuses to give up bus seat to white passenger; arrested"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ローザ・パークス#バス・ボイコット事件",
+          "en": "https://en.wikipedia.org/wiki/Montgomery_bus_boycott"
+        }
+      },
+      {
+        "age": 43,
+        "label": {
+          "ja": "バスボイコット勝利",
+          "en": "Boycott Wins"
+        },
+        "text": {
+          "ja": "連邦最高裁がバス人種隔離を違憲と判断",
+          "en": "Supreme Court rules bus segregation unconstitutional"
+        }
+      },
+      {
+        "age": 44,
+        "label": {
+          "ja": "デトロイト移住",
+          "en": "Detroit"
+        },
+        "text": {
+          "ja": "脅迫を受けデトロイトに移住",
+          "en": "Moves to Detroit due to threats"
+        }
+      },
+      {
+        "age": 52,
+        "label": {
+          "ja": "ワシントン大行進参加",
+          "en": "March on DC"
+        },
+        "text": {
+          "ja": "ワシントン大行進に参加",
+          "en": "Participates in March on Washington"
+        }
+      },
+      {
+        "age": 86,
+        "label": {
+          "ja": "議会金メダル",
+          "en": "Medal"
+        },
+        "text": {
+          "ja": "連邦議会名誉黄金勲章を受章",
+          "en": "Awarded Congressional Gold Medal"
+        }
+      },
+      {
+        "age": 92,
+        "label": {
+          "ja": "死去",
+          "en": "Death"
+        },
+        "text": {
+          "ja": "デトロイトで自然死",
+          "en": "Dies of natural causes in Detroit"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mandela",
+    "category": "politics",
+    "name": {
+      "ja": "ネルソン・マンデラ",
+      "en": "Nelson Mandela"
+    },
+    "start": 1918,
+    "end": 2013,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/ネルソン・マンデラ",
+      "en": "https://en.wikipedia.org/wiki/Nelson_Mandela"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "南アフリカ・トランスカイに誕生",
+          "en": "Born in Transkei, South Africa"
+        }
+      },
+      {
+        "age": 21,
+        "label": {
+          "ja": "フォートヘア大学",
+          "en": "University"
+        },
+        "text": {
+          "ja": "フォートヘア大学に入学",
+          "en": "Enters University of Fort Hare"
+        }
+      },
+      {
+        "age": 26,
+        "label": {
+          "ja": "ANC加入",
+          "en": "ANC"
+        },
+        "text": {
+          "ja": "アフリカ民族会議（ANC）に加入",
+          "en": "Joins the African National Congress"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/アフリカ民族会議",
+          "en": "https://en.wikipedia.org/wiki/African_National_Congress"
+        }
+      },
+      {
+        "age": 44,
+        "label": {
+          "ja": "逮捕・投獄",
+          "en": "Arrested"
+        },
+        "text": {
+          "ja": "国家反逆罪で逮捕、終身刑に",
+          "en": "Arrested; sentenced to life imprisonment"
+        }
+      },
+      {
+        "age": 46,
+        "label": {
+          "ja": "ロベン島収容",
+          "en": "Robben Island"
+        },
+        "text": {
+          "ja": "ロベン島の刑務所に収容される",
+          "en": "Imprisoned on Robben Island"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ロベン島",
+          "en": "https://en.wikipedia.org/wiki/Robben_Island"
+        }
+      },
+      {
+        "age": 71,
+        "label": {
+          "ja": "釈放",
+          "en": "Released"
+        },
+        "text": {
+          "ja": "27年間の投獄の後に釈放される",
+          "en": "Released after 27 years in prison"
+        }
+      },
+      {
+        "age": 75,
+        "label": {
+          "ja": "大統領就任",
+          "en": "President"
+        },
+        "text": {
+          "ja": "南アフリカ初の黒人大統領に就任",
+          "en": "Inaugurated as first Black president of South Africa"
+        }
+      },
+      {
+        "age": 75,
+        "label": {
+          "ja": "ノーベル平和賞",
+          "en": "Nobel Peace"
+        },
+        "text": {
+          "ja": "デクラークと共にノーベル平和賞受賞",
+          "en": "Awarded Nobel Peace Prize with F.W. de Klerk"
+        }
+      },
+      {
+        "age": 80,
+        "label": {
+          "ja": "大統領退任",
+          "en": "Retires"
+        },
+        "text": {
+          "ja": "1期で大統領を退任",
+          "en": "Steps down after one term as president"
+        }
+      },
+      {
+        "age": 95,
+        "label": {
+          "ja": "死去",
+          "en": "Death"
+        },
+        "text": {
+          "ja": "ヨハネスブルグで死去",
+          "en": "Dies in Johannesburg"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tezuka",
+    "category": "art",
+    "name": {
+      "ja": "手塚治虫",
+      "en": "Osamu Tezuka"
+    },
+    "start": 1928,
+    "end": 1989,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/手塚治虫",
+      "en": "https://en.wikipedia.org/wiki/Osamu_Tezuka"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "大阪府豊中市に誕生",
+          "en": "Born in Toyonaka, Osaka"
+        }
+      },
+      {
+        "age": 5,
+        "label": {
+          "ja": "昆虫に夢中",
+          "en": "Insects"
+        },
+        "text": {
+          "ja": "昆虫採集に夢中になり「治虫」のペンネームの由来に",
+          "en": "Obsessed with insects; inspiration for pen name 'Tezuka Osamu'"
+        }
+      },
+      {
+        "age": 17,
+        "label": {
+          "ja": "漫画家デビュー",
+          "en": "Debut"
+        },
+        "text": {
+          "ja": "『マアチャンの日記帳』で漫画家デビュー",
+          "en": "Manga debut with Ma-chan's Diary"
+        }
+      },
+      {
+        "age": 19,
+        "label": {
+          "ja": "新宝島",
+          "en": "New Treasure"
+        },
+        "text": {
+          "ja": "『新宝島』が大ヒット、ストーリー漫画の革命",
+          "en": "New Treasure Island becomes a hit; revolutionizes story manga"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/新宝島_(漫画)",
+          "en": "https://en.wikipedia.org/wiki/New_Treasure_Island"
+        }
+      },
+      {
+        "age": 22,
+        "label": {
+          "ja": "鉄腕アトム連載開始",
+          "en": "Astro Boy"
+        },
+        "text": {
+          "ja": "『鉄腕アトム』連載開始",
+          "en": "Begins serializing Astro Boy"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/鉄腕アトム",
+          "en": "https://en.wikipedia.org/wiki/Astro_Boy"
+        }
+      },
+      {
+        "age": 25,
+        "label": {
+          "ja": "医学博士号取得",
+          "en": "MD"
+        },
+        "text": {
+          "ja": "大阪大学で医学博士号を取得",
+          "en": "Receives medical doctorate from Osaka University"
+        }
+      },
+      {
+        "age": 35,
+        "label": {
+          "ja": "虫プロダクション設立",
+          "en": "Mushi Pro"
+        },
+        "text": {
+          "ja": "アニメ制作会社「虫プロダクション」を設立",
+          "en": "Founds Mushi Production animation studio"
+        }
+      },
+      {
+        "age": 44,
+        "label": {
+          "ja": "ブラック・ジャック",
+          "en": "Black Jack"
+        },
+        "text": {
+          "ja": "『ブラック・ジャック』連載開始",
+          "en": "Begins serializing Black Jack"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ブラック・ジャック",
+          "en": "https://en.wikipedia.org/wiki/Black_Jack_(manga)"
+        }
+      },
+      {
+        "age": 60,
+        "label": {
+          "ja": "死去",
+          "en": "Death"
+        },
+        "text": {
+          "ja": "胃がんにより死去「頼むから仕事をさせてくれ」",
+          "en": "Dies of stomach cancer; last words: 'Please, let me work'"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mlk",
+    "category": "politics",
+    "name": {
+      "ja": "マーティン・L・キング",
+      "en": "Martin Luther King Jr."
+    },
+    "start": 1929,
+    "end": 1968,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/マーティン・ルーサー・キング・ジュニア",
+      "en": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr."
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "ジョージア州アトランタに誕生",
+          "en": "Born in Atlanta, Georgia"
+        }
+      },
+      {
+        "age": 15,
+        "label": {
+          "ja": "モアハウス大学入学",
+          "en": "Morehouse"
+        },
+        "text": {
+          "ja": "飛び級で15歳でモアハウス大学に入学",
+          "en": "Enters Morehouse College at age 15"
+        }
+      },
+      {
+        "age": 25,
+        "label": {
+          "ja": "モンゴメリー牧師",
+          "en": "Pastor"
+        },
+        "text": {
+          "ja": "モンゴメリーのデクスター通りバプテスト教会牧師に",
+          "en": "Becomes pastor at Dexter Avenue Baptist Church"
+        }
+      },
+      {
+        "age": 26,
+        "label": {
+          "ja": "バスボイコット",
+          "en": "Bus Boycott"
+        },
+        "text": {
+          "ja": "ローザ・パークス事件後バスボイコットを主導",
+          "en": "Leads Montgomery Bus Boycott after Rosa Parks' arrest"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/モンゴメリー・バス・ボイコット事件",
+          "en": "https://en.wikipedia.org/wiki/Montgomery_bus_boycott"
+        }
+      },
+      {
+        "age": 28,
+        "label": {
+          "ja": "SCLC設立",
+          "en": "SCLC"
+        },
+        "text": {
+          "ja": "南部キリスト教指導者会議を設立",
+          "en": "Founds Southern Christian Leadership Conference"
+        }
+      },
+      {
+        "age": 34,
+        "label": {
+          "ja": "ワシントン大行進",
+          "en": "March on DC"
+        },
+        "text": {
+          "ja": "「I Have a Dream」演説",
+          "en": "Delivers 'I Have a Dream' speech at March on Washington"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ワシントン大行進",
+          "en": "https://en.wikipedia.org/wiki/March_on_Washington"
+        }
+      },
+      {
+        "age": 35,
+        "label": {
+          "ja": "ノーベル平和賞",
+          "en": "Nobel Peace"
+        },
+        "text": {
+          "ja": "35歳で当時最年少のノーベル平和賞受賞",
+          "en": "Receives Nobel Peace Prize, youngest at the time"
+        }
+      },
+      {
+        "age": 36,
+        "label": {
+          "ja": "セルマ行進",
+          "en": "Selma"
+        },
+        "text": {
+          "ja": "投票権を求めセルマからモンゴメリーへ行進",
+          "en": "Leads Selma to Montgomery marches for voting rights"
+        }
+      },
+      {
+        "age": 39,
+        "label": {
+          "ja": "暗殺",
+          "en": "Assassination"
+        },
+        "text": {
+          "ja": "メンフィスのモーテルで暗殺される",
+          "en": "Assassinated at Lorraine Motel in Memphis"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/マーティン・ルーサー・キング・ジュニアの暗殺",
+          "en": "https://en.wikipedia.org/wiki/Assassination_of_Martin_Luther_King_Jr."
+        }
+      }
+    ]
+  },
+  {
+    "id": "dalailama",
+    "category": "phil",
+    "name": {
+      "ja": "ダライ・ラマ14世",
+      "en": "14th Dalai Lama"
+    },
+    "start": 1935,
+    "end": 2026,
+    "isAlive": true,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/ダライ・ラマ14世",
+      "en": "https://en.wikipedia.org/wiki/14th_Dalai_Lama"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "チベットのタクツェルに農家の子として誕生",
+          "en": "Born to a farming family in Taktser, Tibet"
+        }
+      },
+      {
+        "age": 2,
+        "label": {
+          "ja": "転生認定",
+          "en": "Reincarnation"
+        },
+        "text": {
+          "ja": "ダライ・ラマ13世の転生と認定される",
+          "en": "Recognized as reincarnation of 13th Dalai Lama"
+        }
+      },
+      {
+        "age": 4,
+        "label": {
+          "ja": "ラサへ",
+          "en": "To Lhasa"
+        },
+        "text": {
+          "ja": "ラサへ移りポタラ宮で即位式",
+          "en": "Moves to Lhasa; enthroned at the Potala Palace"
+        }
+      },
+      {
+        "age": 15,
+        "label": {
+          "ja": "チベット元首",
+          "en": "Head of State"
+        },
+        "text": {
+          "ja": "中国軍侵攻により15歳で元首に就任",
+          "en": "Assumes full political power at 15 due to Chinese invasion"
+        }
+      },
+      {
+        "age": 24,
+        "label": {
+          "ja": "インドに亡命",
+          "en": "Exile"
+        },
+        "text": {
+          "ja": "チベット蜂起後インドに亡命",
+          "en": "Flees to India after Tibetan uprising"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/1959年のチベット蜂起",
+          "en": "https://en.wikipedia.org/wiki/1959_Tibetan_uprising"
+        }
+      },
+      {
+        "age": 25,
+        "label": {
+          "ja": "ダラムサラ政府",
+          "en": "Dharamsala"
+        },
+        "text": {
+          "ja": "ダラムサラにチベット亡命政府を樹立",
+          "en": "Establishes Tibetan government-in-exile in Dharamsala"
+        }
+      },
+      {
+        "age": 54,
+        "label": {
+          "ja": "ノーベル平和賞",
+          "en": "Nobel Peace"
+        },
+        "text": {
+          "ja": "非暴力によるチベット解放運動でノーベル平和賞",
+          "en": "Awarded Nobel Peace Prize for nonviolent Tibetan liberation"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ノーベル平和賞",
+          "en": "https://en.wikipedia.org/wiki/Nobel_Peace_Prize"
+        }
+      },
+      {
+        "age": 76,
+        "label": {
+          "ja": "政治引退",
+          "en": "Political Retirement"
+        },
+        "text": {
+          "ja": "政治的権限をロブサン・サンガイに移譲",
+          "en": "Transfers political authority to elected leadership"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wangari_maathai",
+    "category": "politics",
+    "name": {
+      "ja": "ワンガリ・マータイ",
+      "en": "Wangari Maathai"
+    },
+    "start": 1940,
+    "end": 2011,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%B3%E3%82%AC%E3%83%AA%E3%83%BB%E3%83%9E%E3%83%BC%E3%82%BF%E3%82%A4",
+      "en": "https://en.wikipedia.org/wiki/Wangar%C4%A9_Maathai"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "ケニア中部ニエリの農家に生まれる",
+          "en": "Born to a farming family in Nyeri, central Kenya"
+        }
+      },
+      {
+        "age": 31,
+        "label": {
+          "ja": "博士号取得",
+          "en": "Earns PhD"
+        },
+        "text": {
+          "ja": "ナイロビ大学で理学博士号を取得し、東・中部アフリカ初の女性博士となる",
+          "en": "Earns a PhD in biology from the University of Nairobi, first woman in East and Central Africa to do so"
+        }
+      },
+      {
+        "age": 37,
+        "label": {
+          "ja": "グリーンベルト運動",
+          "en": "Green Belt Movement"
+        },
+        "text": {
+          "ja": "植林と女性の自立支援を目的とするグリーンベルト運動を創設",
+          "en": "Founds the Green Belt Movement to promote tree planting and women's empowerment"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ワンガリ・マータイ",
+          "en": "https://en.wikipedia.org/wiki/Green_Belt_Movement"
+        }
+      },
+      {
+        "age": 44,
+        "label": {
+          "ja": "ライトライブリフッド賞",
+          "en": "Right Livelihood Award"
+        },
+        "text": {
+          "ja": "代替ノーベル賞と呼ばれるライトライブリフッド賞を受賞",
+          "en": "Receives the Right Livelihood Award, often called the alternative Nobel Prize"
+        }
+      },
+      {
+        "age": 62,
+        "label": {
+          "ja": "国会議員に当選",
+          "en": "Elected to Parliament"
+        },
+        "text": {
+          "ja": "ケニア国会議員に初当選し、環境副大臣としても活動",
+          "en": "Elected to Kenya's Parliament and serves as assistant minister for environment"
+        }
+      },
+      {
+        "age": 64,
+        "label": {
+          "ja": "ノーベル平和賞",
+          "en": "Nobel Peace Prize"
+        },
+        "text": {
+          "ja": "環境保護と民主化への貢献により、アフリカ人女性として初のノーベル平和賞受賞",
+          "en": "Awarded the Nobel Peace Prize, the first African woman laureate"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ワンガリ・マータイ",
+          "en": "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/"
+        }
+      },
+      {
+        "age": 71,
+        "label": {
+          "ja": "死去",
+          "en": "Death"
+        },
+        "text": {
+          "ja": "ナイロビで卵巣がんのため死去",
+          "en": "Dies in Nairobi from ovarian cancer"
+        }
+      }
+    ]
+  },
+  {
+    "id": "murakami_haruki",
+    "category": "writer",
+    "name": {
+      "ja": "村上春樹",
+      "en": "Haruki Murakami"
+    },
+    "start": 1949,
+    "end": 2026,
+    "isAlive": true,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "en": "https://en.wikipedia.org/wiki/Haruki_Murakami"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "京都に誕生し、兵庫県西宮市・芦屋市で育つ",
+          "en": "Born in Kyoto and raised in Nishinomiya and Ashiya, Japan"
+        }
+      },
+      {
+        "age": 25,
+        "label": {
+          "ja": "ジャズ喫茶開店",
+          "en": "Opens Jazz Bar"
+        },
+        "text": {
+          "ja": "妻とともにジャズ喫茶「ピーター・キャット」を経営し始める",
+          "en": "Opens and runs the jazz bar Peter Cat with his wife"
+        }
+      },
+      {
+        "age": 29,
+        "label": {
+          "ja": "小説家を志す瞬間",
+          "en": "Decides to Write"
+        },
+        "text": {
+          "ja": "神宮球場で野球観戦中に突然「小説が書ける」と直感する",
+          "en": "At Jingu Stadium, suddenly feels he can write a novel while watching a baseball game"
+        }
+      },
+      {
+        "age": 30,
+        "label": {
+          "ja": "デビュー作",
+          "en": "Debut Novel"
+        },
+        "text": {
+          "ja": "『風の歌を聴け』で群像新人文学賞を受賞しデビュー",
+          "en": "Debuts with Hear the Wind Sing, winning the Gunzo New Writer Award"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/風の歌を聴け",
+          "en": "https://en.wikipedia.org/wiki/Hear_the_Wind_Sing"
+        }
+      },
+      {
+        "age": 38,
+        "label": {
+          "ja": "『ノルウェイの森』",
+          "en": "Norwegian Wood"
+        },
+        "text": {
+          "ja": "長編小説『ノルウェイの森』が大ベストセラーとなり国民的作家となる",
+          "en": "Novel Norwegian Wood becomes a massive bestseller and makes him a national figure"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ノルウェイの森_(小説)",
+          "en": "https://en.wikipedia.org/wiki/Norwegian_Wood_(novel)"
+        }
+      },
+      {
+        "age": 53,
+        "label": {
+          "ja": "『海辺のカフカ』英訳",
+          "en": "Kafka on the Shore"
+        },
+        "text": {
+          "ja": "『海辺のカフカ』英訳がニューヨーク・タイムズ紙のベストブックに選ばれる",
+          "en": "English translation of Kafka on the Shore is named one of The New York Times' best books of the year"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jobs",
+    "category": "tech",
+    "name": {
+      "ja": "スティーブ・ジョブズ",
+      "en": "Steve Jobs"
+    },
+    "start": 1955,
+    "end": 2011,
+    "isAlive": false,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/スティーブ・ジョブズ",
+      "en": "https://en.wikipedia.org/wiki/Steve_Jobs"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "サンフランシスコに誕生、養子に出される",
+          "en": "Born in San Francisco; given up for adoption"
+        }
+      },
+      {
+        "age": 13,
+        "label": {
+          "ja": "HP訪問",
+          "en": "HP Visit"
+        },
+        "text": {
+          "ja": "ヒューレット・パッカードに電話し部品をもらう",
+          "en": "Calls Hewlett-Packard; gets spare parts and a summer job"
+        }
+      },
+      {
+        "age": 17,
+        "label": {
+          "ja": "リード大学中退",
+          "en": "Drops Out"
+        },
+        "text": {
+          "ja": "リード大学を中退しカリグラフィーを聴講",
+          "en": "Drops out of Reed College; audits calligraphy classes"
+        }
+      },
+      {
+        "age": 19,
+        "label": {
+          "ja": "インド放浪",
+          "en": "India Trip"
+        },
+        "text": {
+          "ja": "インドを放浪し精神的影響を受ける",
+          "en": "Travels through India seeking spiritual enlightenment"
+        }
+      },
+      {
+        "age": 21,
+        "label": {
+          "ja": "Apple設立",
+          "en": "Apple Founded"
+        },
+        "text": {
+          "ja": "ウォズニアックとガレージでAppleを設立",
+          "en": "Co-founds Apple with Wozniak in a garage"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/Apple",
+          "en": "https://en.wikipedia.org/wiki/Apple_Inc."
+        }
+      },
+      {
+        "age": 29,
+        "label": {
+          "ja": "Mac発売",
+          "en": "Macintosh"
+        },
+        "text": {
+          "ja": "Macintoshを発売、GUI革命を起こす",
+          "en": "Launches the Macintosh; GUI revolution"
+        }
+      },
+      {
+        "age": 30,
+        "label": {
+          "ja": "Apple追放",
+          "en": "Fired"
+        },
+        "text": {
+          "ja": "社内対立によりAppleを追放される",
+          "en": "Ousted from Apple after internal power struggle"
+        }
+      },
+      {
+        "age": 31,
+        "label": {
+          "ja": "NeXT・ピクサー",
+          "en": "NeXT/Pixar"
+        },
+        "text": {
+          "ja": "NeXTを設立、ピクサーを買収",
+          "en": "Founds NeXT; acquires Pixar"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ピクサー・アニメーション・スタジオ",
+          "en": "https://en.wikipedia.org/wiki/Pixar"
+        }
+      },
+      {
+        "age": 42,
+        "label": {
+          "ja": "Apple復帰",
+          "en": "Returns"
+        },
+        "text": {
+          "ja": "Apple暫定CEOに復帰",
+          "en": "Returns to Apple as interim CEO"
+        }
+      },
+      {
+        "age": 52,
+        "label": {
+          "ja": "iPhone発表",
+          "en": "iPhone"
+        },
+        "text": {
+          "ja": "iPhoneを発表、スマートフォン革命を起こす",
+          "en": "Unveils the iPhone; launches smartphone revolution"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/IPhone",
+          "en": "https://en.wikipedia.org/wiki/IPhone"
+        }
+      },
+      {
+        "age": 56,
+        "label": {
+          "ja": "死去",
+          "en": "Death"
+        },
+        "text": {
+          "ja": "膵臓がんにより死去",
+          "en": "Dies of pancreatic cancer"
+        }
+      }
+    ]
+  },
+  {
+    "id": "gates",
+    "category": "tech",
+    "name": {
+      "ja": "ビル・ゲイツ",
+      "en": "Bill Gates"
+    },
+    "start": 1955,
+    "end": 2026,
+    "isAlive": true,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/ビル・ゲイツ",
+      "en": "https://en.wikipedia.org/wiki/Bill_Gates"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "シアトルに誕生",
+          "en": "Born in Seattle, Washington"
+        }
+      },
+      {
+        "age": 13,
+        "label": {
+          "ja": "プログラミング開始",
+          "en": "Coding"
+        },
+        "text": {
+          "ja": "レイクサイド校でコンピュータに出会う",
+          "en": "Discovers computers at Lakeside School"
+        }
+      },
+      {
+        "age": 17,
+        "label": {
+          "ja": "トラフォデータ設立",
+          "en": "Traf-O-Data"
+        },
+        "text": {
+          "ja": "ポール・アレンとトラフォデータを設立",
+          "en": "Co-founds Traf-O-Data with Paul Allen"
+        }
+      },
+      {
+        "age": 20,
+        "label": {
+          "ja": "Microsoft設立",
+          "en": "Microsoft"
+        },
+        "text": {
+          "ja": "ハーバード中退、マイクロソフトを設立",
+          "en": "Drops out of Harvard; co-founds Microsoft"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/マイクロソフト",
+          "en": "https://en.wikipedia.org/wiki/Microsoft"
+        }
+      },
+      {
+        "age": 25,
+        "label": {
+          "ja": "IBM PC用DOSを提供",
+          "en": "IBM DOS"
+        },
+        "text": {
+          "ja": "IBMにMS-DOSを供給、PCソフト市場を掌握",
+          "en": "Provides MS-DOS to IBM; dominates PC software market"
+        }
+      },
+      {
+        "age": 30,
+        "label": {
+          "ja": "Windows発売",
+          "en": "Windows"
+        },
+        "text": {
+          "ja": "Windows 1.0を発売",
+          "en": "Launches Windows 1.0"
+        }
+      },
+      {
+        "age": 39,
+        "label": {
+          "ja": "世界一の富豪",
+          "en": "Richest"
+        },
+        "text": {
+          "ja": "フォーブスの世界長者番付1位に",
+          "en": "Becomes world's richest person on Forbes list"
+        }
+      },
+      {
+        "age": 44,
+        "label": {
+          "ja": "ゲイツ財団設立",
+          "en": "Foundation"
+        },
+        "text": {
+          "ja": "ビル&メリンダ・ゲイツ財団を設立",
+          "en": "Founds Bill & Melinda Gates Foundation"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/ビル&メリンダ・ゲイツ財団",
+          "en": "https://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation"
+        }
+      },
+      {
+        "age": 53,
+        "label": {
+          "ja": "Microsoft退任",
+          "en": "Retires"
+        },
+        "text": {
+          "ja": "マイクロソフトの日常業務から引退",
+          "en": "Steps down from day-to-day Microsoft operations"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musk",
+    "category": "tech",
+    "name": {
+      "ja": "イーロン・マスク",
+      "en": "Elon Musk"
+    },
+    "start": 1971,
+    "end": 2026,
+    "isAlive": true,
+    "main_wiki": {
+      "ja": "https://ja.wikipedia.org/wiki/イーロン・マスク",
+      "en": "https://en.wikipedia.org/wiki/Elon_Musk"
+    },
+    "events": [
+      {
+        "age": 0,
+        "label": {
+          "ja": "誕生",
+          "en": "Birth"
+        },
+        "text": {
+          "ja": "南アフリカ・プレトリアに誕生",
+          "en": "Born in Pretoria, South Africa"
+        }
+      },
+      {
+        "age": 10,
+        "label": {
+          "ja": "プログラミング独学",
+          "en": "Coding"
+        },
+        "text": {
+          "ja": "10歳でプログラミングを独学",
+          "en": "Self-teaches programming at age 10"
+        }
+      },
+      {
+        "age": 12,
+        "label": {
+          "ja": "ゲーム販売",
+          "en": "Blastar"
+        },
+        "text": {
+          "ja": "自作ゲーム『Blastar』を500ドルで売却",
+          "en": "Sells self-made game 'Blastar' for $500"
+        }
+      },
+      {
+        "age": 17,
+        "label": {
+          "ja": "カナダ移住",
+          "en": "To Canada"
+        },
+        "text": {
+          "ja": "南アフリカを離れカナダに移住",
+          "en": "Leaves South Africa for Canada"
+        }
+      },
+      {
+        "age": 24,
+        "label": {
+          "ja": "Zip2設立",
+          "en": "Zip2"
+        },
+        "text": {
+          "ja": "弟と共にZip2を設立",
+          "en": "Co-founds Zip2 with brother"
+        }
+      },
+      {
+        "age": 28,
+        "label": {
+          "ja": "PayPal前身を設立",
+          "en": "X.com"
+        },
+        "text": {
+          "ja": "X.com（後のPayPal）を設立",
+          "en": "Founds X.com, which later becomes PayPal"
+        }
+      },
+      {
+        "age": 31,
+        "label": {
+          "ja": "SpaceX設立",
+          "en": "SpaceX"
+        },
+        "text": {
+          "ja": "SpaceXを設立、宇宙へのアクセスを目指す",
+          "en": "Founds SpaceX to make space travel affordable"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/スペースX",
+          "en": "https://en.wikipedia.org/wiki/SpaceX"
+        }
+      },
+      {
+        "age": 33,
+        "label": {
+          "ja": "Tesla投資",
+          "en": "Tesla"
+        },
+        "text": {
+          "ja": "テスラモーターズに出資し会長に就任",
+          "en": "Invests in Tesla Motors; becomes chairman"
+        },
+        "wiki": {
+          "ja": "https://ja.wikipedia.org/wiki/テスラ_(企業)",
+          "en": "https://en.wikipedia.org/wiki/Tesla,_Inc."
+        }
+      },
+      {
+        "age": 49,
+        "label": {
+          "ja": "世界一の富豪",
+          "en": "Richest"
+        },
+        "text": {
+          "ja": "世界長者番付1位に",
+          "en": "Becomes world's richest person"
+        }
+      },
+      {
+        "age": 51,
+        "label": {
+          "ja": "Twitter買収",
+          "en": "Twitter/X"
+        },
+        "text": {
+          "ja": "Twitterを買収しXに改名",
+          "en": "Acquires Twitter; rebrands to X"
+        }
+      }
+    ]
+  }
+]
