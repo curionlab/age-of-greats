@@ -1,0 +1,10 @@
+# 開発中のファイル
+dev_notes/
+drafts/
+old_versions/
+*.tmp
+*.bak
+
+# ローカル専用ファイル
+*.log
+.DS_Store

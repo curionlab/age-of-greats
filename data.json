@@ -1,0 +1,6520 @@
+{
+  "metadata": {
+    "version": "4.0",
+    "title": "Great Figures",
+    "languages": [
+      "ja",
+      "en"
+    ]
+  },
+  "categories": [
+    {
+      "id": "science",
+      "label": {
+        "ja": "科学者",
+        "en": "Scientists"
+      },
+      "color": "#3498db"
+    },
+    {
+      "id": "politics",
+      "label": {
+        "ja": "政治・リーダー",
+        "en": "Politics & Leaders"
+      },
+      "color": "#ff9800"
+    },
+    {
+      "id": "art",
+      "label": {
+        "ja": "芸術・音楽",
+        "en": "Art & Music"
+      },
+      "color": "#8e44ad"
+    },
+    {
+      "id": "tech",
+      "label": {
+        "ja": "技術・実業",
+        "en": "Tech & Business"
+      },
+      "color": "#4caf50"
+    },
+    {
+      "id": "writer",
+      "label": {
+        "ja": "文筆家",
+        "en": "Writers"
+      },
+      "color": "#e91e63"
+    },
+    {
+      "id": "phil",
+      "label": {
+        "ja": "思想・探検",
+        "en": "Thinkers & Explorers"
+      },
+      "color": "#607d8b"
+    }
+  ],
+  "items": [
+    {
+      "id": "einstein",
+      "category": "science",
+      "name": {
+        "ja": "アインシュタイン",
+        "en": "Albert Einstein"
+      },
+      "start": 1879,
+      "end": 1955,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/アルベルト・アインシュタイン",
+        "en": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ドイツ帝国ウルムに生まれる",
+            "en": "Born in Ulm, Germany"
+          }
+        },
+        {
+          "age": 5,
+          "label": {
+            "ja": "磁石の衝撃",
+            "en": "Compass"
+          },
+          "text": {
+            "ja": "方位磁針に驚き、自然法則への興味を持つ",
+            "en": "Fascinated by a compass, sparking interest in nature's laws"
+          }
+        },
+        {
+          "age": 16,
+          "label": {
+            "ja": "光の思考実験",
+            "en": "Light Thought"
+          },
+          "text": {
+            "ja": "光線と並走したらどうなるかを考え始める",
+            "en": "Begins thought experiment: what if I rode alongside a beam of light?"
+          }
+        },
+        {
+          "age": 21,
+          "label": {
+            "ja": "スイス市民権",
+            "en": "Swiss Citizen"
+          },
+          "text": {
+            "ja": "チューリッヒ工科大卒業、スイス市民権取得",
+            "en": "Graduates ETH Zurich, obtains Swiss citizenship"
+          }
+        },
+        {
+          "age": 23,
+          "label": {
+            "ja": "ミレーバと結婚",
+            "en": "Marriage"
+          },
+          "text": {
+            "ja": "大学の同級生ミレーバ・マリッチと結婚",
+            "en": "Marries fellow student Mileva Marić"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ミレヴァ・マリッチ",
+            "en": "https://en.wikipedia.org/wiki/Mileva_Marić"
+          }
+        },
+        {
+          "age": 26,
+          "label": {
+            "ja": "奇跡の年",
+            "en": "Annus Mirabilis"
+          },
+          "text": {
+            "ja": "特殊相対性理論・光量子仮説など4論文を発表",
+            "en": "Publishes four groundbreaking papers including special relativity"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/奇跡の年_(物理学)",
+            "en": "https://en.wikipedia.org/wiki/Annus_Mirabilis_papers"
+          }
+        },
+        {
+          "age": 36,
+          "label": {
+            "ja": "一般相対性理論",
+            "en": "General Relativity"
+          },
+          "text": {
+            "ja": "重力の幾何学的理論を完成",
+            "en": "Completes general theory of relativity"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/一般相対性理論",
+            "en": "https://en.wikipedia.org/wiki/General_relativity"
+          }
+        },
+        {
+          "age": 42,
+          "label": {
+            "ja": "ノーベル物理学賞",
+            "en": "Nobel Prize"
+          },
+          "text": {
+            "ja": "光電効果の法則によりノーベル賞受賞",
+            "en": "Awarded Nobel Prize for the photoelectric effect"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ノーベル物理学賞",
+            "en": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Physics"
+          }
+        },
+        {
+          "age": 54,
+          "label": {
+            "ja": "アメリカ亡命",
+            "en": "Exile to USA"
+          },
+          "text": {
+            "ja": "ナチス政権から逃れ米国プリンストンへ移住",
+            "en": "Flees Nazi Germany, settles in Princeton, USA"
+          }
+        },
+        {
+          "age": 76,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "大動脈瘤破裂により死去。遺言で遺体を火葬",
+            "en": "Dies of aortic aneurysm; cremated per his wishes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "newton",
+      "category": "science",
+      "name": {
+        "ja": "アイザック・ニュートン",
+        "en": "Isaac Newton"
+      },
+      "start": 1643,
+      "end": 1727,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/アイザック・ニュートン",
+        "en": "https://en.wikipedia.org/wiki/Isaac_Newton"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "イングランド・ウールスソープに早産で誕生",
+            "en": "Born prematurely in Woolsthorpe, England"
+          }
+        },
+        {
+          "age": 12,
+          "label": {
+            "ja": "グランサム学校",
+            "en": "Grammar School"
+          },
+          "text": {
+            "ja": "グランサムのキングス・スクールに入学",
+            "en": "Enters King's School in Grantham"
+          }
+        },
+        {
+          "age": 18,
+          "label": {
+            "ja": "ケンブリッジ入学",
+            "en": "Cambridge"
+          },
+          "text": {
+            "ja": "トリニティ・カレッジに入学",
+            "en": "Enters Trinity College, Cambridge"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/トリニティ・カレッジ_(ケンブリッジ大学)",
+            "en": "https://en.wikipedia.org/wiki/Trinity_College,_Cambridge"
+          }
+        },
+        {
+          "age": 22,
+          "label": {
+            "ja": "ペスト休暇",
+            "en": "Plague Years"
+          },
+          "text": {
+            "ja": "ペスト禍で帰郷、万有引力・微積分を着想",
+            "en": "Returns home during plague; conceives gravity and calculus"
+          }
+        },
+        {
+          "age": 26,
+          "label": {
+            "ja": "ケンブリッジ教授",
+            "en": "Professor"
+          },
+          "text": {
+            "ja": "ルーカス数学教授職に就任",
+            "en": "Appointed Lucasian Professor of Mathematics"
+          }
+        },
+        {
+          "age": 28,
+          "label": {
+            "ja": "反射望遠鏡",
+            "en": "Telescope"
+          },
+          "text": {
+            "ja": "反射望遠鏡を発明、王立協会に報告",
+            "en": "Invents reflecting telescope; reports to Royal Society"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/反射望遠鏡",
+            "en": "https://en.wikipedia.org/wiki/Reflecting_telescope"
+          }
+        },
+        {
+          "age": 44,
+          "label": {
+            "ja": "プリンキピア出版",
+            "en": "Principia"
+          },
+          "text": {
+            "ja": "『自然哲学の数学的諸原理』を出版",
+            "en": "Publishes Principia Mathematica"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/自然哲学の数学的諸原理",
+            "en": "https://en.wikipedia.org/wiki/Philosophiæ_Naturalis_Principia_Mathematica"
+          }
+        },
+        {
+          "age": 53,
+          "label": {
+            "ja": "造幣局長官",
+            "en": "Master of Mint"
+          },
+          "text": {
+            "ja": "王立造幣局の長官に就任",
+            "en": "Appointed Warden, then Master of the Royal Mint"
+          }
+        },
+        {
+          "age": 60,
+          "label": {
+            "ja": "王立協会会長",
+            "en": "Royal Society"
+          },
+          "text": {
+            "ja": "王立協会の会長に選出",
+            "en": "Elected President of the Royal Society"
+          }
+        },
+        {
+          "age": 84,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "ロンドンで死去、ウェストミンスター寺院に埋葬",
+            "en": "Dies in London; buried in Westminster Abbey"
+          }
+        }
+      ]
+    },
+    {
+      "id": "darwin",
+      "category": "science",
+      "name": {
+        "ja": "チャールズ・ダーウィン",
+        "en": "Charles Darwin"
+      },
+      "start": 1809,
+      "end": 1882,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/チャールズ・ダーウィン",
+        "en": "https://en.wikipedia.org/wiki/Charles_Darwin"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "シュルーズベリーに誕生",
+            "en": "Born in Shrewsbury, England"
+          }
+        },
+        {
+          "age": 16,
+          "label": {
+            "ja": "エディンバラ大学",
+            "en": "Edinburgh"
+          },
+          "text": {
+            "ja": "医学を学ぶためエディンバラ大学に入学",
+            "en": "Enters University of Edinburgh to study medicine"
+          }
+        },
+        {
+          "age": 22,
+          "label": {
+            "ja": "ビーグル号出航",
+            "en": "HMS Beagle"
+          },
+          "text": {
+            "ja": "ビーグル号に乗り5年間の航海に出発",
+            "en": "Sails on HMS Beagle for 5-year voyage"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ビーグル号航海",
+            "en": "https://en.wikipedia.org/wiki/Voyage_of_the_Beagle"
+          }
+        },
+        {
+          "age": 26,
+          "label": {
+            "ja": "ガラパゴス到着",
+            "en": "Galápagos"
+          },
+          "text": {
+            "ja": "ガラパゴス諸島で固有種を観察",
+            "en": "Observes unique species on Galápagos Islands"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ガラパゴス諸島",
+            "en": "https://en.wikipedia.org/wiki/Galápagos_Islands"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "結婚",
+            "en": "Marriage"
+          },
+          "text": {
+            "ja": "従妹エマ・ウェッジウッドと結婚",
+            "en": "Marries cousin Emma Wedgwood"
+          }
+        },
+        {
+          "age": 49,
+          "label": {
+            "ja": "自然選択論文",
+            "en": "Natural Selection"
+          },
+          "text": {
+            "ja": "ウォレスと共同で自然選択説を発表",
+            "en": "Jointly presents theory of natural selection with Wallace"
+          }
+        },
+        {
+          "age": 50,
+          "label": {
+            "ja": "種の起源",
+            "en": "Origin of Species"
+          },
+          "text": {
+            "ja": "『種の起源』を出版、進化論を確立",
+            "en": "Publishes On the Origin of Species"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/種の起源",
+            "en": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+          }
+        },
+        {
+          "age": 62,
+          "label": {
+            "ja": "人間の由来",
+            "en": "Descent of Man"
+          },
+          "text": {
+            "ja": "『人間の由来と性に関する選択』を出版",
+            "en": "Publishes The Descent of Man"
+          }
+        },
+        {
+          "age": 73,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "心不全により死去、ウェストミンスター寺院に埋葬",
+            "en": "Dies of heart failure; buried in Westminster Abbey"
+          }
+        }
+      ]
+    },
+    {
+      "id": "curie",
+      "category": "science",
+      "name": {
+        "ja": "マリー・キュリー",
+        "en": "Marie Curie"
+      },
+      "start": 1867,
+      "end": 1934,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/マリ・キュリー",
+        "en": "https://en.wikipedia.org/wiki/Marie_Curie"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ワルシャワに誕生",
+            "en": "Born in Warsaw, Poland"
+          }
+        },
+        {
+          "age": 24,
+          "label": {
+            "ja": "パリ留学",
+            "en": "Paris"
+          },
+          "text": {
+            "ja": "ソルボンヌ大学に入学、物理学を学ぶ",
+            "en": "Enters Sorbonne University to study physics"
+          }
+        },
+        {
+          "age": 28,
+          "label": {
+            "ja": "ピエールと結婚",
+            "en": "Marriage"
+          },
+          "text": {
+            "ja": "ピエール・キュリーと結婚",
+            "en": "Marries Pierre Curie"
+          }
+        },
+        {
+          "age": 31,
+          "label": {
+            "ja": "ラジウム発見",
+            "en": "Radium"
+          },
+          "text": {
+            "ja": "ポロニウム・ラジウムを発見",
+            "en": "Discovers polonium and radium"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ラジウム",
+            "en": "https://en.wikipedia.org/wiki/Radium"
+          }
+        },
+        {
+          "age": 36,
+          "label": {
+            "ja": "ノーベル物理学賞",
+            "en": "Nobel Physics"
+          },
+          "text": {
+            "ja": "放射能の研究で物理学賞を夫妻で受賞",
+            "en": "Awarded Nobel Prize in Physics with Pierre"
+          }
+        },
+        {
+          "age": 39,
+          "label": {
+            "ja": "ピエール死去",
+            "en": "Pierre's Death"
+          },
+          "text": {
+            "ja": "夫ピエールが馬車事故で死去",
+            "en": "Pierre killed in carriage accident"
+          }
+        },
+        {
+          "age": 44,
+          "label": {
+            "ja": "ノーベル化学賞",
+            "en": "Nobel Chemistry"
+          },
+          "text": {
+            "ja": "純粋ラジウムの分離で2度目のノーベル賞",
+            "en": "Awarded second Nobel Prize, in Chemistry"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ノーベル化学賞",
+            "en": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Chemistry"
+          }
+        },
+        {
+          "age": 47,
+          "label": {
+            "ja": "WW1 X線",
+            "en": "WWI X-rays"
+          },
+          "text": {
+            "ja": "第一次大戦で移動X線車を開発・運用",
+            "en": "Develops mobile X-ray units for WWI battlefields"
+          }
+        },
+        {
+          "age": 66,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "再生不良性貧血により死去（放射線被曝）",
+            "en": "Dies of aplastic anemia caused by radiation exposure"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "category": "science",
+      "name": {
+        "ja": "ニコラ・テスラ",
+        "en": "Nikola Tesla"
+      },
+      "start": 1856,
+      "end": 1943,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ニコラ・テスラ",
+        "en": "https://en.wikipedia.org/wiki/Nikola_Tesla"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "オーストリア帝国スミリャンに誕生",
+            "en": "Born in Smiljan, Austrian Empire"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "コレラ闘病",
+            "en": "Cholera"
+          },
+          "text": {
+            "ja": "コレラに罹患、九死に一生を得る",
+            "en": "Contracts cholera; nearly dies"
+          }
+        },
+        {
+          "age": 28,
+          "label": {
+            "ja": "渡米",
+            "en": "To America"
+          },
+          "text": {
+            "ja": "エジソンの下で働くため渡米",
+            "en": "Emigrates to USA to work with Edison"
+          }
+        },
+        {
+          "age": 29,
+          "label": {
+            "ja": "エジソンと決別",
+            "en": "Edison Split"
+          },
+          "text": {
+            "ja": "エジソンと意見対立し独立",
+            "en": "Parts ways with Edison over AC vs DC dispute"
+          }
+        },
+        {
+          "age": 32,
+          "label": {
+            "ja": "交流システム特許",
+            "en": "AC Patents"
+          },
+          "text": {
+            "ja": "交流モーターと送電システムの特許取得",
+            "en": "Patents AC motor and polyphase system"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/交流",
+            "en": "https://en.wikipedia.org/wiki/Alternating_current"
+          }
+        },
+        {
+          "age": 37,
+          "label": {
+            "ja": "シカゴ万博",
+            "en": "World's Fair"
+          },
+          "text": {
+            "ja": "万博で交流送電のデモンストレーション",
+            "en": "Demonstrates AC power at Chicago World's Fair"
+          }
+        },
+        {
+          "age": 39,
+          "label": {
+            "ja": "ナイアガラ発電所",
+            "en": "Niagara Falls"
+          },
+          "text": {
+            "ja": "ナイアガラの滝で水力発電に成功",
+            "en": "Niagara Falls AC hydroelectric plant opens"
+          }
+        },
+        {
+          "age": 43,
+          "label": {
+            "ja": "無線操縦実験",
+            "en": "Remote Control"
+          },
+          "text": {
+            "ja": "世界初の無線操縦ボートを公開",
+            "en": "Demonstrates first radio-controlled boat"
+          }
+        },
+        {
+          "age": 87,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "ニューヨークのホテルで孤独死",
+            "en": "Dies alone in New York hotel room"
+          }
+        }
+      ]
+    },
+    {
+      "id": "galileo",
+      "category": "science",
+      "name": {
+        "ja": "ガリレオ・ガリレイ",
+        "en": "Galileo Galilei"
+      },
+      "start": 1564,
+      "end": 1642,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ガリレオ・ガリレイ",
+        "en": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ピサに誕生",
+            "en": "Born in Pisa, Italy"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "ピサ大学入学",
+            "en": "Pisa Univ"
+          },
+          "text": {
+            "ja": "医学を学ぶためピサ大学に入学",
+            "en": "Enters University of Pisa to study medicine"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "振り子の等時性",
+            "en": "Pendulum"
+          },
+          "text": {
+            "ja": "振り子の等時性を発見",
+            "en": "Discovers isochronism of the pendulum"
+          }
+        },
+        {
+          "age": 28,
+          "label": {
+            "ja": "ピサ教授",
+            "en": "Professor"
+          },
+          "text": {
+            "ja": "ピサ大学で数学教授に就任",
+            "en": "Appointed professor of mathematics at Pisa"
+          }
+        },
+        {
+          "age": 45,
+          "label": {
+            "ja": "望遠鏡",
+            "en": "Telescope"
+          },
+          "text": {
+            "ja": "望遠鏡を改良し天体観測を開始",
+            "en": "Improves telescope and begins astronomical observations"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/望遠鏡",
+            "en": "https://en.wikipedia.org/wiki/Telescope"
+          }
+        },
+        {
+          "age": 46,
+          "label": {
+            "ja": "木星の衛星発見",
+            "en": "Jupiter Moons"
+          },
+          "text": {
+            "ja": "木星の4大衛星を発見",
+            "en": "Discovers four largest moons of Jupiter"
+          }
+        },
+        {
+          "age": 48,
+          "label": {
+            "ja": "太陽黒点観測",
+            "en": "Sunspots"
+          },
+          "text": {
+            "ja": "太陽黒点を望遠鏡で観測",
+            "en": "Observes sunspots through telescope"
+          }
+        },
+        {
+          "age": 69,
+          "label": {
+            "ja": "宗教裁判",
+            "en": "Inquisition"
+          },
+          "text": {
+            "ja": "地動説を主張し異端審問で有罪に",
+            "en": "Found guilty of heresy for advocating heliocentrism"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ガリレオ・ガリレイの裁判",
+            "en": "https://en.wikipedia.org/wiki/Galileo_affair"
+          }
+        },
+        {
+          "age": 77,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "自宅軟禁中に死去",
+            "en": "Dies under house arrest in Arcetri"
+          }
+        }
+      ]
+    },
+    {
+      "id": "davinci",
+      "category": "art",
+      "name": {
+        "ja": "レオナルド・ダ・ヴィンチ",
+        "en": "Leonardo da Vinci"
+      },
+      "start": 1452,
+      "end": 1519,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/レオナルド・ダ・ヴィンチ",
+        "en": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ヴィンチ村に私生児として誕生",
+            "en": "Born illegitimate in Vinci, Italy"
+          }
+        },
+        {
+          "age": 14,
+          "label": {
+            "ja": "ヴェロッキオ工房",
+            "en": "Apprentice"
+          },
+          "text": {
+            "ja": "フィレンツェでヴェロッキオに弟子入り",
+            "en": "Apprentices under Verrocchio in Florence"
+          }
+        },
+        {
+          "age": 20,
+          "label": {
+            "ja": "画家組合加入",
+            "en": "Painters' Guild"
+          },
+          "text": {
+            "ja": "フィレンツェの画家組合に正式加入",
+            "en": "Accepted into Florentine painters' guild"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "ミラノへ移住",
+            "en": "To Milan"
+          },
+          "text": {
+            "ja": "ミラノ公に仕え技術者・画家として活動",
+            "en": "Moves to Milan; serves Duke as engineer and painter"
+          }
+        },
+        {
+          "age": 43,
+          "label": {
+            "ja": "最後の晩餐",
+            "en": "Last Supper"
+          },
+          "text": {
+            "ja": "サンタ・マリアで『最後の晩餐』を制作",
+            "en": "Paints The Last Supper in Santa Maria delle Grazie"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/最後の晩餐_(レオナルド)",
+            "en": "https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)"
+          }
+        },
+        {
+          "age": 51,
+          "label": {
+            "ja": "モナ・リザ着手",
+            "en": "Mona Lisa"
+          },
+          "text": {
+            "ja": "『モナ・リザ』の制作を開始",
+            "en": "Begins painting the Mona Lisa"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/モナ・リザ",
+            "en": "https://en.wikipedia.org/wiki/Mona_Lisa"
+          }
+        },
+        {
+          "age": 55,
+          "label": {
+            "ja": "解剖学研究",
+            "en": "Anatomy"
+          },
+          "text": {
+            "ja": "人体解剖を系統的に記録",
+            "en": "Conducts systematic human anatomy studies"
+          }
+        },
+        {
+          "age": 64,
+          "label": {
+            "ja": "フランスへ",
+            "en": "To France"
+          },
+          "text": {
+            "ja": "フランソワ1世の招きでフランスへ移住",
+            "en": "Moves to France at invitation of King Francis I"
+          }
+        },
+        {
+          "age": 67,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "アンボワーズ城近くで死去",
+            "en": "Dies near Château d'Amboise, France"
+          }
+        }
+      ]
+    },
+    {
+      "id": "michelangelo",
+      "category": "art",
+      "name": {
+        "ja": "ミケランジェロ",
+        "en": "Michelangelo"
+      },
+      "start": 1475,
+      "end": 1564,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ミケランジェロ・ブオナローティ",
+        "en": "https://en.wikipedia.org/wiki/Michelangelo"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "カプレーゼに誕生",
+            "en": "Born in Caprese, near Florence"
+          }
+        },
+        {
+          "age": 6,
+          "label": {
+            "ja": "母の死",
+            "en": "Mother's Death"
+          },
+          "text": {
+            "ja": "6歳で母を亡くす",
+            "en": "Mother dies when he is six"
+          }
+        },
+        {
+          "age": 13,
+          "label": {
+            "ja": "ギルランダイオ弟子",
+            "en": "Apprentice"
+          },
+          "text": {
+            "ja": "画家ギルランダイオに弟子入り",
+            "en": "Apprentices under Domenico Ghirlandaio"
+          }
+        },
+        {
+          "age": 23,
+          "label": {
+            "ja": "ピエタ完成",
+            "en": "Pietà"
+          },
+          "text": {
+            "ja": "サン・ピエトロ大聖堂のピエタを制作",
+            "en": "Completes the Pietà for St. Peter's Basilica"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ピエタ_(ミケランジェロ)",
+            "en": "https://en.wikipedia.org/wiki/Pietà_(Michelangelo)"
+          }
+        },
+        {
+          "age": 29,
+          "label": {
+            "ja": "ダヴィデ像完成",
+            "en": "David"
+          },
+          "text": {
+            "ja": "フィレンツェでダヴィデ像を完成",
+            "en": "Completes the statue of David in Florence"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ダビデ像",
+            "en": "https://en.wikipedia.org/wiki/David_(Michelangelo)"
+          }
+        },
+        {
+          "age": 33,
+          "label": {
+            "ja": "システィーナ天井画着手",
+            "en": "Sistine Ceiling"
+          },
+          "text": {
+            "ja": "システィーナ礼拝堂天井画の制作を開始",
+            "en": "Begins painting the Sistine Chapel ceiling"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/システィーナ礼拝堂天井画",
+            "en": "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling"
+          }
+        },
+        {
+          "age": 37,
+          "label": {
+            "ja": "天井画完成",
+            "en": "Ceiling Done"
+          },
+          "text": {
+            "ja": "4年かけ天井画を完成",
+            "en": "Completes the Sistine Chapel ceiling after 4 years"
+          }
+        },
+        {
+          "age": 61,
+          "label": {
+            "ja": "最後の審判完成",
+            "en": "Last Judgment"
+          },
+          "text": {
+            "ja": "システィーナ礼拝堂の最後の審判を完成",
+            "en": "Completes The Last Judgment in the Sistine Chapel"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/最後の審判_(ミケランジェロ)",
+            "en": "https://en.wikipedia.org/wiki/The_Last_Judgment_(Michelangelo)"
+          }
+        },
+        {
+          "age": 72,
+          "label": {
+            "ja": "サン・ピエトロ建築主任",
+            "en": "St Peter's"
+          },
+          "text": {
+            "ja": "サン・ピエトロ大聖堂の主任建築家に就任",
+            "en": "Appointed architect of St. Peter's Basilica"
+          }
+        },
+        {
+          "age": 88,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "ローマで死去",
+            "en": "Dies in Rome"
+          }
+        }
+      ]
+    },
+    {
+      "id": "picasso",
+      "category": "art",
+      "name": {
+        "ja": "パブロ・ピカソ",
+        "en": "Pablo Picasso"
+      },
+      "start": 1881,
+      "end": 1973,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/パブロ・ピカソ",
+        "en": "https://en.wikipedia.org/wiki/Pablo_Picasso"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "スペイン・マラガに誕生",
+            "en": "Born in Málaga, Spain"
+          }
+        },
+        {
+          "age": 8,
+          "label": {
+            "ja": "最初の油絵",
+            "en": "First Painting"
+          },
+          "text": {
+            "ja": "8歳で最初の油絵を制作",
+            "en": "Paints his first oil painting at age 8"
+          }
+        },
+        {
+          "age": 16,
+          "label": {
+            "ja": "バルセロナ美術学校",
+            "en": "Art School"
+          },
+          "text": {
+            "ja": "王立美術アカデミーに入学",
+            "en": "Enters Royal Academy of Fine Arts in Barcelona"
+          }
+        },
+        {
+          "age": 20,
+          "label": {
+            "ja": "青の時代",
+            "en": "Blue Period"
+          },
+          "text": {
+            "ja": "友人の自殺を機に「青の時代」が始まる",
+            "en": "Blue Period begins after friend's suicide"
+          }
+        },
+        {
+          "age": 26,
+          "label": {
+            "ja": "キュビスム",
+            "en": "Cubism"
+          },
+          "text": {
+            "ja": "『アヴィニョンの娘たち』でキュビスムを開拓",
+            "en": "Pioneers Cubism with Les Demoiselles d'Avignon"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/キュビスム",
+            "en": "https://en.wikipedia.org/wiki/Cubism"
+          }
+        },
+        {
+          "age": 56,
+          "label": {
+            "ja": "ゲルニカ",
+            "en": "Guernica"
+          },
+          "text": {
+            "ja": "スペイン内戦を告発する『ゲルニカ』を制作",
+            "en": "Paints Guernica protesting Spanish Civil War"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ゲルニカ_(絵画)",
+            "en": "https://en.wikipedia.org/wiki/Guernica_(Picasso)"
+          }
+        },
+        {
+          "age": 63,
+          "label": {
+            "ja": "戦後パリ",
+            "en": "Post-War"
+          },
+          "text": {
+            "ja": "戦後パリでフランス共産党に入党",
+            "en": "Joins French Communist Party after WWII"
+          }
+        },
+        {
+          "age": 80,
+          "label": {
+            "ja": "ジャクリーヌと結婚",
+            "en": "Remarriage"
+          },
+          "text": {
+            "ja": "ジャクリーヌ・ロックと再婚",
+            "en": "Marries Jacqueline Roque"
+          }
+        },
+        {
+          "age": 91,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "南仏ムージャンで肺水腫により死去",
+            "en": "Dies of pulmonary edema in Mougins, France"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vangogh",
+      "category": "art",
+      "name": {
+        "ja": "ファン・ゴッホ",
+        "en": "Vincent van Gogh"
+      },
+      "start": 1853,
+      "end": 1890,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/フィンセント・ファン・ゴッホ",
+        "en": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "オランダ・ズンデルトに誕生",
+            "en": "Born in Zundert, Netherlands"
+          }
+        },
+        {
+          "age": 16,
+          "label": {
+            "ja": "画商見習い",
+            "en": "Art Dealer"
+          },
+          "text": {
+            "ja": "グーピル商会で画商見習いに",
+            "en": "Becomes apprentice at art dealer Goupil & Cie"
+          }
+        },
+        {
+          "age": 27,
+          "label": {
+            "ja": "画家を志す",
+            "en": "Becomes Artist"
+          },
+          "text": {
+            "ja": "伝道活動を経て画家を志す",
+            "en": "After missionary work, decides to become an artist"
+          }
+        },
+        {
+          "age": 33,
+          "label": {
+            "ja": "パリへ移住",
+            "en": "To Paris"
+          },
+          "text": {
+            "ja": "弟テオを頼りパリへ、印象派に触れる",
+            "en": "Moves to Paris, discovers Impressionism with brother Theo"
+          }
+        },
+        {
+          "age": 35,
+          "label": {
+            "ja": "アルル移住",
+            "en": "To Arles"
+          },
+          "text": {
+            "ja": "南仏アルルに移住、制作量が爆発的に増加",
+            "en": "Moves to Arles; enters most productive period"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/アルル",
+            "en": "https://en.wikipedia.org/wiki/Arles"
+          }
+        },
+        {
+          "age": 35,
+          "label": {
+            "ja": "ひまわり",
+            "en": "Sunflowers"
+          },
+          "text": {
+            "ja": "『ひまわり』連作を制作",
+            "en": "Paints the Sunflowers series"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ひまわり_(絵画)",
+            "en": "https://en.wikipedia.org/wiki/Sunflowers_(Van_Gogh_series)"
+          }
+        },
+        {
+          "age": 35,
+          "label": {
+            "ja": "耳切り事件",
+            "en": "Ear Incident"
+          },
+          "text": {
+            "ja": "ゴーギャンとの共同生活破綻、左耳を切断",
+            "en": "Cuts off part of his own ear after dispute with Gauguin"
+          }
+        },
+        {
+          "age": 36,
+          "label": {
+            "ja": "星月夜",
+            "en": "Starry Night"
+          },
+          "text": {
+            "ja": "サン＝レミの療養院で『星月夜』を制作",
+            "en": "Paints The Starry Night in Saint-Rémy asylum"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/星月夜",
+            "en": "https://en.wikipedia.org/wiki/The_Starry_Night"
+          }
+        },
+        {
+          "age": 37,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "オーヴェル＝シュル＝オワーズで拳銃自殺",
+            "en": "Dies from self-inflicted gunshot in Auvers-sur-Oise"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kahlo",
+      "category": "art",
+      "name": {
+        "ja": "フリーダ・カーロ",
+        "en": "Frida Kahlo"
+      },
+      "start": 1907,
+      "end": 1954,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/フリーダ・カーロ",
+        "en": "https://en.wikipedia.org/wiki/Frida_Kahlo"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "メキシコシティのコヨアカンに誕生",
+            "en": "Born in Coyoacán, Mexico City"
+          }
+        },
+        {
+          "age": 6,
+          "label": {
+            "ja": "ポリオ罹患",
+            "en": "Polio"
+          },
+          "text": {
+            "ja": "ポリオに罹患、右足に後遺症",
+            "en": "Contracts polio; right leg permanently affected"
+          }
+        },
+        {
+          "age": 15,
+          "label": {
+            "ja": "国立予備校入学",
+            "en": "Prep School"
+          },
+          "text": {
+            "ja": "国立予備校に入学、リベラと出会う",
+            "en": "Enters National Preparatory School; first meets Diego Rivera"
+          }
+        },
+        {
+          "age": 18,
+          "label": {
+            "ja": "バス事故",
+            "en": "Bus Accident"
+          },
+          "text": {
+            "ja": "バス事故で瀕死の重傷、寝たきりで絵を描き始める",
+            "en": "Severely injured in bus accident; begins painting during recovery"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/フリーダ・カーロ#バス事故",
+            "en": "https://en.wikipedia.org/wiki/Frida_Kahlo#Bus_accident"
+          }
+        },
+        {
+          "age": 22,
+          "label": {
+            "ja": "リベラと結婚",
+            "en": "Marriage"
+          },
+          "text": {
+            "ja": "21歳年上のディエゴ・リベラと結婚",
+            "en": "Marries muralist Diego Rivera, 21 years her senior"
+          }
+        },
+        {
+          "age": 31,
+          "label": {
+            "ja": "ルーブル展示",
+            "en": "Louvre"
+          },
+          "text": {
+            "ja": "メキシコ人初、ルーブル美術館に作品収蔵",
+            "en": "First Mexican artist to have a work acquired by the Louvre"
+          }
+        },
+        {
+          "age": 32,
+          "label": {
+            "ja": "二人のフリーダ",
+            "en": "Two Fridas"
+          },
+          "text": {
+            "ja": "リベラとの離婚後『二人のフリーダ』を制作",
+            "en": "Paints The Two Fridas after divorcing Rivera"
+          }
+        },
+        {
+          "age": 36,
+          "label": {
+            "ja": "再婚",
+            "en": "Remarriage"
+          },
+          "text": {
+            "ja": "リベラと再婚",
+            "en": "Remarries Diego Rivera"
+          }
+        },
+        {
+          "age": 46,
+          "label": {
+            "ja": "初の個展",
+            "en": "Solo Show"
+          },
+          "text": {
+            "ja": "メキシコでの初個展にベッドごと参加",
+            "en": "Attends first solo exhibition in Mexico from her bed"
+          }
+        },
+        {
+          "age": 47,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "肺塞栓症により死去（毒物中毒の説も）",
+            "en": "Dies of pulmonary embolism (some suspect overdose)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mozart",
+      "category": "art",
+      "name": {
+        "ja": "モーツァルト",
+        "en": "Wolfgang Amadeus Mozart"
+      },
+      "start": 1756,
+      "end": 1791,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ヴォルフガング・アマデウス・モーツァルト",
+        "en": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ザルツブルクに誕生",
+            "en": "Born in Salzburg, Austria"
+          }
+        },
+        {
+          "age": 3,
+          "label": {
+            "ja": "鍵盤楽器を始める",
+            "en": "Keyboard"
+          },
+          "text": {
+            "ja": "3歳で鍵盤楽器を弾き始める",
+            "en": "Begins playing keyboard at age 3"
+          }
+        },
+        {
+          "age": 5,
+          "label": {
+            "ja": "最初の作曲",
+            "en": "First Compositions"
+          },
+          "text": {
+            "ja": "5歳で最初のメヌエットを作曲",
+            "en": "Composes first minuets at age 5"
+          }
+        },
+        {
+          "age": 7,
+          "label": {
+            "ja": "ヨーロッパ巡業",
+            "en": "European Tour"
+          },
+          "text": {
+            "ja": "父と姉と共にヨーロッパ各地を巡業",
+            "en": "Tours Europe with father and sister"
+          }
+        },
+        {
+          "age": 14,
+          "label": {
+            "ja": "イタリア初演",
+            "en": "Italy Opera"
+          },
+          "text": {
+            "ja": "14歳でオペラ『ミトリダーテ』をミラノで初演",
+            "en": "Premieres opera Mitridate in Milan at 14"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "ウィーンへ移住",
+            "en": "To Vienna"
+          },
+          "text": {
+            "ja": "大司教と決別しウィーンに定住",
+            "en": "Breaks with Archbishop; settles in Vienna"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "フィガロの結婚",
+            "en": "Figaro"
+          },
+          "text": {
+            "ja": "オペラ『フィガロの結婚』初演",
+            "en": "Premieres The Marriage of Figaro"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/フィガロの結婚",
+            "en": "https://en.wikipedia.org/wiki/The_Marriage_of_Figaro"
+          }
+        },
+        {
+          "age": 31,
+          "label": {
+            "ja": "ドン・ジョヴァンニ",
+            "en": "Don Giovanni"
+          },
+          "text": {
+            "ja": "オペラ『ドン・ジョヴァンニ』初演",
+            "en": "Premieres Don Giovanni"
+          }
+        },
+        {
+          "age": 35,
+          "label": {
+            "ja": "レクイエム未完",
+            "en": "Requiem"
+          },
+          "text": {
+            "ja": "レクイエムの作曲中に体調が悪化",
+            "en": "Falls ill while composing the Requiem"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/レクイエム_(モーツァルト)",
+            "en": "https://en.wikipedia.org/wiki/Requiem_(Mozart)"
+          }
+        },
+        {
+          "age": 35,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "ウィーンで急死、無名墓地に埋葬",
+            "en": "Dies in Vienna; buried in an unmarked grave"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beethoven",
+      "category": "art",
+      "name": {
+        "ja": "ベートーヴェン",
+        "en": "Ludwig van Beethoven"
+      },
+      "start": 1770,
+      "end": 1827,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ルートヴィヒ・ヴァン・ベートーヴェン",
+        "en": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ボンに誕生",
+            "en": "Born in Bonn, Germany"
+          }
+        },
+        {
+          "age": 7,
+          "label": {
+            "ja": "初の公開演奏",
+            "en": "First Concert"
+          },
+          "text": {
+            "ja": "ケルンで最初の公開演奏",
+            "en": "First public performance in Cologne"
+          }
+        },
+        {
+          "age": 16,
+          "label": {
+            "ja": "モーツァルトに師事",
+            "en": "Meets Mozart"
+          },
+          "text": {
+            "ja": "ウィーンでモーツァルトに面会",
+            "en": "Travels to Vienna; meets Mozart"
+          }
+        },
+        {
+          "age": 22,
+          "label": {
+            "ja": "ウィーン移住",
+            "en": "To Vienna"
+          },
+          "text": {
+            "ja": "ウィーンに移住、ハイドンに師事",
+            "en": "Moves to Vienna; studies under Haydn"
+          }
+        },
+        {
+          "age": 28,
+          "label": {
+            "ja": "難聴の始まり",
+            "en": "Hearing Loss"
+          },
+          "text": {
+            "ja": "聴力の衰えを自覚し始める",
+            "en": "Begins to notice hearing loss"
+          }
+        },
+        {
+          "age": 32,
+          "label": {
+            "ja": "ハイリゲンシュタットの遺書",
+            "en": "Heiligenstadt"
+          },
+          "text": {
+            "ja": "難聴への絶望から遺書を書く",
+            "en": "Writes Heiligenstadt Testament in despair over deafness"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ハイリゲンシュタットの遺書",
+            "en": "https://en.wikipedia.org/wiki/Heiligenstadt_Testament"
+          }
+        },
+        {
+          "age": 34,
+          "label": {
+            "ja": "英雄交響曲",
+            "en": "Eroica"
+          },
+          "text": {
+            "ja": "交響曲第3番『英雄』を完成",
+            "en": "Completes Symphony No. 3 'Eroica'"
+          }
+        },
+        {
+          "age": 38,
+          "label": {
+            "ja": "運命・田園初演",
+            "en": "5th & 6th"
+          },
+          "text": {
+            "ja": "交響曲第5番『運命』と第6番『田園』を初演",
+            "en": "Premieres 5th and 6th Symphonies"
+          }
+        },
+        {
+          "age": 54,
+          "label": {
+            "ja": "第九初演",
+            "en": "9th Symphony"
+          },
+          "text": {
+            "ja": "交響曲第9番『合唱』を初演",
+            "en": "Premieres Symphony No. 9 'Choral'"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/交響曲第9番_(ベートーヴェン)",
+            "en": "https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)"
+          }
+        },
+        {
+          "age": 56,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "ウィーンで死去、2万人が葬儀に参列",
+            "en": "Dies in Vienna; 20,000 attend his funeral"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shakespeare",
+      "category": "writer",
+      "name": {
+        "ja": "シェイクスピア",
+        "en": "William Shakespeare"
+      },
+      "start": 1564,
+      "end": 1616,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ウィリアム・シェイクスピア",
+        "en": "https://en.wikipedia.org/wiki/William_Shakespeare"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ストラトフォード＝アポン＝エイヴォンに誕生",
+            "en": "Born in Stratford-upon-Avon"
+          }
+        },
+        {
+          "age": 18,
+          "label": {
+            "ja": "アン・ハサウェイと結婚",
+            "en": "Marriage"
+          },
+          "text": {
+            "ja": "8歳年上のアン・ハサウェイと結婚",
+            "en": "Marries Anne Hathaway, 8 years his senior"
+          }
+        },
+        {
+          "age": 26,
+          "label": {
+            "ja": "ロンドンで活動開始",
+            "en": "London"
+          },
+          "text": {
+            "ja": "ロンドンで劇作家・俳優として活動開始",
+            "en": "Established as actor and playwright in London"
+          }
+        },
+        {
+          "age": 29,
+          "label": {
+            "ja": "ロミオとジュリエット",
+            "en": "Romeo & Juliet"
+          },
+          "text": {
+            "ja": "『ロミオとジュリエット』を執筆",
+            "en": "Writes Romeo and Juliet"
+          }
+        },
+        {
+          "age": 35,
+          "label": {
+            "ja": "グローブ座建設",
+            "en": "Globe Theatre"
+          },
+          "text": {
+            "ja": "グローブ座の設立に参画",
+            "en": "Co-founds the Globe Theatre"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/グローブ座",
+            "en": "https://en.wikipedia.org/wiki/Globe_Theatre"
+          }
+        },
+        {
+          "age": 36,
+          "label": {
+            "ja": "ハムレット",
+            "en": "Hamlet"
+          },
+          "text": {
+            "ja": "『ハムレット』初演",
+            "en": "Premieres Hamlet"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ハムレット",
+            "en": "https://en.wikipedia.org/wiki/Hamlet"
+          }
+        },
+        {
+          "age": 39,
+          "label": {
+            "ja": "オセロ/リア王",
+            "en": "Othello/Lear"
+          },
+          "text": {
+            "ja": "『オセロ』『リア王』を次々に発表",
+            "en": "Produces Othello and King Lear"
+          }
+        },
+        {
+          "age": 47,
+          "label": {
+            "ja": "引退",
+            "en": "Retirement"
+          },
+          "text": {
+            "ja": "ストラトフォードに引退",
+            "en": "Retires to Stratford-upon-Avon"
+          }
+        },
+        {
+          "age": 52,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "ストラトフォードで死去",
+            "en": "Dies in Stratford-upon-Avon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "soseki",
+      "category": "writer",
+      "name": {
+        "ja": "夏目漱石",
+        "en": "Natsume Soseki"
+      },
+      "start": 1867,
+      "end": 1916,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/夏目漱石",
+        "en": "https://en.wikipedia.org/wiki/Natsume_Soseki"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "江戸牛込に誕生",
+            "en": "Born in Ushigome, Edo (Tokyo)"
+          }
+        },
+        {
+          "age": 1,
+          "label": {
+            "ja": "養子に出される",
+            "en": "Adopted"
+          },
+          "text": {
+            "ja": "塩原家の養子に出される",
+            "en": "Given to a foster family as an infant"
+          }
+        },
+        {
+          "age": 23,
+          "label": {
+            "ja": "正岡子規と親交",
+            "en": "Meets Shiki"
+          },
+          "text": {
+            "ja": "東京帝大で正岡子規と親交を深める",
+            "en": "Befriends poet Masaoka Shiki at Tokyo Imperial University"
+          }
+        },
+        {
+          "age": 33,
+          "label": {
+            "ja": "英国留学",
+            "en": "To London"
+          },
+          "text": {
+            "ja": "文部省留学生としてロンドンに留学",
+            "en": "Sent to London as government scholar"
+          }
+        },
+        {
+          "age": 36,
+          "label": {
+            "ja": "帰国・神経衰弱",
+            "en": "Returns"
+          },
+          "text": {
+            "ja": "帰国するも神経衰弱に苦しむ",
+            "en": "Returns from London; suffers nervous breakdown"
+          }
+        },
+        {
+          "age": 38,
+          "label": {
+            "ja": "吾輩は猫である",
+            "en": "I Am a Cat"
+          },
+          "text": {
+            "ja": "処女作『吾輩は猫である』を発表",
+            "en": "Publishes debut novel I Am a Cat"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/吾輩は猫である",
+            "en": "https://en.wikipedia.org/wiki/I_Am_a_Cat"
+          }
+        },
+        {
+          "age": 39,
+          "label": {
+            "ja": "坊っちゃん",
+            "en": "Botchan"
+          },
+          "text": {
+            "ja": "『坊っちゃん』を発表",
+            "en": "Publishes Botchan"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/坊っちゃん",
+            "en": "https://en.wikipedia.org/wiki/Botchan"
+          }
+        },
+        {
+          "age": 40,
+          "label": {
+            "ja": "朝日新聞入社",
+            "en": "Asahi"
+          },
+          "text": {
+            "ja": "教職を辞し朝日新聞に入社、専業作家に",
+            "en": "Leaves teaching to write full-time for Asahi Shimbun"
+          }
+        },
+        {
+          "age": 43,
+          "label": {
+            "ja": "修善寺の大患",
+            "en": "Critical Illness"
+          },
+          "text": {
+            "ja": "修善寺で大量吐血、一時危篤に",
+            "en": "Suffers life-threatening gastric hemorrhage in Shuzenji"
+          }
+        },
+        {
+          "age": 49,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "胃潰瘍により死去、「則天去私」の言葉を残す",
+            "en": "Dies of stomach ulcer; leaves phrase 'Follow heaven, forsake the self'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nobunaga",
+      "category": "politics",
+      "name": {
+        "ja": "織田信長",
+        "en": "Oda Nobunaga"
+      },
+      "start": 1534,
+      "end": 1582,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/織田信長",
+        "en": "https://en.wikipedia.org/wiki/Oda_Nobunaga"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "尾張国那古野城に誕生",
+            "en": "Born in Nagoya Castle, Owari Province"
+          }
+        },
+        {
+          "age": 2,
+          "label": {
+            "ja": "うつけと呼ばれる",
+            "en": "Fool"
+          },
+          "text": {
+            "ja": "奇行から「尾張の大うつけ」と呼ばれる",
+            "en": "Known as 'the Fool of Owari' for his eccentric behavior"
+          }
+        },
+        {
+          "age": 15,
+          "label": {
+            "ja": "濃姫と結婚",
+            "en": "Marriage"
+          },
+          "text": {
+            "ja": "美濃の斎藤道三の娘・濃姫と政略結婚",
+            "en": "Political marriage to Nōhime, daughter of Saitō Dōsan"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "家督相続",
+            "en": "Succession"
+          },
+          "text": {
+            "ja": "父信秀の死去により家督を相続",
+            "en": "Inherits leadership of Oda clan after father's death"
+          }
+        },
+        {
+          "age": 26,
+          "label": {
+            "ja": "桶狭間の戦い",
+            "en": "Okehazama"
+          },
+          "text": {
+            "ja": "今川義元の大軍を奇襲で破る",
+            "en": "Defeats Imagawa Yoshimoto's army in a surprise attack"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/桶狭間の戦い",
+            "en": "https://en.wikipedia.org/wiki/Battle_of_Okehazama"
+          }
+        },
+        {
+          "age": 33,
+          "label": {
+            "ja": "天下布武",
+            "en": "Tenka Fubu"
+          },
+          "text": {
+            "ja": "「天下布武」を掲げ上洛を果たす",
+            "en": "Adopts 'Rule the Empire by Force' motto; enters Kyoto"
+          }
+        },
+        {
+          "age": 37,
+          "label": {
+            "ja": "比叡山焼き討ち",
+            "en": "Mt. Hiei"
+          },
+          "text": {
+            "ja": "比叡山延暦寺を焼き討ち",
+            "en": "Burns Enryaku-ji temple on Mount Hiei"
+          }
+        },
+        {
+          "age": 41,
+          "label": {
+            "ja": "長篠の戦い",
+            "en": "Nagashino"
+          },
+          "text": {
+            "ja": "鉄砲の三段撃ちで武田騎馬隊を破る",
+            "en": "Defeats Takeda cavalry with massed firearms at Nagashino"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/長篠の戦い",
+            "en": "https://en.wikipedia.org/wiki/Battle_of_Nagashino"
+          }
+        },
+        {
+          "age": 42,
+          "label": {
+            "ja": "安土城築城",
+            "en": "Azuchi Castle"
+          },
+          "text": {
+            "ja": "琵琶湖畔に壮大な安土城を築城",
+            "en": "Builds magnificent Azuchi Castle on Lake Biwa"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/安土城",
+            "en": "https://en.wikipedia.org/wiki/Azuchi_Castle"
+          }
+        },
+        {
+          "age": 48,
+          "label": {
+            "ja": "本能寺の変",
+            "en": "Honnō-ji"
+          },
+          "text": {
+            "ja": "明智光秀の謀反により本能寺で自害",
+            "en": "Betrayed by Akechi Mitsuhide; dies at Honnō-ji"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/本能寺の変",
+            "en": "https://en.wikipedia.org/wiki/Honnō-ji_Incident"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ryoma",
+      "category": "politics",
+      "name": {
+        "ja": "坂本龍馬",
+        "en": "Sakamoto Ryoma"
+      },
+      "start": 1836,
+      "end": 1867,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/坂本龍馬",
+        "en": "https://en.wikipedia.org/wiki/Sakamoto_Ryōma"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "土佐藩の郷士の家に誕生",
+            "en": "Born to a low-ranking samurai family in Tosa"
+          }
+        },
+        {
+          "age": 14,
+          "label": {
+            "ja": "剣術修行",
+            "en": "Swordsmanship"
+          },
+          "text": {
+            "ja": "日根野道場で剣術修行を始める",
+            "en": "Begins swordsmanship training at Hineno dojo"
+          }
+        },
+        {
+          "age": 18,
+          "label": {
+            "ja": "江戸遊学",
+            "en": "To Edo"
+          },
+          "text": {
+            "ja": "江戸に出て北辰一刀流を学ぶ",
+            "en": "Travels to Edo; studies Hokushin Ittō-ryū swordsmanship"
+          }
+        },
+        {
+          "age": 22,
+          "label": {
+            "ja": "ペリー来航衝撃",
+            "en": "Perry Shock"
+          },
+          "text": {
+            "ja": "黒船来航に衝撃を受け志士活動を開始",
+            "en": "Shocked by Perry's Black Ships; begins political activism"
+          }
+        },
+        {
+          "age": 26,
+          "label": {
+            "ja": "脱藩",
+            "en": "Leaves Tosa"
+          },
+          "text": {
+            "ja": "土佐藩を脱藩し浪士となる",
+            "en": "Leaves Tosa domain to become a masterless samurai (rōnin)"
+          }
+        },
+        {
+          "age": 28,
+          "label": {
+            "ja": "勝海舟に師事",
+            "en": "Katsu Kaishū"
+          },
+          "text": {
+            "ja": "幕臣・勝海舟に師事し海軍を学ぶ",
+            "en": "Studies naval science under Katsu Kaishū"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/勝海舟",
+            "en": "https://en.wikipedia.org/wiki/Katsu_Kaishū"
+          }
+        },
+        {
+          "age": 29,
+          "label": {
+            "ja": "亀山社中設立",
+            "en": "Kameyama"
+          },
+          "text": {
+            "ja": "日本初の商社「亀山社中」を設立",
+            "en": "Founds Kameyama Shachū, Japan's first trading company"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "薩長同盟",
+            "en": "Satsuma-Chōshū"
+          },
+          "text": {
+            "ja": "薩摩藩と長州藩の同盟を仲介",
+            "en": "Brokers the Satsuma-Chōshū Alliance"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/薩長同盟",
+            "en": "https://en.wikipedia.org/wiki/Satchō_Alliance"
+          }
+        },
+        {
+          "age": 31,
+          "label": {
+            "ja": "船中八策",
+            "en": "Eight Proposals"
+          },
+          "text": {
+            "ja": "新国家体制の基本方針「船中八策」を起草",
+            "en": "Drafts Eight Proposals for new government aboard ship"
+          }
+        },
+        {
+          "age": 31,
+          "label": {
+            "ja": "近江屋事件",
+            "en": "Assassination"
+          },
+          "text": {
+            "ja": "京都の近江屋で暗殺される",
+            "en": "Assassinated at Ōmiya inn in Kyoto"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/近江屋事件",
+            "en": "https://en.wikipedia.org/wiki/Ōmiya_incident"
+          }
+        }
+      ]
+    },
+    {
+      "id": "napoleon",
+      "category": "politics",
+      "name": {
+        "ja": "ナポレオン",
+        "en": "Napoleon Bonaparte"
+      },
+      "start": 1769,
+      "end": 1821,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ナポレオン・ボナパルト",
+        "en": "https://en.wikipedia.org/wiki/Napoleon"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "コルシカ島アジャクシオに誕生",
+            "en": "Born in Ajaccio, Corsica"
+          }
+        },
+        {
+          "age": 9,
+          "label": {
+            "ja": "本土留学",
+            "en": "To France"
+          },
+          "text": {
+            "ja": "フランス本土の陸軍幼年学校に入学",
+            "en": "Enters military school in mainland France"
+          }
+        },
+        {
+          "age": 16,
+          "label": {
+            "ja": "砲兵少尉",
+            "en": "Lieutenant"
+          },
+          "text": {
+            "ja": "パリ陸軍士官学校を卒業、砲兵少尉に",
+            "en": "Graduates from military academy; commissioned as artillery officer"
+          }
+        },
+        {
+          "age": 24,
+          "label": {
+            "ja": "トゥーロン攻囲戦",
+            "en": "Toulon"
+          },
+          "text": {
+            "ja": "トゥーロン攻囲戦で頭角を現す",
+            "en": "Distinguishes himself at the Siege of Toulon"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "エジプト遠征",
+            "en": "Egypt"
+          },
+          "text": {
+            "ja": "エジプト遠征を指揮、ロゼッタ・ストーン発見",
+            "en": "Commands Egyptian campaign; Rosetta Stone discovered"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/エジプト・シリア戦役",
+            "en": "https://en.wikipedia.org/wiki/French_campaign_in_Egypt_and_Syria"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "第一統領",
+            "en": "First Consul"
+          },
+          "text": {
+            "ja": "クーデターで権力掌握、第一統領に就任",
+            "en": "Seizes power in coup d'état; becomes First Consul"
+          }
+        },
+        {
+          "age": 35,
+          "label": {
+            "ja": "皇帝即位",
+            "en": "Emperor"
+          },
+          "text": {
+            "ja": "ノートルダム大聖堂で皇帝に即位",
+            "en": "Crowned Emperor at Notre-Dame Cathedral"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ナポレオンの戴冠式",
+            "en": "https://en.wikipedia.org/wiki/Coronation_of_Napoleon_I"
+          }
+        },
+        {
+          "age": 36,
+          "label": {
+            "ja": "アウステルリッツ",
+            "en": "Austerlitz"
+          },
+          "text": {
+            "ja": "三帝会戦に圧勝",
+            "en": "Wins the Battle of Austerlitz (Battle of Three Emperors)"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/アウステルリッツの戦い",
+            "en": "https://en.wikipedia.org/wiki/Battle_of_Austerlitz"
+          }
+        },
+        {
+          "age": 43,
+          "label": {
+            "ja": "ロシア遠征失敗",
+            "en": "Russia"
+          },
+          "text": {
+            "ja": "モスクワ遠征で壊滅的敗北",
+            "en": "Disastrous retreat from Moscow during Russian campaign"
+          }
+        },
+        {
+          "age": 46,
+          "label": {
+            "ja": "ワーテルロー",
+            "en": "Waterloo"
+          },
+          "text": {
+            "ja": "ワーテルローの戦いで最終的敗北",
+            "en": "Final defeat at the Battle of Waterloo"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ワーテルローの戦い",
+            "en": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
+          }
+        },
+        {
+          "age": 51,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "セントヘレナ島で流刑中に死去",
+            "en": "Dies in exile on Saint Helena"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gandhi",
+      "category": "politics",
+      "name": {
+        "ja": "マハトマ・ガンディー",
+        "en": "Mahatma Gandhi"
+      },
+      "start": 1869,
+      "end": 1948,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/マハトマ・ガンディー",
+        "en": "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "インド・ポルバンダルに誕生",
+            "en": "Born in Porbandar, India"
+          }
+        },
+        {
+          "age": 13,
+          "label": {
+            "ja": "幼なじみと結婚",
+            "en": "Marriage"
+          },
+          "text": {
+            "ja": "13歳でカストゥルバと幼児婚",
+            "en": "Marries Kasturba in an arranged child marriage"
+          }
+        },
+        {
+          "age": 18,
+          "label": {
+            "ja": "イギリス留学",
+            "en": "To London"
+          },
+          "text": {
+            "ja": "法律を学ぶためロンドンに留学",
+            "en": "Travels to London to study law"
+          }
+        },
+        {
+          "age": 24,
+          "label": {
+            "ja": "南アフリカへ",
+            "en": "South Africa"
+          },
+          "text": {
+            "ja": "弁護士として南アフリカに渡る",
+            "en": "Moves to South Africa as a lawyer"
+          }
+        },
+        {
+          "age": 24,
+          "label": {
+            "ja": "列車差別事件",
+            "en": "Train Incident"
+          },
+          "text": {
+            "ja": "白人専用車両から追い出される人種差別を体験",
+            "en": "Thrown off first-class train for being Indian; awakens to racism"
+          }
+        },
+        {
+          "age": 37,
+          "label": {
+            "ja": "サティヤーグラハ",
+            "en": "Satyagraha"
+          },
+          "text": {
+            "ja": "非暴力不服従運動「サティヤーグラハ」を開始",
+            "en": "Begins Satyagraha (nonviolent resistance) movement"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/サティヤーグラハ",
+            "en": "https://en.wikipedia.org/wiki/Satyagraha"
+          }
+        },
+        {
+          "age": 46,
+          "label": {
+            "ja": "インド帰国",
+            "en": "Returns"
+          },
+          "text": {
+            "ja": "インドに帰国し独立運動を主導",
+            "en": "Returns to India; leads independence movement"
+          }
+        },
+        {
+          "age": 61,
+          "label": {
+            "ja": "塩の行進",
+            "en": "Salt March"
+          },
+          "text": {
+            "ja": "388kmの塩の行進で英国塩税に抵抗",
+            "en": "Leads 388km Salt March protesting British salt tax"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/塩の行進",
+            "en": "https://en.wikipedia.org/wiki/Salt_March"
+          }
+        },
+        {
+          "age": 78,
+          "label": {
+            "ja": "インド独立",
+            "en": "Independence"
+          },
+          "text": {
+            "ja": "インド独立を見届ける（1947年8月）",
+            "en": "Witnesses Indian independence (August 1947)"
+          }
+        },
+        {
+          "age": 78,
+          "label": {
+            "ja": "暗殺",
+            "en": "Assassination"
+          },
+          "text": {
+            "ja": "ヒンドゥー至上主義者により暗殺",
+            "en": "Assassinated by Hindu nationalist Nathuram Godse"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/マハトマ・ガンディー暗殺事件",
+            "en": "https://en.wikipedia.org/wiki/Assassination_of_Mahatma_Gandhi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lincoln",
+      "category": "politics",
+      "name": {
+        "ja": "エイブラハム・リンカーン",
+        "en": "Abraham Lincoln"
+      },
+      "start": 1809,
+      "end": 1865,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/エイブラハム・リンカーン",
+        "en": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ケンタッキー州の丸太小屋で誕生",
+            "en": "Born in a log cabin in Kentucky"
+          }
+        },
+        {
+          "age": 9,
+          "label": {
+            "ja": "母の死",
+            "en": "Mother's Death"
+          },
+          "text": {
+            "ja": "9歳で母を亡くす",
+            "en": "Mother dies when he is 9"
+          }
+        },
+        {
+          "age": 22,
+          "label": {
+            "ja": "イリノイ州議会",
+            "en": "Illinois"
+          },
+          "text": {
+            "ja": "イリノイ州議会議員に当選",
+            "en": "Elected to Illinois state legislature"
+          }
+        },
+        {
+          "age": 33,
+          "label": {
+            "ja": "弁護士活動",
+            "en": "Lawyer"
+          },
+          "text": {
+            "ja": "スプリングフィールドで弁護士として活躍",
+            "en": "Becomes successful lawyer in Springfield"
+          }
+        },
+        {
+          "age": 42,
+          "label": {
+            "ja": "連邦下院議員",
+            "en": "Congress"
+          },
+          "text": {
+            "ja": "連邦下院議員に当選",
+            "en": "Elected to US House of Representatives"
+          }
+        },
+        {
+          "age": 49,
+          "label": {
+            "ja": "リンカーン＝ダグラス論争",
+            "en": "Lincoln-Douglas"
+          },
+          "text": {
+            "ja": "ダグラスとの奴隷制論争で全国的に知名度上昇",
+            "en": "Lincoln-Douglas debates raise his national profile"
+          }
+        },
+        {
+          "age": 51,
+          "label": {
+            "ja": "大統領就任",
+            "en": "President"
+          },
+          "text": {
+            "ja": "第16代合衆国大統領に就任",
+            "en": "Inaugurated as 16th President of the United States"
+          }
+        },
+        {
+          "age": 52,
+          "label": {
+            "ja": "南北戦争開始",
+            "en": "Civil War"
+          },
+          "text": {
+            "ja": "南北戦争が勃発",
+            "en": "American Civil War begins"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/南北戦争",
+            "en": "https://en.wikipedia.org/wiki/American_Civil_War"
+          }
+        },
+        {
+          "age": 53,
+          "label": {
+            "ja": "奴隷解放宣言",
+            "en": "Emancipation"
+          },
+          "text": {
+            "ja": "奴隷解放宣言を発布",
+            "en": "Issues the Emancipation Proclamation"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/奴隷解放宣言",
+            "en": "https://en.wikipedia.org/wiki/Emancipation_Proclamation"
+          }
+        },
+        {
+          "age": 56,
+          "label": {
+            "ja": "暗殺",
+            "en": "Assassination"
+          },
+          "text": {
+            "ja": "フォード劇場で暗殺される",
+            "en": "Assassinated at Ford's Theatre"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/リンカーン大統領暗殺事件",
+            "en": "https://en.wikipedia.org/wiki/Assassination_of_Abraham_Lincoln"
+          }
+        }
+      ]
+    },
+    {
+      "id": "churchill",
+      "category": "politics",
+      "name": {
+        "ja": "ウィンストン・チャーチル",
+        "en": "Winston Churchill"
+      },
+      "start": 1874,
+      "end": 1965,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ウィンストン・チャーチル",
+        "en": "https://en.wikipedia.org/wiki/Winston_Churchill"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ブレナム宮殿に誕生",
+            "en": "Born at Blenheim Palace"
+          }
+        },
+        {
+          "age": 21,
+          "label": {
+            "ja": "陸軍入隊",
+            "en": "Army"
+          },
+          "text": {
+            "ja": "サンドハースト陸軍士官学校卒業、入隊",
+            "en": "Graduates Sandhurst; joins the army"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "ボーア戦争脱走",
+            "en": "Boer War"
+          },
+          "text": {
+            "ja": "ボーア戦争で捕虜になるも脱走し英雄に",
+            "en": "Captured and escapes during Boer War; becomes a hero"
+          }
+        },
+        {
+          "age": 26,
+          "label": {
+            "ja": "国会議員初当選",
+            "en": "MP"
+          },
+          "text": {
+            "ja": "保守党から国会議員に初当選",
+            "en": "Elected to Parliament as a Conservative"
+          }
+        },
+        {
+          "age": 37,
+          "label": {
+            "ja": "海軍大臣",
+            "en": "First Lord"
+          },
+          "text": {
+            "ja": "海軍大臣に就任",
+            "en": "Appointed First Lord of the Admiralty"
+          }
+        },
+        {
+          "age": 40,
+          "label": {
+            "ja": "ガリポリの失敗",
+            "en": "Gallipoli"
+          },
+          "text": {
+            "ja": "ガリポリ作戦の失敗で辞任",
+            "en": "Resigns after Gallipoli Campaign failure"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ガリポリの戦い",
+            "en": "https://en.wikipedia.org/wiki/Gallipoli_campaign"
+          }
+        },
+        {
+          "age": 65,
+          "label": {
+            "ja": "首相就任",
+            "en": "Prime Minister"
+          },
+          "text": {
+            "ja": "第二次大戦勃発時に首相に就任",
+            "en": "Becomes Prime Minister at start of WWII"
+          }
+        },
+        {
+          "age": 66,
+          "label": {
+            "ja": "血と汗と涙演説",
+            "en": "Blood Speech"
+          },
+          "text": {
+            "ja": "「血と労苦と涙と汗しか提供できない」と演説",
+            "en": "Delivers famous 'blood, toil, tears and sweat' speech"
+          }
+        },
+        {
+          "age": 79,
+          "label": {
+            "ja": "ノーベル文学賞",
+            "en": "Nobel Literature"
+          },
+          "text": {
+            "ja": "第二次大戦回顧録でノーベル文学賞受賞",
+            "en": "Awarded Nobel Prize in Literature for war memoirs"
+          }
+        },
+        {
+          "age": 90,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "脳卒中により死去、国葬が行われる",
+            "en": "Dies of stroke; given a state funeral"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mlk",
+      "category": "politics",
+      "name": {
+        "ja": "マーティン・L・キング",
+        "en": "Martin Luther King Jr."
+      },
+      "start": 1929,
+      "end": 1968,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/マーティン・ルーサー・キング・ジュニア",
+        "en": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr."
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ジョージア州アトランタに誕生",
+            "en": "Born in Atlanta, Georgia"
+          }
+        },
+        {
+          "age": 15,
+          "label": {
+            "ja": "モアハウス大学入学",
+            "en": "Morehouse"
+          },
+          "text": {
+            "ja": "飛び級で15歳でモアハウス大学に入学",
+            "en": "Enters Morehouse College at age 15"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "モンゴメリー牧師",
+            "en": "Pastor"
+          },
+          "text": {
+            "ja": "モンゴメリーのデクスター通りバプテスト教会牧師に",
+            "en": "Becomes pastor at Dexter Avenue Baptist Church"
+          }
+        },
+        {
+          "age": 26,
+          "label": {
+            "ja": "バスボイコット",
+            "en": "Bus Boycott"
+          },
+          "text": {
+            "ja": "ローザ・パークス事件後バスボイコットを主導",
+            "en": "Leads Montgomery Bus Boycott after Rosa Parks' arrest"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/モンゴメリー・バス・ボイコット事件",
+            "en": "https://en.wikipedia.org/wiki/Montgomery_bus_boycott"
+          }
+        },
+        {
+          "age": 28,
+          "label": {
+            "ja": "SCLC設立",
+            "en": "SCLC"
+          },
+          "text": {
+            "ja": "南部キリスト教指導者会議を設立",
+            "en": "Founds Southern Christian Leadership Conference"
+          }
+        },
+        {
+          "age": 34,
+          "label": {
+            "ja": "ワシントン大行進",
+            "en": "March on DC"
+          },
+          "text": {
+            "ja": "「I Have a Dream」演説",
+            "en": "Delivers 'I Have a Dream' speech at March on Washington"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ワシントン大行進",
+            "en": "https://en.wikipedia.org/wiki/March_on_Washington"
+          }
+        },
+        {
+          "age": 35,
+          "label": {
+            "ja": "ノーベル平和賞",
+            "en": "Nobel Peace"
+          },
+          "text": {
+            "ja": "35歳で当時最年少のノーベル平和賞受賞",
+            "en": "Receives Nobel Peace Prize, youngest at the time"
+          }
+        },
+        {
+          "age": 36,
+          "label": {
+            "ja": "セルマ行進",
+            "en": "Selma"
+          },
+          "text": {
+            "ja": "投票権を求めセルマからモンゴメリーへ行進",
+            "en": "Leads Selma to Montgomery marches for voting rights"
+          }
+        },
+        {
+          "age": 39,
+          "label": {
+            "ja": "暗殺",
+            "en": "Assassination"
+          },
+          "text": {
+            "ja": "メンフィスのモーテルで暗殺される",
+            "en": "Assassinated at Lorraine Motel in Memphis"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/マーティン・ルーサー・キング・ジュニアの暗殺",
+            "en": "https://en.wikipedia.org/wiki/Assassination_of_Martin_Luther_King_Jr."
+          }
+        }
+      ]
+    },
+    {
+      "id": "caesar",
+      "category": "politics",
+      "name": {
+        "ja": "ユリウス・カエサル",
+        "en": "Julius Caesar"
+      },
+      "start": -100,
+      "end": -44,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ガイウス・ユリウス・カエサル",
+        "en": "https://en.wikipedia.org/wiki/Julius_Caesar"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ローマの名門パトリキ家に誕生",
+            "en": "Born to a patrician family in Rome"
+          }
+        },
+        {
+          "age": 16,
+          "label": {
+            "ja": "家長に",
+            "en": "Head of Family"
+          },
+          "text": {
+            "ja": "父の死去により一族の家長に",
+            "en": "Becomes head of family after father's death"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "海賊に捕まる",
+            "en": "Captured"
+          },
+          "text": {
+            "ja": "海賊に捕らえられるも身代金で解放後、報復",
+            "en": "Captured by pirates; after ransom, returns to crucify them"
+          }
+        },
+        {
+          "age": 37,
+          "label": {
+            "ja": "ポンティフェクス・マクシムス",
+            "en": "Pontifex"
+          },
+          "text": {
+            "ja": "ローマ最高神官に選出",
+            "en": "Elected Pontifex Maximus"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ポンティフェクス・マクシムス",
+            "en": "https://en.wikipedia.org/wiki/Pontifex_maximus"
+          }
+        },
+        {
+          "age": 40,
+          "label": {
+            "ja": "第一回三頭政治",
+            "en": "Triumvirate"
+          },
+          "text": {
+            "ja": "ポンペイウス・クラッススと三頭政治を形成",
+            "en": "Forms First Triumvirate with Pompey and Crassus"
+          }
+        },
+        {
+          "age": 42,
+          "label": {
+            "ja": "ガリア戦争開始",
+            "en": "Gallic Wars"
+          },
+          "text": {
+            "ja": "ガリア（現フランス）征服戦争を開始",
+            "en": "Begins conquest of Gaul"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ガリア戦争",
+            "en": "https://en.wikipedia.org/wiki/Gallic_Wars"
+          }
+        },
+        {
+          "age": 49,
+          "label": {
+            "ja": "ブリタニア侵攻",
+            "en": "Britain"
+          },
+          "text": {
+            "ja": "ブリテン島に二度侵攻",
+            "en": "Invades Britain twice"
+          }
+        },
+        {
+          "age": 51,
+          "label": {
+            "ja": "ルビコン川渡河",
+            "en": "Rubicon"
+          },
+          "text": {
+            "ja": "「賽は投げられた」とルビコン川を渡る",
+            "en": "'The die is cast' — crosses the Rubicon, starting civil war"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ルビコン川",
+            "en": "https://en.wikipedia.org/wiki/Crossing_the_Rubicon"
+          }
+        },
+        {
+          "age": 54,
+          "label": {
+            "ja": "終身独裁官",
+            "en": "Dictator"
+          },
+          "text": {
+            "ja": "終身独裁官に就任",
+            "en": "Appointed dictator perpetuo (dictator for life)"
+          }
+        },
+        {
+          "age": 55,
+          "label": {
+            "ja": "暗殺",
+            "en": "Assassination"
+          },
+          "text": {
+            "ja": "元老院でブルートゥスらに暗殺される",
+            "en": "Assassinated in the Senate by Brutus and others"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/カエサル暗殺",
+            "en": "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cleopatra",
+      "category": "politics",
+      "name": {
+        "ja": "クレオパトラ",
+        "en": "Cleopatra VII"
+      },
+      "start": -69,
+      "end": -30,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/クレオパトラ7世",
+        "en": "https://en.wikipedia.org/wiki/Cleopatra"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "アレクサンドリアに誕生",
+            "en": "Born in Alexandria, Egypt"
+          }
+        },
+        {
+          "age": 18,
+          "label": {
+            "ja": "女王即位",
+            "en": "Queen"
+          },
+          "text": {
+            "ja": "父の死後、弟と共同統治者として即位",
+            "en": "Becomes co-ruler of Egypt with her brother"
+          }
+        },
+        {
+          "age": 21,
+          "label": {
+            "ja": "カエサルと出会う",
+            "en": "Meets Caesar"
+          },
+          "text": {
+            "ja": "カーペットに巻かれカエサルの前に現れる",
+            "en": "Reportedly smuggled to Caesar rolled in a carpet"
+          }
+        },
+        {
+          "age": 23,
+          "label": {
+            "ja": "カエサリオン誕生",
+            "en": "Caesarion"
+          },
+          "text": {
+            "ja": "カエサルとの子カエサリオンを出産",
+            "en": "Gives birth to Caesarion, son of Julius Caesar"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "カエサル暗殺",
+            "en": "Caesar Dies"
+          },
+          "text": {
+            "ja": "カエサル暗殺後エジプトに帰国",
+            "en": "Returns to Egypt after Caesar's assassination"
+          }
+        },
+        {
+          "age": 28,
+          "label": {
+            "ja": "アントニウスと同盟",
+            "en": "Antony"
+          },
+          "text": {
+            "ja": "マルクス・アントニウスと同盟・恋愛関係に",
+            "en": "Allies with and becomes lover of Mark Antony"
+          }
+        },
+        {
+          "age": 37,
+          "label": {
+            "ja": "アクティウムの海戦",
+            "en": "Actium"
+          },
+          "text": {
+            "ja": "オクタウィアヌスにアクティウムの海戦で敗北",
+            "en": "Defeated by Octavian at the Battle of Actium"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/アクティウムの海戦",
+            "en": "https://en.wikipedia.org/wiki/Battle_of_Actium"
+          }
+        },
+        {
+          "age": 39,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "コブラに咬ませ自殺したとされる（諸説あり）",
+            "en": "Dies, reportedly by asp bite (debated)"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/クレオパトラ7世#死",
+            "en": "https://en.wikipedia.org/wiki/Death_of_Cleopatra"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alexander",
+      "category": "politics",
+      "name": {
+        "ja": "アレクサンドロス大王",
+        "en": "Alexander the Great"
+      },
+      "start": -356,
+      "end": -323,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/アレクサンドロス3世",
+        "en": "https://en.wikipedia.org/wiki/Alexander_the_Great"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "マケドニアのペラに誕生",
+            "en": "Born in Pella, Macedonia"
+          }
+        },
+        {
+          "age": 13,
+          "label": {
+            "ja": "アリストテレスに師事",
+            "en": "Aristotle"
+          },
+          "text": {
+            "ja": "アリストテレスに3年間師事",
+            "en": "Studies under Aristotle for 3 years"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/アリストテレス",
+            "en": "https://en.wikipedia.org/wiki/Aristotle"
+          }
+        },
+        {
+          "age": 16,
+          "label": {
+            "ja": "摂政",
+            "en": "Regent"
+          },
+          "text": {
+            "ja": "父フィリッポス遠征中にマケドニア摂政を務める",
+            "en": "Serves as regent of Macedonia while father campaigns"
+          }
+        },
+        {
+          "age": 18,
+          "label": {
+            "ja": "カイロネイアの戦い",
+            "en": "Chaeronea"
+          },
+          "text": {
+            "ja": "カイロネイアの戦いで騎兵を指揮",
+            "en": "Commands cavalry at the Battle of Chaeronea"
+          }
+        },
+        {
+          "age": 20,
+          "label": {
+            "ja": "即位",
+            "en": "King"
+          },
+          "text": {
+            "ja": "父の暗殺後マケドニア王に即位",
+            "en": "Becomes King of Macedonia after father's assassination"
+          }
+        },
+        {
+          "age": 22,
+          "label": {
+            "ja": "イッソスの戦い",
+            "en": "Issus"
+          },
+          "text": {
+            "ja": "ペルシア王ダレイオス3世をイッソスで破る",
+            "en": "Defeats Darius III at the Battle of Issus"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/イッソスの戦い",
+            "en": "https://en.wikipedia.org/wiki/Battle_of_Issus"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "ガウガメラの戦い",
+            "en": "Gaugamela"
+          },
+          "text": {
+            "ja": "ガウガメラでペルシア帝国に決定的勝利",
+            "en": "Wins decisive victory at Gaugamela; conquers Persia"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ガウガメラの戦い",
+            "en": "https://en.wikipedia.org/wiki/Battle_of_Gaugamela"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "インド遠征",
+            "en": "India"
+          },
+          "text": {
+            "ja": "インダス川流域まで進軍",
+            "en": "Advances to the Indus River valley"
+          }
+        },
+        {
+          "age": 32,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "バビロンで高熱により急死",
+            "en": "Dies of fever in Babylon"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/アレクサンドロス3世#死",
+            "en": "https://en.wikipedia.org/wiki/Death_of_Alexander_the_Great"
+          }
+        }
+      ]
+    },
+    {
+      "id": "genghis",
+      "category": "politics",
+      "name": {
+        "ja": "チンギス・ハン",
+        "en": "Genghis Khan"
+      },
+      "start": 1162,
+      "end": 1227,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/チンギス・カン",
+        "en": "https://en.wikipedia.org/wiki/Genghis_Khan"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "モンゴル高原に誕生、名はテムジン",
+            "en": "Born on Mongolian steppe as Temüjin"
+          }
+        },
+        {
+          "age": 9,
+          "label": {
+            "ja": "父の毒殺",
+            "en": "Father's Death"
+          },
+          "text": {
+            "ja": "父イェスゲイが毒殺され部族に捨てられる",
+            "en": "Father poisoned by Tatars; tribe abandons family"
+          }
+        },
+        {
+          "age": 10,
+          "label": {
+            "ja": "異母兄を殺害",
+            "en": "Kills Brother"
+          },
+          "text": {
+            "ja": "食料争いで異母兄ベクテルを殺害",
+            "en": "Kills half-brother Behter in hunting dispute"
+          }
+        },
+        {
+          "age": 16,
+          "label": {
+            "ja": "ボルテと結婚",
+            "en": "Marriage"
+          },
+          "text": {
+            "ja": "ボルテと結婚、直後にメルキト族に誘拐される",
+            "en": "Marries Börte; she is soon kidnapped by Merkits"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "ボルテ奪還",
+            "en": "Rescue Börte"
+          },
+          "text": {
+            "ja": "同盟を組みボルテを救出",
+            "en": "Rescues Börte with allied forces"
+          }
+        },
+        {
+          "age": 44,
+          "label": {
+            "ja": "大ハーンに即位",
+            "en": "Great Khan"
+          },
+          "text": {
+            "ja": "全モンゴルを統一しチンギス・ハーンと称す",
+            "en": "Unites all Mongol tribes; proclaimed Genghis Khan"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/チンギス・カン#即位",
+            "en": "https://en.wikipedia.org/wiki/Genghis_Khan#Uniting_the_confederations"
+          }
+        },
+        {
+          "age": 49,
+          "label": {
+            "ja": "金朝侵攻",
+            "en": "Jin Dynasty"
+          },
+          "text": {
+            "ja": "金朝に侵攻開始",
+            "en": "Begins invasion of the Jin dynasty"
+          }
+        },
+        {
+          "age": 57,
+          "label": {
+            "ja": "ホラズム遠征",
+            "en": "Khwarezm"
+          },
+          "text": {
+            "ja": "ホラズム帝国を壊滅させる",
+            "en": "Destroys the Khwarezmian Empire"
+          }
+        },
+        {
+          "age": 65,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "西夏遠征中に死去（死因不明）",
+            "en": "Dies during campaign against Western Xia (cause unknown)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "joan",
+      "category": "politics",
+      "name": {
+        "ja": "ジャンヌ・ダルク",
+        "en": "Joan of Arc"
+      },
+      "start": 1412,
+      "end": 1431,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ジャンヌ・ダルク",
+        "en": "https://en.wikipedia.org/wiki/Joan_of_Arc"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "フランス東部ドンレミに農民の子として誕生",
+            "en": "Born to peasant family in Domrémy, France"
+          }
+        },
+        {
+          "age": 12,
+          "label": {
+            "ja": "神の声を聞く",
+            "en": "Divine Voices"
+          },
+          "text": {
+            "ja": "聖人の声が聞こえ始める",
+            "en": "Begins hearing voices of saints"
+          }
+        },
+        {
+          "age": 16,
+          "label": {
+            "ja": "ヴォークルールへ",
+            "en": "Vaucouleurs"
+          },
+          "text": {
+            "ja": "守備隊長に王太子への面会を嘆願",
+            "en": "Petitions garrison commander to meet the Dauphin"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "シノン城で王太子に面会",
+            "en": "Meets Dauphin"
+          },
+          "text": {
+            "ja": "王太子シャルルに面会し信頼を得る",
+            "en": "Meets the Dauphin Charles at Chinon; wins his trust"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "オルレアン解放",
+            "en": "Orléans"
+          },
+          "text": {
+            "ja": "イングランド軍の包囲からオルレアンを解放",
+            "en": "Lifts the English siege of Orléans"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/オルレアン包囲戦",
+            "en": "https://en.wikipedia.org/wiki/Siege_of_Orléans"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "ランスで戴冠式",
+            "en": "Coronation"
+          },
+          "text": {
+            "ja": "シャルル7世のランス大聖堂での戴冠を実現",
+            "en": "Charles VII crowned at Reims Cathedral"
+          }
+        },
+        {
+          "age": 18,
+          "label": {
+            "ja": "コンピエーニュで捕縛",
+            "en": "Captured"
+          },
+          "text": {
+            "ja": "ブルゴーニュ派に捕らえられる",
+            "en": "Captured by Burgundian forces at Compiègne"
+          }
+        },
+        {
+          "age": 19,
+          "label": {
+            "ja": "異端審問",
+            "en": "Trial"
+          },
+          "text": {
+            "ja": "ルーアンで異端裁判にかけられる",
+            "en": "Tried for heresy in Rouen"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ジャンヌ・ダルク処刑裁判",
+            "en": "https://en.wikipedia.org/wiki/Trial_of_Joan_of_Arc"
+          }
+        },
+        {
+          "age": 19,
+          "label": {
+            "ja": "火刑",
+            "en": "Execution"
+          },
+          "text": {
+            "ja": "ルーアンで火刑に処される",
+            "en": "Burned at the stake in Rouen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "parks",
+      "category": "politics",
+      "name": {
+        "ja": "ローザ・パークス",
+        "en": "Rosa Parks"
+      },
+      "start": 1913,
+      "end": 2005,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ローザ・パークス",
+        "en": "https://en.wikipedia.org/wiki/Rosa_Parks"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "アラバマ州タスキーギーに誕生",
+            "en": "Born in Tuskegee, Alabama"
+          }
+        },
+        {
+          "age": 19,
+          "label": {
+            "ja": "レイモンドと結婚",
+            "en": "Marriage"
+          },
+          "text": {
+            "ja": "市民活動家レイモンド・パークスと結婚",
+            "en": "Marries civil rights activist Raymond Parks"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "NAACP加入",
+            "en": "NAACP"
+          },
+          "text": {
+            "ja": "全米有色人地位向上協会に加入",
+            "en": "Joins the NAACP"
+          }
+        },
+        {
+          "age": 42,
+          "label": {
+            "ja": "バス席拒否事件",
+            "en": "Bus Protest"
+          },
+          "text": {
+            "ja": "白人に席を譲ることを拒否し逮捕される",
+            "en": "Refuses to give up bus seat to white passenger; arrested"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ローザ・パークス#バス・ボイコット事件",
+            "en": "https://en.wikipedia.org/wiki/Montgomery_bus_boycott"
+          }
+        },
+        {
+          "age": 43,
+          "label": {
+            "ja": "バスボイコット勝利",
+            "en": "Boycott Wins"
+          },
+          "text": {
+            "ja": "連邦最高裁がバス人種隔離を違憲と判断",
+            "en": "Supreme Court rules bus segregation unconstitutional"
+          }
+        },
+        {
+          "age": 44,
+          "label": {
+            "ja": "デトロイト移住",
+            "en": "Detroit"
+          },
+          "text": {
+            "ja": "脅迫を受けデトロイトに移住",
+            "en": "Moves to Detroit due to threats"
+          }
+        },
+        {
+          "age": 52,
+          "label": {
+            "ja": "ワシントン大行進参加",
+            "en": "March on DC"
+          },
+          "text": {
+            "ja": "ワシントン大行進に参加",
+            "en": "Participates in March on Washington"
+          }
+        },
+        {
+          "age": 86,
+          "label": {
+            "ja": "議会金メダル",
+            "en": "Medal"
+          },
+          "text": {
+            "ja": "連邦議会名誉黄金勲章を受章",
+            "en": "Awarded Congressional Gold Medal"
+          }
+        },
+        {
+          "age": 92,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "デトロイトで自然死",
+            "en": "Dies of natural causes in Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "confucius",
+      "category": "phil",
+      "name": {
+        "ja": "孔子",
+        "en": "Confucius"
+      },
+      "start": -551,
+      "end": -479,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/孔子",
+        "en": "https://en.wikipedia.org/wiki/Confucius"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "魯国に誕生",
+            "en": "Born in the State of Lu"
+          }
+        },
+        {
+          "age": 3,
+          "label": {
+            "ja": "父の死",
+            "en": "Father's Death"
+          },
+          "text": {
+            "ja": "3歳で父叔梁紇を亡くす",
+            "en": "Father dies when he is 3"
+          }
+        },
+        {
+          "age": 15,
+          "label": {
+            "ja": "学問に志す",
+            "en": "Studies"
+          },
+          "text": {
+            "ja": "「十五にして学に志す」",
+            "en": "'At 15, I set my heart on learning'"
+          }
+        },
+        {
+          "age": 19,
+          "label": {
+            "ja": "結婚",
+            "en": "Marriage"
+          },
+          "text": {
+            "ja": "宋の女性と結婚",
+            "en": "Marries a woman from Song"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "而立",
+            "en": "Stood Firm"
+          },
+          "text": {
+            "ja": "「三十にして立つ」弟子を集め教育を開始",
+            "en": "'At 30, I stood firm' — begins teaching disciples"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/論語",
+            "en": "https://en.wikipedia.org/wiki/Analects"
+          }
+        },
+        {
+          "age": 40,
+          "label": {
+            "ja": "不惑",
+            "en": "No Doubts"
+          },
+          "text": {
+            "ja": "「四十にして惑わず」",
+            "en": "'At 40, I had no doubts'"
+          }
+        },
+        {
+          "age": 50,
+          "label": {
+            "ja": "魯国の大司寇",
+            "en": "Minister"
+          },
+          "text": {
+            "ja": "魯国の司法長官（大司寇）に就任",
+            "en": "Appointed Minister of Justice in Lu"
+          }
+        },
+        {
+          "age": 55,
+          "label": {
+            "ja": "諸国遍歴",
+            "en": "Wandering"
+          },
+          "text": {
+            "ja": "魯国を離れ14年間諸国を遍歴",
+            "en": "Leaves Lu; wanders through various states for 14 years"
+          }
+        },
+        {
+          "age": 68,
+          "label": {
+            "ja": "帰国",
+            "en": "Returns"
+          },
+          "text": {
+            "ja": "魯国に帰国し教育と著述に専念",
+            "en": "Returns to Lu; devotes himself to teaching and editing classics"
+          }
+        },
+        {
+          "age": 72,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "魯国で死去",
+            "en": "Dies in the State of Lu"
+          }
+        }
+      ]
+    },
+    {
+      "id": "socrates",
+      "category": "phil",
+      "name": {
+        "ja": "ソクラテス",
+        "en": "Socrates"
+      },
+      "start": -470,
+      "end": -399,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ソクラテス",
+        "en": "https://en.wikipedia.org/wiki/Socrates"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "アテナイに誕生、父は石工",
+            "en": "Born in Athens; father was a stonemason"
+          }
+        },
+        {
+          "age": 20,
+          "label": {
+            "ja": "哲学的探求の始まり",
+            "en": "Philosophy"
+          },
+          "text": {
+            "ja": "自然哲学から倫理哲学への転換",
+            "en": "Shifts from natural philosophy to ethical inquiry"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "アゴラでの対話",
+            "en": "Agora"
+          },
+          "text": {
+            "ja": "アゴラで市民と対話する手法を確立",
+            "en": "Establishes dialogic method in the Agora"
+          }
+        },
+        {
+          "age": 37,
+          "label": {
+            "ja": "ポティダイアの戦い",
+            "en": "Potidaea"
+          },
+          "text": {
+            "ja": "ポティダイアの戦いに重装歩兵として従軍",
+            "en": "Serves as hoplite at the Battle of Potidaea"
+          }
+        },
+        {
+          "age": 46,
+          "label": {
+            "ja": "デリオンの戦い",
+            "en": "Delium"
+          },
+          "text": {
+            "ja": "デリオンの戦いで勇敢に戦い撤退戦を指揮",
+            "en": "Fights bravely at Battle of Delium"
+          }
+        },
+        {
+          "age": 50,
+          "label": {
+            "ja": "プラトンとの出会い",
+            "en": "Meets Plato"
+          },
+          "text": {
+            "ja": "若きプラトンが弟子に加わる",
+            "en": "Young Plato becomes his student"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/プラトン",
+            "en": "https://en.wikipedia.org/wiki/Plato"
+          }
+        },
+        {
+          "age": 64,
+          "label": {
+            "ja": "三十人僭主への抵抗",
+            "en": "Thirty Tyrants"
+          },
+          "text": {
+            "ja": "三十人僭主の不正命令を拒否",
+            "en": "Refuses unjust orders from the Thirty Tyrants"
+          }
+        },
+        {
+          "age": 70,
+          "label": {
+            "ja": "裁判",
+            "en": "Trial"
+          },
+          "text": {
+            "ja": "青年を堕落させた罪で裁判にかけられる",
+            "en": "Put on trial for corrupting the youth"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ソクラテスの弁明",
+            "en": "https://en.wikipedia.org/wiki/Apology_(Plato)"
+          }
+        },
+        {
+          "age": 71,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "毒杯を仰ぎ刑死「悪法もまた法なり」",
+            "en": "Drinks hemlock; dies, reportedly saying 'the law is the law'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "buddha",
+      "category": "phil",
+      "name": {
+        "ja": "ブッダ（釈迦）",
+        "en": "Gautama Buddha"
+      },
+      "start": -563,
+      "end": -483,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/釈迦",
+        "en": "https://en.wikipedia.org/wiki/Gautama_Buddha"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ルンビニで釈迦族の王子として誕生",
+            "en": "Born as a prince of the Shakya clan in Lumbini"
+          }
+        },
+        {
+          "age": 16,
+          "label": {
+            "ja": "結婚",
+            "en": "Marriage"
+          },
+          "text": {
+            "ja": "ヤショーダラーと結婚",
+            "en": "Marries Yaśodharā"
+          }
+        },
+        {
+          "age": 29,
+          "label": {
+            "ja": "出家",
+            "en": "Renunciation"
+          },
+          "text": {
+            "ja": "四門出遊を経て出家、苦行の旅へ",
+            "en": "Witnesses old age, illness, death, and an ascetic; renounces worldly life"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/四門出遊",
+            "en": "https://en.wikipedia.org/wiki/Great_Departure"
+          }
+        },
+        {
+          "age": 35,
+          "label": {
+            "ja": "成道（悟り）",
+            "en": "Enlightenment"
+          },
+          "text": {
+            "ja": "菩提樹の下で悟りを開く",
+            "en": "Attains enlightenment under the Bodhi tree"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/悟り",
+            "en": "https://en.wikipedia.org/wiki/Enlightenment_in_Buddhism"
+          }
+        },
+        {
+          "age": 35,
+          "label": {
+            "ja": "初転法輪",
+            "en": "First Sermon"
+          },
+          "text": {
+            "ja": "サールナートで初めての説法",
+            "en": "Delivers first sermon at Sarnath (Deer Park)"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/初転法輪",
+            "en": "https://en.wikipedia.org/wiki/Dhammacakkappavattana_Sutta"
+          }
+        },
+        {
+          "age": 42,
+          "label": {
+            "ja": "祇園精舎",
+            "en": "Jetavana"
+          },
+          "text": {
+            "ja": "コーサラ国の祇園精舎を拠点とする",
+            "en": "Establishes Jetavana monastery as a base"
+          }
+        },
+        {
+          "age": 55,
+          "label": {
+            "ja": "デーヴァダッタの反逆",
+            "en": "Devadatta"
+          },
+          "text": {
+            "ja": "従弟デーヴァダッタの暗殺未遂に遭う",
+            "en": "Survives assassination attempt by cousin Devadatta"
+          }
+        },
+        {
+          "age": 80,
+          "label": {
+            "ja": "入滅",
+            "en": "Parinirvana"
+          },
+          "text": {
+            "ja": "クシナガラで入滅",
+            "en": "Passes away (Parinirvana) in Kushinagar"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/入滅",
+            "en": "https://en.wikipedia.org/wiki/Parinirvana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jobs",
+      "category": "tech",
+      "name": {
+        "ja": "スティーブ・ジョブズ",
+        "en": "Steve Jobs"
+      },
+      "start": 1955,
+      "end": 2011,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/スティーブ・ジョブズ",
+        "en": "https://en.wikipedia.org/wiki/Steve_Jobs"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "サンフランシスコに誕生、養子に出される",
+            "en": "Born in San Francisco; given up for adoption"
+          }
+        },
+        {
+          "age": 13,
+          "label": {
+            "ja": "HP訪問",
+            "en": "HP Visit"
+          },
+          "text": {
+            "ja": "ヒューレット・パッカードに電話し部品をもらう",
+            "en": "Calls Hewlett-Packard; gets spare parts and a summer job"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "リード大学中退",
+            "en": "Drops Out"
+          },
+          "text": {
+            "ja": "リード大学を中退しカリグラフィーを聴講",
+            "en": "Drops out of Reed College; audits calligraphy classes"
+          }
+        },
+        {
+          "age": 19,
+          "label": {
+            "ja": "インド放浪",
+            "en": "India Trip"
+          },
+          "text": {
+            "ja": "インドを放浪し精神的影響を受ける",
+            "en": "Travels through India seeking spiritual enlightenment"
+          }
+        },
+        {
+          "age": 21,
+          "label": {
+            "ja": "Apple設立",
+            "en": "Apple Founded"
+          },
+          "text": {
+            "ja": "ウォズニアックとガレージでAppleを設立",
+            "en": "Co-founds Apple with Wozniak in a garage"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/Apple",
+            "en": "https://en.wikipedia.org/wiki/Apple_Inc."
+          }
+        },
+        {
+          "age": 29,
+          "label": {
+            "ja": "Mac発売",
+            "en": "Macintosh"
+          },
+          "text": {
+            "ja": "Macintoshを発売、GUI革命を起こす",
+            "en": "Launches the Macintosh; GUI revolution"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "Apple追放",
+            "en": "Fired"
+          },
+          "text": {
+            "ja": "社内対立によりAppleを追放される",
+            "en": "Ousted from Apple after internal power struggle"
+          }
+        },
+        {
+          "age": 31,
+          "label": {
+            "ja": "NeXT・ピクサー",
+            "en": "NeXT/Pixar"
+          },
+          "text": {
+            "ja": "NeXTを設立、ピクサーを買収",
+            "en": "Founds NeXT; acquires Pixar"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ピクサー・アニメーション・スタジオ",
+            "en": "https://en.wikipedia.org/wiki/Pixar"
+          }
+        },
+        {
+          "age": 42,
+          "label": {
+            "ja": "Apple復帰",
+            "en": "Returns"
+          },
+          "text": {
+            "ja": "Apple暫定CEOに復帰",
+            "en": "Returns to Apple as interim CEO"
+          }
+        },
+        {
+          "age": 52,
+          "label": {
+            "ja": "iPhone発表",
+            "en": "iPhone"
+          },
+          "text": {
+            "ja": "iPhoneを発表、スマートフォン革命を起こす",
+            "en": "Unveils the iPhone; launches smartphone revolution"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/IPhone",
+            "en": "https://en.wikipedia.org/wiki/IPhone"
+          }
+        },
+        {
+          "age": 56,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "膵臓がんにより死去",
+            "en": "Dies of pancreatic cancer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edison",
+      "category": "tech",
+      "name": {
+        "ja": "トーマス・エジソン",
+        "en": "Thomas Edison"
+      },
+      "start": 1847,
+      "end": 1931,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/トーマス・エジソン",
+        "en": "https://en.wikipedia.org/wiki/Thomas_Edison"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "オハイオ州ミランに誕生",
+            "en": "Born in Milan, Ohio"
+          }
+        },
+        {
+          "age": 7,
+          "label": {
+            "ja": "学校中退",
+            "en": "Drops Out"
+          },
+          "text": {
+            "ja": "教師と合わず3ヶ月で学校中退、母が教育",
+            "en": "Drops out after 3 months; mother homeschools him"
+          }
+        },
+        {
+          "age": 12,
+          "label": {
+            "ja": "列車での新聞販売",
+            "en": "Newsboy"
+          },
+          "text": {
+            "ja": "列車内で新聞と雑貨の販売を始める",
+            "en": "Begins selling newspapers and snacks on trains"
+          }
+        },
+        {
+          "age": 16,
+          "label": {
+            "ja": "電信技師",
+            "en": "Telegrapher"
+          },
+          "text": {
+            "ja": "電信技師として各地を転々とする",
+            "en": "Works as an itinerant telegraph operator"
+          }
+        },
+        {
+          "age": 22,
+          "label": {
+            "ja": "最初の特許",
+            "en": "First Patent"
+          },
+          "text": {
+            "ja": "電気投票記録機で最初の特許を取得",
+            "en": "Receives first patent for an electric vote recorder"
+          }
+        },
+        {
+          "age": 29,
+          "label": {
+            "ja": "メンロパーク研究所",
+            "en": "Menlo Park"
+          },
+          "text": {
+            "ja": "メンロパークに世界初の発明研究所を設立",
+            "en": "Establishes world's first industrial research lab at Menlo Park"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "蓄音機発明",
+            "en": "Phonograph"
+          },
+          "text": {
+            "ja": "蓄音機を発明、「メンロパークの魔術師」と呼ばれる",
+            "en": "Invents the phonograph; dubbed 'Wizard of Menlo Park'"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/蓄音機",
+            "en": "https://en.wikipedia.org/wiki/Phonograph"
+          }
+        },
+        {
+          "age": 32,
+          "label": {
+            "ja": "白熱電球実用化",
+            "en": "Light Bulb"
+          },
+          "text": {
+            "ja": "実用的な白熱電球を開発",
+            "en": "Develops practical incandescent light bulb"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/白熱電球",
+            "en": "https://en.wikipedia.org/wiki/Incandescent_light_bulb"
+          }
+        },
+        {
+          "age": 44,
+          "label": {
+            "ja": "映画撮影機",
+            "en": "Kinetoscope"
+          },
+          "text": {
+            "ja": "映画撮影機キネトスコープを開発",
+            "en": "Develops the Kinetoscope for motion pictures"
+          }
+        },
+        {
+          "age": 84,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "ウェストオレンジで死去、享年84",
+            "en": "Dies in West Orange, New Jersey"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gates",
+      "category": "tech",
+      "name": {
+        "ja": "ビル・ゲイツ",
+        "en": "Bill Gates"
+      },
+      "start": 1955,
+      "end": 2026,
+      "isAlive": true,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ビル・ゲイツ",
+        "en": "https://en.wikipedia.org/wiki/Bill_Gates"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "シアトルに誕生",
+            "en": "Born in Seattle, Washington"
+          }
+        },
+        {
+          "age": 13,
+          "label": {
+            "ja": "プログラミング開始",
+            "en": "Coding"
+          },
+          "text": {
+            "ja": "レイクサイド校でコンピュータに出会う",
+            "en": "Discovers computers at Lakeside School"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "トラフォデータ設立",
+            "en": "Traf-O-Data"
+          },
+          "text": {
+            "ja": "ポール・アレンとトラフォデータを設立",
+            "en": "Co-founds Traf-O-Data with Paul Allen"
+          }
+        },
+        {
+          "age": 20,
+          "label": {
+            "ja": "Microsoft設立",
+            "en": "Microsoft"
+          },
+          "text": {
+            "ja": "ハーバード中退、マイクロソフトを設立",
+            "en": "Drops out of Harvard; co-founds Microsoft"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/マイクロソフト",
+            "en": "https://en.wikipedia.org/wiki/Microsoft"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "IBM PC用DOSを提供",
+            "en": "IBM DOS"
+          },
+          "text": {
+            "ja": "IBMにMS-DOSを供給、PCソフト市場を掌握",
+            "en": "Provides MS-DOS to IBM; dominates PC software market"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "Windows発売",
+            "en": "Windows"
+          },
+          "text": {
+            "ja": "Windows 1.0を発売",
+            "en": "Launches Windows 1.0"
+          }
+        },
+        {
+          "age": 39,
+          "label": {
+            "ja": "世界一の富豪",
+            "en": "Richest"
+          },
+          "text": {
+            "ja": "フォーブスの世界長者番付1位に",
+            "en": "Becomes world's richest person on Forbes list"
+          }
+        },
+        {
+          "age": 44,
+          "label": {
+            "ja": "ゲイツ財団設立",
+            "en": "Foundation"
+          },
+          "text": {
+            "ja": "ビル&メリンダ・ゲイツ財団を設立",
+            "en": "Founds Bill & Melinda Gates Foundation"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ビル&メリンダ・ゲイツ財団",
+            "en": "https://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation"
+          }
+        },
+        {
+          "age": 53,
+          "label": {
+            "ja": "Microsoft退任",
+            "en": "Retires"
+          },
+          "text": {
+            "ja": "マイクロソフトの日常業務から引退",
+            "en": "Steps down from day-to-day Microsoft operations"
+          }
+        }
+      ]
+    },
+    {
+      "id": "musk",
+      "category": "tech",
+      "name": {
+        "ja": "イーロン・マスク",
+        "en": "Elon Musk"
+      },
+      "start": 1971,
+      "end": 2026,
+      "isAlive": true,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/イーロン・マスク",
+        "en": "https://en.wikipedia.org/wiki/Elon_Musk"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "南アフリカ・プレトリアに誕生",
+            "en": "Born in Pretoria, South Africa"
+          }
+        },
+        {
+          "age": 10,
+          "label": {
+            "ja": "プログラミング独学",
+            "en": "Coding"
+          },
+          "text": {
+            "ja": "10歳でプログラミングを独学",
+            "en": "Self-teaches programming at age 10"
+          }
+        },
+        {
+          "age": 12,
+          "label": {
+            "ja": "ゲーム販売",
+            "en": "Blastar"
+          },
+          "text": {
+            "ja": "自作ゲーム『Blastar』を500ドルで売却",
+            "en": "Sells self-made game 'Blastar' for $500"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "カナダ移住",
+            "en": "To Canada"
+          },
+          "text": {
+            "ja": "南アフリカを離れカナダに移住",
+            "en": "Leaves South Africa for Canada"
+          }
+        },
+        {
+          "age": 24,
+          "label": {
+            "ja": "Zip2設立",
+            "en": "Zip2"
+          },
+          "text": {
+            "ja": "弟と共にZip2を設立",
+            "en": "Co-founds Zip2 with brother"
+          }
+        },
+        {
+          "age": 28,
+          "label": {
+            "ja": "PayPal前身を設立",
+            "en": "X.com"
+          },
+          "text": {
+            "ja": "X.com（後のPayPal）を設立",
+            "en": "Founds X.com, which later becomes PayPal"
+          }
+        },
+        {
+          "age": 31,
+          "label": {
+            "ja": "SpaceX設立",
+            "en": "SpaceX"
+          },
+          "text": {
+            "ja": "SpaceXを設立、宇宙へのアクセスを目指す",
+            "en": "Founds SpaceX to make space travel affordable"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/スペースX",
+            "en": "https://en.wikipedia.org/wiki/SpaceX"
+          }
+        },
+        {
+          "age": 33,
+          "label": {
+            "ja": "Tesla投資",
+            "en": "Tesla"
+          },
+          "text": {
+            "ja": "テスラモーターズに出資し会長に就任",
+            "en": "Invests in Tesla Motors; becomes chairman"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/テスラ_(企業)",
+            "en": "https://en.wikipedia.org/wiki/Tesla,_Inc."
+          }
+        },
+        {
+          "age": 49,
+          "label": {
+            "ja": "世界一の富豪",
+            "en": "Richest"
+          },
+          "text": {
+            "ja": "世界長者番付1位に",
+            "en": "Becomes world's richest person"
+          }
+        },
+        {
+          "age": 51,
+          "label": {
+            "ja": "Twitter買収",
+            "en": "Twitter/X"
+          },
+          "text": {
+            "ja": "Twitterを買収しXに改名",
+            "en": "Acquires Twitter; rebrands to X"
+          }
+        }
+      ]
+    },
+    {
+      "id": "qinshi",
+      "category": "politics",
+      "name": {
+        "ja": "始皇帝",
+        "en": "Qin Shi Huang"
+      },
+      "start": -259,
+      "end": -210,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/始皇帝",
+        "en": "https://en.wikipedia.org/wiki/Qin_Shi_Huang"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "趙国の邯鄲に誕生、名は嬴政",
+            "en": "Born in Handan, Zhao, as Ying Zheng"
+          }
+        },
+        {
+          "age": 13,
+          "label": {
+            "ja": "秦王即位",
+            "en": "King of Qin"
+          },
+          "text": {
+            "ja": "父の死去により秦の王に即位",
+            "en": "Becomes King of Qin after father's death"
+          }
+        },
+        {
+          "age": 22,
+          "label": {
+            "ja": "親政開始",
+            "en": "Takes Power"
+          },
+          "text": {
+            "ja": "呂不韋を排除し親政を開始",
+            "en": "Purges Lü Buwei; begins personal rule"
+          }
+        },
+        {
+          "age": 29,
+          "label": {
+            "ja": "韓を滅ぼす",
+            "en": "Conquers Han"
+          },
+          "text": {
+            "ja": "六国統一の最初の一歩、韓を滅ぼす",
+            "en": "Conquers Han, first of the Six States"
+          }
+        },
+        {
+          "age": 38,
+          "label": {
+            "ja": "中国統一・皇帝即位",
+            "en": "Emperor"
+          },
+          "text": {
+            "ja": "六国を統一、初めて「皇帝」を名乗る",
+            "en": "Unifies China; takes title 'First Emperor'"
+          }
+        },
+        {
+          "age": 38,
+          "label": {
+            "ja": "度量衡統一",
+            "en": "Standardization"
+          },
+          "text": {
+            "ja": "文字・度量衡・車軌を統一",
+            "en": "Standardizes writing, weights, measures, and axle widths"
+          }
+        },
+        {
+          "age": 40,
+          "label": {
+            "ja": "万里の長城着工",
+            "en": "Great Wall"
+          },
+          "text": {
+            "ja": "北方遊牧民族対策として長城の連結を開始",
+            "en": "Begins connecting walls into the Great Wall"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/万里の長城",
+            "en": "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+          }
+        },
+        {
+          "age": 46,
+          "label": {
+            "ja": "焚書坑儒",
+            "en": "Book Burning"
+          },
+          "text": {
+            "ja": "焚書坑儒を断行、思想統制を行う",
+            "en": "Orders burning of books and burying of scholars"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/焚書坑儒",
+            "en": "https://en.wikipedia.org/wiki/Burning_of_books_and_burying_of_scholars"
+          }
+        },
+        {
+          "age": 49,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "巡遊中に沙丘で死去",
+            "en": "Dies at Shaqiu during an inspection tour"
+          }
+        }
+      ]
+    },
+    {
+      "id": "freud",
+      "category": "phil",
+      "name": {
+        "ja": "ジークムント・フロイト",
+        "en": "Sigmund Freud"
+      },
+      "start": 1856,
+      "end": 1939,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ジークムント・フロイト",
+        "en": "https://en.wikipedia.org/wiki/Sigmund_Freud"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "オーストリア帝国フライベルクに誕生",
+            "en": "Born in Freiberg, Austrian Empire"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "ウィーン大学入学",
+            "en": "University"
+          },
+          "text": {
+            "ja": "ウィーン大学医学部に入学",
+            "en": "Enters University of Vienna Medical School"
+          }
+        },
+        {
+          "age": 29,
+          "label": {
+            "ja": "パリ留学",
+            "en": "Paris"
+          },
+          "text": {
+            "ja": "シャルコーの下でヒステリー研究を学ぶ",
+            "en": "Studies hysteria under Charcot in Paris"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "開業",
+            "en": "Practice"
+          },
+          "text": {
+            "ja": "ウィーンで神経科医として開業",
+            "en": "Opens private practice as a neurologist in Vienna"
+          }
+        },
+        {
+          "age": 39,
+          "label": {
+            "ja": "ヒステリー研究",
+            "en": "Studies"
+          },
+          "text": {
+            "ja": "ブロイアーと『ヒステリー研究』を出版",
+            "en": "Publishes Studies on Hysteria with Breuer"
+          }
+        },
+        {
+          "age": 44,
+          "label": {
+            "ja": "夢判断",
+            "en": "Dream Book"
+          },
+          "text": {
+            "ja": "『夢判断』を出版、精神分析学を確立",
+            "en": "Publishes The Interpretation of Dreams"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/夢判断",
+            "en": "https://en.wikipedia.org/wiki/The_Interpretation_of_Dreams"
+          }
+        },
+        {
+          "age": 49,
+          "label": {
+            "ja": "精神分析協会設立",
+            "en": "Psychoanalysis"
+          },
+          "text": {
+            "ja": "国際精神分析協会を設立",
+            "en": "Founds International Psychoanalytical Association"
+          }
+        },
+        {
+          "age": 67,
+          "label": {
+            "ja": "口腔がん発症",
+            "en": "Cancer"
+          },
+          "text": {
+            "ja": "口腔がんと診断される",
+            "en": "Diagnosed with oral cancer"
+          }
+        },
+        {
+          "age": 82,
+          "label": {
+            "ja": "ロンドン亡命",
+            "en": "Exile"
+          },
+          "text": {
+            "ja": "ナチス侵攻後ロンドンに亡命",
+            "en": "Flees to London after Nazi annexation of Austria"
+          }
+        },
+        {
+          "age": 83,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "安楽死を選び死去",
+            "en": "Dies by physician-assisted suicide in London"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nietzsche",
+      "category": "phil",
+      "name": {
+        "ja": "フリードリヒ・ニーチェ",
+        "en": "Friedrich Nietzsche"
+      },
+      "start": 1844,
+      "end": 1900,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/フリードリヒ・ニーチェ",
+        "en": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "プロイセン王国レッケンに誕生",
+            "en": "Born in Röcken, Prussia"
+          }
+        },
+        {
+          "age": 4,
+          "label": {
+            "ja": "父の死",
+            "en": "Father's Death"
+          },
+          "text": {
+            "ja": "4歳で牧師の父を亡くす",
+            "en": "Father, a pastor, dies when he is 4"
+          }
+        },
+        {
+          "age": 24,
+          "label": {
+            "ja": "バーゼル教授",
+            "en": "Professor"
+          },
+          "text": {
+            "ja": "24歳でバーゼル大学古典文献学教授に就任",
+            "en": "Appointed professor at University of Basel at age 24"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "普仏戦争従軍",
+            "en": "Franco-Prussian"
+          },
+          "text": {
+            "ja": "普仏戦争に衛生兵として従軍",
+            "en": "Serves as medical orderly in Franco-Prussian War"
+          }
+        },
+        {
+          "age": 28,
+          "label": {
+            "ja": "悲劇の誕生",
+            "en": "Tragedy"
+          },
+          "text": {
+            "ja": "『悲劇の誕生』を出版",
+            "en": "Publishes The Birth of Tragedy"
+          }
+        },
+        {
+          "age": 34,
+          "label": {
+            "ja": "健康悪化で辞職",
+            "en": "Resigns"
+          },
+          "text": {
+            "ja": "激しい偏頭痛で教職を辞す",
+            "en": "Resigns from Basel due to severe migraines"
+          }
+        },
+        {
+          "age": 38,
+          "label": {
+            "ja": "ツァラトゥストラ",
+            "en": "Zarathustra"
+          },
+          "text": {
+            "ja": "『ツァラトゥストラはかく語りき』を執筆",
+            "en": "Writes Thus Spoke Zarathustra"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ツァラトゥストラはこう語った",
+            "en": "https://en.wikipedia.org/wiki/Thus_Spoke_Zarathustra"
+          }
+        },
+        {
+          "age": 44,
+          "label": {
+            "ja": "精神崩壊",
+            "en": "Collapse"
+          },
+          "text": {
+            "ja": "トリノで精神崩壊、以後回復せず",
+            "en": "Mental collapse in Turin; never recovers"
+          }
+        },
+        {
+          "age": 55,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "ワイマールで死去",
+            "en": "Dies in Weimar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "marx",
+      "category": "phil",
+      "name": {
+        "ja": "カール・マルクス",
+        "en": "Karl Marx"
+      },
+      "start": 1818,
+      "end": 1883,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/カール・マルクス",
+        "en": "https://en.wikipedia.org/wiki/Karl_Marx"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "プロイセン王国トリーアに誕生",
+            "en": "Born in Trier, Prussia"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "ボン大学入学",
+            "en": "University"
+          },
+          "text": {
+            "ja": "ボン大学に入学、後にベルリン大学に転校",
+            "en": "Enters University of Bonn; transfers to Berlin"
+          }
+        },
+        {
+          "age": 24,
+          "label": {
+            "ja": "ライン新聞編集長",
+            "en": "Editor"
+          },
+          "text": {
+            "ja": "ライン新聞の編集長に就任",
+            "en": "Becomes editor of Rheinische Zeitung"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "パリ亡命",
+            "en": "Paris"
+          },
+          "text": {
+            "ja": "プロイセン追放後パリに亡命",
+            "en": "Exiled to Paris after newspaper is suppressed"
+          }
+        },
+        {
+          "age": 26,
+          "label": {
+            "ja": "エンゲルスとの出会い",
+            "en": "Meets Engels"
+          },
+          "text": {
+            "ja": "フリードリヒ・エンゲルスと友情を結ぶ",
+            "en": "Begins lifelong friendship with Friedrich Engels"
+          }
+        },
+        {
+          "age": 29,
+          "label": {
+            "ja": "共産党宣言",
+            "en": "Manifesto"
+          },
+          "text": {
+            "ja": "エンゲルスと『共産党宣言』を執筆",
+            "en": "Co-writes The Communist Manifesto with Engels"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/共産党宣言",
+            "en": "https://en.wikipedia.org/wiki/The_Communist_Manifesto"
+          }
+        },
+        {
+          "age": 31,
+          "label": {
+            "ja": "ロンドン亡命",
+            "en": "London"
+          },
+          "text": {
+            "ja": "ロンドンに亡命、以後ここで活動",
+            "en": "Moves to London; remains there for life"
+          }
+        },
+        {
+          "age": 49,
+          "label": {
+            "ja": "資本論第1巻",
+            "en": "Das Kapital"
+          },
+          "text": {
+            "ja": "『資本論』第1巻を出版",
+            "en": "Publishes Volume 1 of Das Kapital"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/資本論",
+            "en": "https://en.wikipedia.org/wiki/Das_Kapital"
+          }
+        },
+        {
+          "age": 64,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "ロンドンで死去、ハイゲート墓地に埋葬",
+            "en": "Dies in London; buried in Highgate Cemetery"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tezuka",
+      "category": "art",
+      "name": {
+        "ja": "手塚治虫",
+        "en": "Osamu Tezuka"
+      },
+      "start": 1928,
+      "end": 1989,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/手塚治虫",
+        "en": "https://en.wikipedia.org/wiki/Osamu_Tezuka"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "大阪府豊中市に誕生",
+            "en": "Born in Toyonaka, Osaka"
+          }
+        },
+        {
+          "age": 5,
+          "label": {
+            "ja": "昆虫に夢中",
+            "en": "Insects"
+          },
+          "text": {
+            "ja": "昆虫採集に夢中になり「治虫」のペンネームの由来に",
+            "en": "Obsessed with insects; inspiration for pen name 'Tezuka Osamu'"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "漫画家デビュー",
+            "en": "Debut"
+          },
+          "text": {
+            "ja": "『マアチャンの日記帳』で漫画家デビュー",
+            "en": "Manga debut with Ma-chan's Diary"
+          }
+        },
+        {
+          "age": 19,
+          "label": {
+            "ja": "新宝島",
+            "en": "New Treasure"
+          },
+          "text": {
+            "ja": "『新宝島』が大ヒット、ストーリー漫画の革命",
+            "en": "New Treasure Island becomes a hit; revolutionizes story manga"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/新宝島_(漫画)",
+            "en": "https://en.wikipedia.org/wiki/New_Treasure_Island"
+          }
+        },
+        {
+          "age": 22,
+          "label": {
+            "ja": "鉄腕アトム連載開始",
+            "en": "Astro Boy"
+          },
+          "text": {
+            "ja": "『鉄腕アトム』連載開始",
+            "en": "Begins serializing Astro Boy"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/鉄腕アトム",
+            "en": "https://en.wikipedia.org/wiki/Astro_Boy"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "医学博士号取得",
+            "en": "MD"
+          },
+          "text": {
+            "ja": "大阪大学で医学博士号を取得",
+            "en": "Receives medical doctorate from Osaka University"
+          }
+        },
+        {
+          "age": 35,
+          "label": {
+            "ja": "虫プロダクション設立",
+            "en": "Mushi Pro"
+          },
+          "text": {
+            "ja": "アニメ制作会社「虫プロダクション」を設立",
+            "en": "Founds Mushi Production animation studio"
+          }
+        },
+        {
+          "age": 44,
+          "label": {
+            "ja": "ブラック・ジャック",
+            "en": "Black Jack"
+          },
+          "text": {
+            "ja": "『ブラック・ジャック』連載開始",
+            "en": "Begins serializing Black Jack"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ブラック・ジャック",
+            "en": "https://en.wikipedia.org/wiki/Black_Jack_(manga)"
+          }
+        },
+        {
+          "age": 60,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "胃がんにより死去「頼むから仕事をさせてくれ」",
+            "en": "Dies of stomach cancer; last words: 'Please, let me work'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "antoinette",
+      "category": "politics",
+      "name": {
+        "ja": "マリー・アントワネット",
+        "en": "Marie Antoinette"
+      },
+      "start": 1755,
+      "end": 1793,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/マリー・アントワネット",
+        "en": "https://en.wikipedia.org/wiki/Marie_Antoinette"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ウィーンに誕生、ハプスブルク家の末娘",
+            "en": "Born in Vienna as youngest daughter of Empress Maria Theresa"
+          }
+        },
+        {
+          "age": 14,
+          "label": {
+            "ja": "ルイ16世と結婚",
+            "en": "Marriage"
+          },
+          "text": {
+            "ja": "フランス王太子ルイ・オーギュストと結婚",
+            "en": "Marries the French Dauphin, future Louis XVI"
+          }
+        },
+        {
+          "age": 18,
+          "label": {
+            "ja": "フランス王妃に",
+            "en": "Queen"
+          },
+          "text": {
+            "ja": "ルイ16世即位に伴いフランス王妃に",
+            "en": "Becomes Queen of France upon Louis XVI's accession"
+          }
+        },
+        {
+          "age": 23,
+          "label": {
+            "ja": "浪費批判",
+            "en": "Extravagance"
+          },
+          "text": {
+            "ja": "豪華な宮廷生活が民衆の反感を買う",
+            "en": "Criticized for extravagant court lifestyle"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "首飾り事件",
+            "en": "Necklace Affair"
+          },
+          "text": {
+            "ja": "首飾り事件で王妃の評判が決定的に悪化",
+            "en": "Diamond Necklace Affair destroys her reputation"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/首飾り事件",
+            "en": "https://en.wikipedia.org/wiki/Affair_of_the_Diamond_Necklace"
+          }
+        },
+        {
+          "age": 33,
+          "label": {
+            "ja": "ヴェルサイユ行進",
+            "en": "Women's March"
+          },
+          "text": {
+            "ja": "女性のヴェルサイユ行進でパリに連行される",
+            "en": "Forced to Paris by the Women's March on Versailles"
+          }
+        },
+        {
+          "age": 36,
+          "label": {
+            "ja": "ヴァレンヌ逃亡事件",
+            "en": "Varennes"
+          },
+          "text": {
+            "ja": "国王一家の逃亡が失敗",
+            "en": "Royal family's escape attempt fails at Varennes"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ヴァレンヌ事件",
+            "en": "https://en.wikipedia.org/wiki/Flight_to_Varennes"
+          }
+        },
+        {
+          "age": 37,
+          "label": {
+            "ja": "処刑",
+            "en": "Execution"
+          },
+          "text": {
+            "ja": "革命裁判で死刑判決、ギロチンで処刑",
+            "en": "Executed by guillotine after Revolutionary Tribunal verdict"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mandela",
+      "category": "politics",
+      "name": {
+        "ja": "ネルソン・マンデラ",
+        "en": "Nelson Mandela"
+      },
+      "start": 1918,
+      "end": 2013,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ネルソン・マンデラ",
+        "en": "https://en.wikipedia.org/wiki/Nelson_Mandela"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "南アフリカ・トランスカイに誕生",
+            "en": "Born in Transkei, South Africa"
+          }
+        },
+        {
+          "age": 21,
+          "label": {
+            "ja": "フォートヘア大学",
+            "en": "University"
+          },
+          "text": {
+            "ja": "フォートヘア大学に入学",
+            "en": "Enters University of Fort Hare"
+          }
+        },
+        {
+          "age": 26,
+          "label": {
+            "ja": "ANC加入",
+            "en": "ANC"
+          },
+          "text": {
+            "ja": "アフリカ民族会議（ANC）に加入",
+            "en": "Joins the African National Congress"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/アフリカ民族会議",
+            "en": "https://en.wikipedia.org/wiki/African_National_Congress"
+          }
+        },
+        {
+          "age": 44,
+          "label": {
+            "ja": "逮捕・投獄",
+            "en": "Arrested"
+          },
+          "text": {
+            "ja": "国家反逆罪で逮捕、終身刑に",
+            "en": "Arrested; sentenced to life imprisonment"
+          }
+        },
+        {
+          "age": 46,
+          "label": {
+            "ja": "ロベン島収容",
+            "en": "Robben Island"
+          },
+          "text": {
+            "ja": "ロベン島の刑務所に収容される",
+            "en": "Imprisoned on Robben Island"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ロベン島",
+            "en": "https://en.wikipedia.org/wiki/Robben_Island"
+          }
+        },
+        {
+          "age": 71,
+          "label": {
+            "ja": "釈放",
+            "en": "Released"
+          },
+          "text": {
+            "ja": "27年間の投獄の後に釈放される",
+            "en": "Released after 27 years in prison"
+          }
+        },
+        {
+          "age": 75,
+          "label": {
+            "ja": "大統領就任",
+            "en": "President"
+          },
+          "text": {
+            "ja": "南アフリカ初の黒人大統領に就任",
+            "en": "Inaugurated as first Black president of South Africa"
+          }
+        },
+        {
+          "age": 75,
+          "label": {
+            "ja": "ノーベル平和賞",
+            "en": "Nobel Peace"
+          },
+          "text": {
+            "ja": "デクラークと共にノーベル平和賞受賞",
+            "en": "Awarded Nobel Peace Prize with F.W. de Klerk"
+          }
+        },
+        {
+          "age": 80,
+          "label": {
+            "ja": "大統領退任",
+            "en": "Retires"
+          },
+          "text": {
+            "ja": "1期で大統領を退任",
+            "en": "Steps down after one term as president"
+          }
+        },
+        {
+          "age": 95,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "ヨハネスブルグで死去",
+            "en": "Dies in Johannesburg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "keller",
+      "category": "phil",
+      "name": {
+        "ja": "ヘレン・ケラー",
+        "en": "Helen Keller"
+      },
+      "start": 1880,
+      "end": 1968,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ヘレン・ケラー",
+        "en": "https://en.wikipedia.org/wiki/Helen_Keller"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "アラバマ州タスカンビアに誕生",
+            "en": "Born in Tuscumbia, Alabama"
+          }
+        },
+        {
+          "age": 1,
+          "label": {
+            "ja": "視聴覚喪失",
+            "en": "Deaf-Blind"
+          },
+          "text": {
+            "ja": "病気により視力と聴力を失う",
+            "en": "Loses sight and hearing due to illness"
+          }
+        },
+        {
+          "age": 6,
+          "label": {
+            "ja": "サリバン先生",
+            "en": "Anne Sullivan"
+          },
+          "text": {
+            "ja": "家庭教師アン・サリバンが到着",
+            "en": "Anne Sullivan arrives as her teacher"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/アン・サリバン",
+            "en": "https://en.wikipedia.org/wiki/Anne_Sullivan"
+          }
+        },
+        {
+          "age": 7,
+          "label": {
+            "ja": "ウォーター!",
+            "en": "Water!"
+          },
+          "text": {
+            "ja": "井戸水で「water」の概念を理解する奇跡",
+            "en": "Breakthrough moment at water pump: understands 'water'"
+          }
+        },
+        {
+          "age": 20,
+          "label": {
+            "ja": "ラドクリフ大学入学",
+            "en": "Radcliffe"
+          },
+          "text": {
+            "ja": "ラドクリフ大学に入学（視聴覚障害者で初の大学進学）",
+            "en": "Enters Radcliffe College, first deaf-blind person to do so"
+          }
+        },
+        {
+          "age": 24,
+          "label": {
+            "ja": "大学卒業",
+            "en": "Graduates"
+          },
+          "text": {
+            "ja": "優等で大学を卒業",
+            "en": "Graduates cum laude from Radcliffe"
+          }
+        },
+        {
+          "age": 23,
+          "label": {
+            "ja": "自伝出版",
+            "en": "Autobiography"
+          },
+          "text": {
+            "ja": "『わたしの生涯』を出版",
+            "en": "Publishes autobiography The Story of My Life"
+          }
+        },
+        {
+          "age": 37,
+          "label": {
+            "ja": "社会主義活動",
+            "en": "Activism"
+          },
+          "text": {
+            "ja": "女性参政権・労働者権利・反戦運動に参加",
+            "en": "Campaigns for women's suffrage, labor rights, and peace"
+          }
+        },
+        {
+          "age": 57,
+          "label": {
+            "ja": "来日",
+            "en": "Visits Japan"
+          },
+          "text": {
+            "ja": "日本を訪問し各地で講演",
+            "en": "Visits Japan; gives lectures across the country"
+          }
+        },
+        {
+          "age": 87,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "コネチカット州で死去",
+            "en": "Dies in Easton, Connecticut"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ieyasu",
+      "category": "politics",
+      "name": {
+        "ja": "徳川家康",
+        "en": "Tokugawa Ieyasu"
+      },
+      "start": 1543,
+      "end": 1616,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/徳川家康",
+        "en": "https://en.wikipedia.org/wiki/Tokugawa_Ieyasu"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "三河国岡崎城に誕生",
+            "en": "Born in Okazaki Castle, Mikawa Province"
+          }
+        },
+        {
+          "age": 6,
+          "label": {
+            "ja": "人質生活",
+            "en": "Hostage"
+          },
+          "text": {
+            "ja": "織田家・今川家の人質として少年時代を過ごす",
+            "en": "Spends childhood as hostage of Oda and Imagawa clans"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "独立",
+            "en": "Independence"
+          },
+          "text": {
+            "ja": "今川義元の死後、独立を果たす",
+            "en": "Gains independence after Imagawa Yoshimoto's death"
+          }
+        },
+        {
+          "age": 29,
+          "label": {
+            "ja": "信長と同盟",
+            "en": "Nobunaga Alliance"
+          },
+          "text": {
+            "ja": "織田信長と清洲同盟を結ぶ",
+            "en": "Forms the Kiyosu Alliance with Oda Nobunaga"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "三方ヶ原の戦い",
+            "en": "Mikatagahara"
+          },
+          "text": {
+            "ja": "武田信玄に惨敗、生涯唯一の大敗",
+            "en": "Suffers devastating defeat by Takeda Shingen at Mikatagahara"
+          }
+        },
+        {
+          "age": 42,
+          "label": {
+            "ja": "小牧長久手の戦い",
+            "en": "Komaki"
+          },
+          "text": {
+            "ja": "秀吉と小牧・長久手の戦いで戦う",
+            "en": "Fights Toyotomi Hideyoshi at Komaki and Nagakute"
+          }
+        },
+        {
+          "age": 48,
+          "label": {
+            "ja": "関東移封",
+            "en": "Edo"
+          },
+          "text": {
+            "ja": "秀吉の命で関東に移封、江戸を本拠に",
+            "en": "Transferred to Kantō; establishes base in Edo"
+          }
+        },
+        {
+          "age": 57,
+          "label": {
+            "ja": "関ヶ原の戦い",
+            "en": "Sekigahara"
+          },
+          "text": {
+            "ja": "関ヶ原の戦いで西軍を破る",
+            "en": "Wins the Battle of Sekigahara"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/関ヶ原の戦い",
+            "en": "https://en.wikipedia.org/wiki/Battle_of_Sekigahara"
+          }
+        },
+        {
+          "age": 60,
+          "label": {
+            "ja": "征夷大将軍",
+            "en": "Shogun"
+          },
+          "text": {
+            "ja": "征夷大将軍に就任、江戸幕府を開く",
+            "en": "Becomes Shōgun; establishes Edo shogunate"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/江戸幕府",
+            "en": "https://en.wikipedia.org/wiki/Tokugawa_shogunate"
+          }
+        },
+        {
+          "age": 73,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "駿府城で死去",
+            "en": "Dies at Sunpu Castle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "elizabeth1",
+      "category": "politics",
+      "name": {
+        "ja": "エリザベス1世",
+        "en": "Elizabeth I"
+      },
+      "start": 1533,
+      "end": 1603,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/エリザベス1世",
+        "en": "https://en.wikipedia.org/wiki/Elizabeth_I"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "グリニッジ宮殿に誕生",
+            "en": "Born at Greenwich Palace"
+          }
+        },
+        {
+          "age": 2,
+          "label": {
+            "ja": "母アン・ブーリンの処刑",
+            "en": "Mother's Death"
+          },
+          "text": {
+            "ja": "母アン・ブーリンが処刑される",
+            "en": "Mother Anne Boleyn executed"
+          }
+        },
+        {
+          "age": 20,
+          "label": {
+            "ja": "ロンドン塔に幽閉",
+            "en": "Tower"
+          },
+          "text": {
+            "ja": "姉メアリーの命でロンドン塔に幽閉される",
+            "en": "Imprisoned in the Tower of London by sister Mary"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "即位",
+            "en": "Coronation"
+          },
+          "text": {
+            "ja": "イングランド女王に即位",
+            "en": "Crowned Queen of England"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/エリザベス1世の即位",
+            "en": "https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_I"
+          }
+        },
+        {
+          "age": 26,
+          "label": {
+            "ja": "国教会確立",
+            "en": "Church"
+          },
+          "text": {
+            "ja": "イングランド国教会を確立",
+            "en": "Re-establishes the Church of England"
+          }
+        },
+        {
+          "age": 34,
+          "label": {
+            "ja": "メアリー・スチュアート幽閉",
+            "en": "Mary Stuart"
+          },
+          "text": {
+            "ja": "スコットランド女王メアリーを幽閉",
+            "en": "Imprisons Mary, Queen of Scots"
+          }
+        },
+        {
+          "age": 54,
+          "label": {
+            "ja": "メアリー処刑",
+            "en": "Mary Executed"
+          },
+          "text": {
+            "ja": "メアリー・スチュアートを処刑",
+            "en": "Orders execution of Mary, Queen of Scots"
+          }
+        },
+        {
+          "age": 55,
+          "label": {
+            "ja": "アルマダの海戦",
+            "en": "Spanish Armada"
+          },
+          "text": {
+            "ja": "スペインの無敵艦隊を撃破",
+            "en": "Defeats the Spanish Armada"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/アルマダの海戦",
+            "en": "https://en.wikipedia.org/wiki/Spanish_Armada"
+          }
+        },
+        {
+          "age": 69,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "リッチモンド宮殿で死去、テューダー朝の断絶",
+            "en": "Dies at Richmond Palace; Tudor dynasty ends"
+          }
+        }
+      ]
+    },
+    {
+      "id": "turing",
+      "category": "tech",
+      "name": {
+        "ja": "アラン・チューリング",
+        "en": "Alan Turing"
+      },
+      "start": 1912,
+      "end": 1954,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/アラン・チューリング",
+        "en": "https://en.wikipedia.org/wiki/Alan_Turing"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ロンドンに誕生",
+            "en": "Born in London"
+          }
+        },
+        {
+          "age": 14,
+          "label": {
+            "ja": "数学の才能開花",
+            "en": "Math Talent"
+          },
+          "text": {
+            "ja": "シャーボーン校で数学の天才ぶりを発揮",
+            "en": "Displays exceptional mathematical talent at Sherborne School"
+          }
+        },
+        {
+          "age": 24,
+          "label": {
+            "ja": "チューリングマシン",
+            "en": "Turing Machine"
+          },
+          "text": {
+            "ja": "計算可能性に関する論文でチューリングマシンを提唱",
+            "en": "Proposes the Turing Machine in seminal paper"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/チューリングマシン",
+            "en": "https://en.wikipedia.org/wiki/Turing_machine"
+          }
+        },
+        {
+          "age": 27,
+          "label": {
+            "ja": "エニグマ解読",
+            "en": "Enigma"
+          },
+          "text": {
+            "ja": "ブレッチリー・パークでエニグマ暗号解読に従事",
+            "en": "Works on breaking Enigma at Bletchley Park"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/エニグマ_(暗号機)",
+            "en": "https://en.wikipedia.org/wiki/Enigma_machine"
+          }
+        },
+        {
+          "age": 33,
+          "label": {
+            "ja": "OBE受章",
+            "en": "OBE"
+          },
+          "text": {
+            "ja": "戦功によりOBE（大英帝国勲章）を受章",
+            "en": "Awarded OBE for wartime contributions"
+          }
+        },
+        {
+          "age": 38,
+          "label": {
+            "ja": "チューリングテスト",
+            "en": "Turing Test"
+          },
+          "text": {
+            "ja": "人工知能の判定基準「チューリングテスト」を提案",
+            "en": "Proposes the Turing Test for artificial intelligence"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/チューリングテスト",
+            "en": "https://en.wikipedia.org/wiki/Turing_test"
+          }
+        },
+        {
+          "age": 40,
+          "label": {
+            "ja": "逮捕・有罪",
+            "en": "Convicted"
+          },
+          "text": {
+            "ja": "同性愛の罪で逮捕、化学的去勢を強制される",
+            "en": "Convicted for homosexuality; subjected to chemical castration"
+          }
+        },
+        {
+          "age": 41,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "青酸中毒で死去（自殺とされる）",
+            "en": "Dies of cyanide poisoning, ruled a suicide"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nobel",
+      "category": "tech",
+      "name": {
+        "ja": "アルフレッド・ノーベル",
+        "en": "Alfred Nobel"
+      },
+      "start": 1833,
+      "end": 1896,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/アルフレッド・ノーベル",
+        "en": "https://en.wikipedia.org/wiki/Alfred_Nobel"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ストックホルムに誕生",
+            "en": "Born in Stockholm, Sweden"
+          }
+        },
+        {
+          "age": 9,
+          "label": {
+            "ja": "サンクトペテルブルクへ",
+            "en": "Russia"
+          },
+          "text": {
+            "ja": "父の事業に伴いロシアに移住",
+            "en": "Moves to Saint Petersburg with father's business"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "パリ留学",
+            "en": "Paris"
+          },
+          "text": {
+            "ja": "パリで化学を学ぶ",
+            "en": "Studies chemistry in Paris"
+          }
+        },
+        {
+          "age": 30,
+          "label": {
+            "ja": "ニトログリセリン研究",
+            "en": "Nitroglycerin"
+          },
+          "text": {
+            "ja": "ニトログリセリンの安全な使用法を研究",
+            "en": "Researches safe use of nitroglycerin"
+          }
+        },
+        {
+          "age": 31,
+          "label": {
+            "ja": "弟の爆死",
+            "en": "Brother's Death"
+          },
+          "text": {
+            "ja": "弟エミールがニトログリセリン爆発で死亡",
+            "en": "Brother Emil dies in nitroglycerin explosion"
+          }
+        },
+        {
+          "age": 34,
+          "label": {
+            "ja": "ダイナマイト発明",
+            "en": "Dynamite"
+          },
+          "text": {
+            "ja": "ダイナマイトを発明し特許取得",
+            "en": "Invents dynamite and obtains patent"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ダイナマイト",
+            "en": "https://en.wikipedia.org/wiki/Dynamite"
+          }
+        },
+        {
+          "age": 55,
+          "label": {
+            "ja": "死の商人報道",
+            "en": "Merchant of Death"
+          },
+          "text": {
+            "ja": "誤報で「死の商人」と報じられ衝撃を受ける",
+            "en": "Shocked by premature obituary calling him 'merchant of death'"
+          }
+        },
+        {
+          "age": 62,
+          "label": {
+            "ja": "遺言でノーベル賞設立",
+            "en": "Nobel Prize"
+          },
+          "text": {
+            "ja": "遺産の94%をノーベル賞基金に充てる遺言を残す",
+            "en": "Wills 94% of fortune to establish Nobel Prizes"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ノーベル賞",
+            "en": "https://en.wikipedia.org/wiki/Nobel_Prize"
+          }
+        },
+        {
+          "age": 63,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "イタリア・サンレモで脳溢血により死去",
+            "en": "Dies of cerebral hemorrhage in San Remo, Italy"
+          }
+        }
+      ]
+    },
+    {
+      "id": "polo",
+      "category": "phil",
+      "name": {
+        "ja": "マルコ・ポーロ",
+        "en": "Marco Polo"
+      },
+      "start": 1254,
+      "end": 1324,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/マルコ・ポーロ",
+        "en": "https://en.wikipedia.org/wiki/Marco_Polo"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "ヴェネツィアに誕生",
+            "en": "Born in Venice"
+          }
+        },
+        {
+          "age": 17,
+          "label": {
+            "ja": "東方への旅立ち",
+            "en": "Departs East"
+          },
+          "text": {
+            "ja": "父と叔父と共にアジアへの旅に出発",
+            "en": "Departs for Asia with father and uncle"
+          }
+        },
+        {
+          "age": 21,
+          "label": {
+            "ja": "フビライ・ハンと謁見",
+            "en": "Kublai Khan"
+          },
+          "text": {
+            "ja": "元朝のフビライ・ハンに謁見",
+            "en": "Meets Kublai Khan of the Yuan dynasty"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/クビライ",
+            "en": "https://en.wikipedia.org/wiki/Kublai_Khan"
+          }
+        },
+        {
+          "age": 21,
+          "label": {
+            "ja": "元朝に仕える",
+            "en": "Yuan Service"
+          },
+          "text": {
+            "ja": "フビライの信任を得て17年間元朝に仕える",
+            "en": "Serves in Kublai Khan's court for 17 years"
+          }
+        },
+        {
+          "age": 41,
+          "label": {
+            "ja": "ヴェネツィア帰還",
+            "en": "Returns"
+          },
+          "text": {
+            "ja": "24年の旅を終えヴェネツィアに帰還",
+            "en": "Returns to Venice after 24 years"
+          }
+        },
+        {
+          "age": 44,
+          "label": {
+            "ja": "投獄",
+            "en": "Prison"
+          },
+          "text": {
+            "ja": "ジェノヴァとの海戦で捕虜に",
+            "en": "Captured in naval battle with Genoa"
+          }
+        },
+        {
+          "age": 44,
+          "label": {
+            "ja": "東方見聞録口述",
+            "en": "Il Milione"
+          },
+          "text": {
+            "ja": "獄中で『東方見聞録』を口述筆記",
+            "en": "Dictates The Travels of Marco Polo in prison"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/東方見聞録",
+            "en": "https://en.wikipedia.org/wiki/The_Travels_of_Marco_Polo"
+          }
+        },
+        {
+          "age": 70,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "ヴェネツィアで死去",
+            "en": "Dies in Venice"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dalailama",
+      "category": "phil",
+      "name": {
+        "ja": "ダライ・ラマ14世",
+        "en": "14th Dalai Lama"
+      },
+      "start": 1935,
+      "end": 2026,
+      "isAlive": true,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/ダライ・ラマ14世",
+        "en": "https://en.wikipedia.org/wiki/14th_Dalai_Lama"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "チベットのタクツェルに農家の子として誕生",
+            "en": "Born to a farming family in Taktser, Tibet"
+          }
+        },
+        {
+          "age": 2,
+          "label": {
+            "ja": "転生認定",
+            "en": "Reincarnation"
+          },
+          "text": {
+            "ja": "ダライ・ラマ13世の転生と認定される",
+            "en": "Recognized as reincarnation of 13th Dalai Lama"
+          }
+        },
+        {
+          "age": 4,
+          "label": {
+            "ja": "ラサへ",
+            "en": "To Lhasa"
+          },
+          "text": {
+            "ja": "ラサへ移りポタラ宮で即位式",
+            "en": "Moves to Lhasa; enthroned at the Potala Palace"
+          }
+        },
+        {
+          "age": 15,
+          "label": {
+            "ja": "チベット元首",
+            "en": "Head of State"
+          },
+          "text": {
+            "ja": "中国軍侵攻により15歳で元首に就任",
+            "en": "Assumes full political power at 15 due to Chinese invasion"
+          }
+        },
+        {
+          "age": 24,
+          "label": {
+            "ja": "インドに亡命",
+            "en": "Exile"
+          },
+          "text": {
+            "ja": "チベット蜂起後インドに亡命",
+            "en": "Flees to India after Tibetan uprising"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/1959年のチベット蜂起",
+            "en": "https://en.wikipedia.org/wiki/1959_Tibetan_uprising"
+          }
+        },
+        {
+          "age": 25,
+          "label": {
+            "ja": "ダラムサラ政府",
+            "en": "Dharamsala"
+          },
+          "text": {
+            "ja": "ダラムサラにチベット亡命政府を樹立",
+            "en": "Establishes Tibetan government-in-exile in Dharamsala"
+          }
+        },
+        {
+          "age": 54,
+          "label": {
+            "ja": "ノーベル平和賞",
+            "en": "Nobel Peace"
+          },
+          "text": {
+            "ja": "非暴力によるチベット解放運動でノーベル平和賞",
+            "en": "Awarded Nobel Peace Prize for nonviolent Tibetan liberation"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/ノーベル平和賞",
+            "en": "https://en.wikipedia.org/wiki/Nobel_Peace_Prize"
+          }
+        },
+        {
+          "age": 76,
+          "label": {
+            "ja": "政治引退",
+            "en": "Political Retirement"
+          },
+          "text": {
+            "ja": "政治的権限をロブサン・サンガイに移譲",
+            "en": "Transfers political authority to elected leadership"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hokusai",
+      "category": "art",
+      "name": {
+        "ja": "葛飾北斎",
+        "en": "Katsushika Hokusai"
+      },
+      "start": 1760,
+      "end": 1849,
+      "isAlive": false,
+      "main_wiki": {
+        "ja": "https://ja.wikipedia.org/wiki/葛飾北斎",
+        "en": "https://en.wikipedia.org/wiki/Hokusai"
+      },
+      "events": [
+        {
+          "age": 0,
+          "label": {
+            "ja": "誕生",
+            "en": "Birth"
+          },
+          "text": {
+            "ja": "江戸・本所に誕生",
+            "en": "Born in Honjo, Edo (Tokyo)"
+          }
+        },
+        {
+          "age": 6,
+          "label": {
+            "ja": "絵を描き始める",
+            "en": "Drawing"
+          },
+          "text": {
+            "ja": "幼少期から絵に興味を持つ",
+            "en": "Begins drawing as a young child"
+          }
+        },
+        {
+          "age": 14,
+          "label": {
+            "ja": "木版彫師修行",
+            "en": "Woodblock"
+          },
+          "text": {
+            "ja": "木版彫師の下で修行",
+            "en": "Apprentices under a wood-block engraver"
+          }
+        },
+        {
+          "age": 18,
+          "label": {
+            "ja": "勝川春章に入門",
+            "en": "Katsukawa"
+          },
+          "text": {
+            "ja": "浮世絵師・勝川春章に入門",
+            "en": "Studies under ukiyo-e master Katsukawa Shunshō"
+          }
+        },
+        {
+          "age": 36,
+          "label": {
+            "ja": "改号",
+            "en": "Name Change"
+          },
+          "text": {
+            "ja": "生涯30回以上改号した中で「北斎」を名乗り始める",
+            "en": "Adopts the name 'Hokusai' (changed his name over 30 times)"
+          }
+        },
+        {
+          "age": 51,
+          "label": {
+            "ja": "北斎漫画",
+            "en": "Hokusai Manga"
+          },
+          "text": {
+            "ja": "『北斎漫画』の刊行開始",
+            "en": "Begins publishing Hokusai Manga sketchbooks"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/北斎漫画",
+            "en": "https://en.wikipedia.org/wiki/Hokusai_Manga"
+          }
+        },
+        {
+          "age": 71,
+          "label": {
+            "ja": "富嶽三十六景",
+            "en": "36 Views"
+          },
+          "text": {
+            "ja": "『冨嶽三十六景』を発表、神奈川沖浪裏を含む",
+            "en": "Publishes Thirty-six Views of Mount Fuji, including The Great Wave"
+          },
+          "wiki": {
+            "ja": "https://ja.wikipedia.org/wiki/冨嶽三十六景",
+            "en": "https://en.wikipedia.org/wiki/Thirty-six_Views_of_Mount_Fuji"
+          }
+        },
+        {
+          "age": 75,
+          "label": {
+            "ja": "画狂老人卍",
+            "en": "Old Man Mad"
+          },
+          "text": {
+            "ja": "「画狂老人卍」と自称",
+            "en": "Calls himself 'Old Man Mad About Art'"
+          }
+        },
+        {
+          "age": 88,
+          "label": {
+            "ja": "死去",
+            "en": "Death"
+          },
+          "text": {
+            "ja": "「あと10年…あと5年あれば本物の画家になれた」と言い残し死去",
+            "en": "Dies saying: 'If only I had 5 more years, I could become a real painter'"
+          }
+        }
+      ]
+    }
+  ]
+}
