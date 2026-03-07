@@ -33,8 +33,8 @@
 
     .scale-float { position: sticky; top: var(--controls-h, 160px); z-index: 4000; background: rgba(255,255,255,0.97); backdrop-filter: blur(8px); border-bottom: 2px solid #333; height: 36px; overflow: hidden; }
     .scale-inner { position: relative; height: 100%; }
-    .timeline-scroll { overflow-x: auto; background: #fff; -webkit-overflow-scrolling: touch; }
-    .timeline-content { position: relative; padding: 8px 0 100px 0; }
+    .timeline-scroll { overflow-x: auto; background: #fff; -webkit-overflow-scrolling: touch; position: relative; z-index: 0; }
+    .timeline-content { position: relative; padding: 8px 0 100px 0; z-index: 0; }
     .grid-line { position: absolute; top: 0; bottom: 0; width: 1px; background: rgba(0,0,0,0.05); pointer-events: none; }
     .grid-line.major { background: rgba(0,0,0,0.1); }
     .tick-label { position: absolute; top: 10px; transform: translateX(-50%); font-size: 0.6rem; color: #444; font-weight: 700; white-space: nowrap; }
@@ -52,8 +52,8 @@
 
     .tooltip { position: absolute; background: rgba(20, 20, 20, 0.97); color: #fff; padding: 12px 14px; border-radius: 10px; font-size: 0.8rem; width: 260px; z-index: 10000; pointer-events: auto; opacity: 0; transition: opacity 0.15s; box-shadow: 0 10px 30px rgba(0,0,0,0.5); line-height: 1.5; }
     .tooltip.visible { opacity: 1; }
-.tooltip.arrow-below::after { content: ""; position: absolute; left: 50%; transform: translateX(-50%); top: -8px; border-width: 0 8px 8px 8px; border-style: solid; border-color: transparent transparent rgba(20,20,20,0.97) transparent; }
-.tooltip.arrow-above::after { content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -8px; border-width: 8px 8px 0 8px; border-style: solid; border-color: rgba(20,20,20,0.97) transparent transparent transparent; }
+    .tooltip.arrow-below::after { content: ""; position: absolute; left: 50%; transform: translateX(-50%); top: -8px; border-width: 0 8px 8px 8px; border-style: solid; border-color: transparent transparent rgba(20,20,20,0.97) transparent; }
+    .tooltip.arrow-above::after { content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -8px; border-width: 8px 8px 0 8px; border-style: solid; border-color: rgba(20,20,20,0.97) transparent transparent transparent; }
 
     .tooltip-person { font-weight: 900; color: #f1c40f; margin-bottom: 3px; border-bottom: 1px solid #444; padding-bottom: 3px; font-size: 0.85rem; }
     .tooltip-info { color: #74b9ff; font-weight: 800; margin-bottom: 5px; font-size: 0.75rem; }
@@ -147,6 +147,12 @@ const els = {
   modal:$('wikiModal'), overlay:$('wikiOverlay'), close:$('wikiCloseBtn'), mTitle:$('wikiTitle'), mContent:$('wikiContent'),
   pCount:$('personCount'), sortBirth:$('sortBirth'), sortName:$('sortName'), sortLife:$('sortLife')
 };
+
+function updateStickyOffsets() {
+  const ch = $('controlsArea').offsetHeight;
+  document.documentElement.style.setProperty('--controls-h', ch + 'px');
+  $('scaleFloat').style.top = ch + 'px';
+}
 
 function updateUI() {
   els.title.textContent = t('title');
@@ -314,8 +320,8 @@ els.zoomSl.oninput=e=>{
 els.search.oninput=e=>{ state.search=e.target.value; renderTimeline(); };
 els.bAge.onclick=()=>{ state.mode='age'; els.bAge.classList.add('active'); els.bYear.classList.remove('active'); renderTimeline(); };
 els.bYear.onclick=()=>{ state.mode='year'; els.bYear.classList.add('active'); els.bAge.classList.remove('active'); renderTimeline(); };
-els.bJa.onclick=()=>{ state.lang='ja'; els.bJa.classList.add('active'); els.bEn.classList.remove('active'); updateUI(); };
-els.bEn.onclick=()=>{ state.lang='en'; els.bEn.classList.add('active'); els.bJa.classList.remove('active'); updateUI(); };
+els.bJa.onclick=()=>{ state.lang='ja'; els.bJa.classList.add('active'); els.bEn.classList.remove('active'); updateUI(); requestAnimationFrame(updateStickyOffsets); };
+els.bEn.onclick=()=>{ state.lang='en'; els.bEn.classList.add('active'); els.bJa.classList.remove('active'); updateUI(); requestAnimationFrame(updateStickyOffsets); };
 els.scroll.onscroll=()=>els.scaleIn.style.transform=`translateX(${-els.scroll.scrollLeft}px)`;
 document.onclick=()=>clearTip();
 
@@ -333,10 +339,8 @@ document.querySelectorAll('.sort-btn').forEach(btn=>{
 function startApp() {
   state.activeCats=new Set(DATA.categories.map(c=>c.id));
 // Adjust controls height
-setTimeout(()=>{
-  const ch=$('controlsArea').offsetHeight;
-  document.querySelector('.scale-float').style.top=ch+'px';
-},100);
+requestAnimationFrame(updateStickyOffsets);
+window.addEventListener('resize', updateStickyOffsets);
 updateUI();
 
 }
