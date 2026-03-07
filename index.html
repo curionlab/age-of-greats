@@ -76,7 +76,28 @@
     .sort-btns { display: flex; gap: 4px; margin-top: 6px; }
     .sort-btn { border: 1px solid #ddd; background: #fff; padding: 2px 7px; border-radius: 4px; font-size: 0.6rem; font-weight: 700; cursor: pointer; color: #777; }
     .sort-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
-  </style>
+    .timeline-scroll-top {
+        display: none;
+    }
+    @media (min-width: 769px) {
+      .timeline-scroll-top {
+        display: block;
+        position: sticky;
+        top: calc(var(--controls-h, 160px) + 36px);
+        z-index: 3500;
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 16px;
+        background: rgba(255,255,255,0.96);
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+      }
+      .timeline-scroll-top-inner {
+        height: 1px;
+      }
+    }
+
+
+</style>
 </head>
 <body>
   <div class="controls-area" id="controlsArea">
@@ -105,6 +126,9 @@
   </div>
 
   <div class="scale-float" id="scaleFloat"><div class="scale-inner" id="scaleInner"></div></div>
+  <div class="timeline-scroll-top" id="timelineScrollTop">
+    <div class="timeline-scroll-top-inner" id="timelineScrollTopInner"></div>
+  </div>
   <div class="timeline-scroll" id="timelineScroll"><div class="timeline-content" id="timelineContent"></div></div>
 
   <div class="wiki-modal" id="wikiModal">
@@ -142,7 +166,10 @@ const fY = y => y < 0 ? `${t('bc')}${Math.abs(y)}` : `${y}`;
 const els = {
   title:$('txt-app-title'), ageLbl:$('txt-label-age'), au:$('txt-unit-age'), zoomLbl:$('txt-label-zoom'), zu:$('txt-unit-year'),
   search:$('searchInput'), ageSl:$('ageSlider'), hAge:$('headAge'), zoomSl:$('zoomSlider'), hZoom:$('headZoom'),
-  filters:$('categoryFilters'), scroll:$('timelineScroll'), content:$('timelineContent'), scaleIn:$('scaleInner'),
+  filters:$('categoryFilters'), 
+  scrollTop: $('timelineScrollTop'),
+  scrollTopInner: $('timelineScrollTopInner'),
+  scroll:$('timelineScroll'), content:$('timelineContent'), scaleIn:$('scaleInner'),
   bAge:$('btnAge'), bYear:$('btnYear'), bJa:$('btn-lang-ja'), bEn:$('btn-lang-en'),
   modal:$('wikiModal'), overlay:$('wikiOverlay'), close:$('wikiCloseBtn'), mTitle:$('wikiTitle'), mContent:$('wikiContent'),
   pCount:$('personCount'), sortBirth:$('sortBirth'), sortName:$('sortName'), sortLife:$('sortLife')
@@ -242,6 +269,7 @@ function renderTimeline() {
 
   const s=computeScale(items);
   els.content.style.width=els.scaleIn.style.width=s.totalWidth+'px';
+  if (els.scrollTopInner) els.scrollTopInner.style.width = s.totalWidth + 'px';
   const step=state.baseZoomYears<=20?5:state.baseZoomYears<=80?10:state.baseZoomYears<=200?25:50;
 
   for(let v=Math.floor(s.min/step)*step;v<=s.max;v+=step) {
@@ -322,7 +350,24 @@ els.bAge.onclick=()=>{ state.mode='age'; els.bAge.classList.add('active'); els.b
 els.bYear.onclick=()=>{ state.mode='year'; els.bYear.classList.add('active'); els.bAge.classList.remove('active'); renderTimeline(); };
 els.bJa.onclick=()=>{ state.lang='ja'; els.bJa.classList.add('active'); els.bEn.classList.remove('active'); updateUI(); requestAnimationFrame(updateStickyOffsets); };
 els.bEn.onclick=()=>{ state.lang='en'; els.bEn.classList.add('active'); els.bJa.classList.remove('active'); updateUI(); requestAnimationFrame(updateStickyOffsets); };
-els.scroll.onscroll=()=>els.scaleIn.style.transform=`translateX(${-els.scroll.scrollLeft}px)`;
+//els.scroll.onscroll=()=>els.scaleIn.style.transform=`translateX(${-els.scroll.scrollLeft}px)`;
+let syncingScroll=false;
+
+function syncHorizontalScroll(source) {
+  if (syncingScroll) return;
+  syncingScroll=true;
+
+  const left = source.scrollLeft;
+  els.scroll.scrollLeft = left;
+  if (els.scrollTop) els.scrollTop.scrollLeft = left;
+  els.scaleIn.style.transform=`translateX(${-left}px)`;
+
+  syncingScroll=false;
+}
+
+els.scroll.onscroll=()=>syncHorizontalScroll(els.scroll);
+if (els.scrollTop) els.scrollTop.onscroll=()=>syncHorizontalScroll(els.scrollTop);
+
 document.onclick=()=>clearTip();
 
 // Sort buttons
