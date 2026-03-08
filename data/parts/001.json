@@ -1662,7 +1662,7 @@
   },
   {
     "id": "murasaki-shikibu",
-    "category": "literature",
+    "category": "writer",
     "name": {
       "ja": "紫式部",
       "en": "Murasaki Shikibu"
@@ -3275,7 +3275,7 @@
   },
   {
     "id": "christine-de-pizan",
-    "category": "literature",
+    "category": "writer",
     "name": {
       "ja": "クリスティーヌ・ド・ピザン",
       "en": "Christine de Pizan"
@@ -3363,7 +3363,7 @@
   },
   {
     "id": "zheng-he",
-    "category": "exploration",
+    "category": "phil",
     "name": {
       "ja": "鄭和",
       "en": "Zheng He"
