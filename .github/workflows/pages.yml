@@ -26,8 +26,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Merge data parts into data.json
-        run: node merge-data.cjs
+      - name: Build public files
+        run: npm run build
 
       - name: Configure Pages
         uses: actions/configure-pages@v4
@@ -35,7 +35,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: public
 
   deploy:
     environment:
@@ -47,4 +47,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

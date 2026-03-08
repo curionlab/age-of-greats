@@ -1,0 +1,12 @@
+{
+    "name": "age-of-greats",
+    "private": true,
+    "scripts": {
+      "build:public": "node build-public.cjs",
+      "build:data": "node merge-data.cjs",
+      "build": "npm run build:public && npm run build:data",
+      "dev": "npm run build && npx serve public",
+      "preview": "npx serve public"
+    }
+  }
+  

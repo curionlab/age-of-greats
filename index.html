@@ -142,7 +142,7 @@ let DATA = null;
 
 async function init() {
   try {
-    const res = await fetch('data.json');
+    const res = await fetch(`data.json?v=${Date.now()}`, { cache: 'no-store' });
     DATA = await res.json();
     startApp();
   } catch(e) {
