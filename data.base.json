@@ -14,7 +14,7 @@
         "ja": "科学者",
         "en": "Scientists"
       },
-      "color": "#3498db"
+      "color": "#0072B2"
     },
     {
       "id": "politics",
@@ -22,7 +22,7 @@
         "ja": "政治・リーダー",
         "en": "Politics & Leaders"
       },
-      "color": "#ff9800"
+      "color": "#D55E00"
     },
     {
       "id": "art",
@@ -30,7 +30,7 @@
         "ja": "芸術・音楽",
         "en": "Art & Music"
       },
-      "color": "#8e44ad"
+      "color": "#E69F00"
     },
     {
       "id": "tech",
@@ -38,7 +38,7 @@
         "ja": "技術・実業",
         "en": "Tech & Business"
       },
-      "color": "#4caf50"
+      "color": "#009E73"
     },
     {
       "id": "writer",
@@ -46,7 +46,7 @@
         "ja": "文筆家",
         "en": "Writers"
       },
-      "color": "#e91e63"
+      "color": "#CC79A7"
     },
     {
       "id": "phil",
@@ -54,7 +54,7 @@
         "ja": "思想・探検",
         "en": "Thinkers & Explorers"
       },
-      "color": "#607d8b"
+      "color": "#56B4E9"
     }
   ],
   "items": []
