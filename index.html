@@ -740,7 +740,14 @@
       try {
         const res = await fetch(`data.json?v=${Date.now()}`, { cache: 'no-store' });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        DATA = await res.json();
+        const rawData = await res.json();
+        rawData.items.forEach(p => {
+          p.start = toMathYear(p.start);
+          if (!p.isAlive && p.end !== undefined) {
+            p.end = toMathYear(p.end);
+          }
+        });
+        DATA = rawData;
       } catch (e) {
         alert(`Failed to load data.json: ${e.message}`);
         console.error(e);
@@ -754,6 +761,9 @@
         console.error(e);
       }
     }
+
+    const toMathYear = y => y < 0 ? y + 1 : y;
+    const toHistYear = m => m <= 0 ? m - 1 : m;
 
     const NOW = 2026;
     let state = { lang: 'ja', mode: 'age', userAge: 31, baseZoomYears: 80, search: '', activeCats: new Set(), sort: 'birth' };
@@ -805,7 +815,10 @@
 
     const $ = id => document.getElementById(id);
     const t = k => UI[state.lang][k];
-    const fY = y => y < 0 ? `${t('bc')}${Math.abs(y)}` : `${y}`;
+    const fY = y => {
+      const hy = toHistYear(y);
+      return hy < 0 ? `${t('bc')}${Math.abs(hy)}` : `${hy}`;
+    };
 
     const els = {
       title: $('txt-app-title'),
