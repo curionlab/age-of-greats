@@ -133,13 +133,46 @@
 
 
 
+    .search-wrapper {
+      position: relative;
+    }
+
     .search-box input {
       width: 100%;
-      padding: 8px 12px;
+      padding: 8px 32px 8px 12px;
       border: 1px solid #e0e0e0;
       border-radius: 8px;
       background: #f9f9f9;
       font-size: 14px;
+    }
+
+    .search-clear {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: transparent;
+      border: none;
+      font-size: 18px;
+      color: #999;
+      cursor: pointer;
+      display: none;
+      padding: 0 4px;
+      z-index: 10;
+      font-weight: bold;
+    }
+
+    .search-clear:hover {
+      color: #333;
+    }
+
+    .empty-state {
+      padding: 40px;
+      text-align: center;
+      color: #999;
+      font-weight: bold;
+      width: 100vw;
+      font-size: 0.9rem;
     }
 
     .ui-grid {
@@ -179,6 +212,14 @@
       width: 100%;
       accent-color: var(--accent);
       cursor: pointer;
+    }
+
+    #ageSlider {
+      accent-color: #e74c3c;
+    }
+
+    #ageValueBox {
+      color: #e74c3c;
     }
 
     .mode-tabs {
@@ -669,13 +710,18 @@
       </div>
     </div>
 
-    <div class="search-box"><input type="text" id="searchInput" /></div>
+    <div class="search-box">
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" />
+        <button id="searchClearBtn" class="search-clear">&times;</button>
+      </div>
+    </div>
 
     <div class="ui-grid">
       <div class="ui-item">
         <div class="ui-label-row">
           <span class="ui-label" id="txt-label-age">AGE</span>
-          <span class="ui-val"><span id="headAge">31</span><span id="txt-unit-age"></span></span>
+          <span class="ui-val" id="ageValueBox"><span id="headAge">31</span><span id="txt-unit-age"></span></span>
         </div>
         <input type="range" id="ageSlider" min="0" max="120" value="31" />
       </div>
@@ -828,6 +874,7 @@
       zoomLbl: $('txt-label-zoom'),
       zu: $('txt-unit-year'),
       search: $('searchInput'),
+      searchClear: $('searchClearBtn'),
       ageSl: $('ageSlider'),
       hAge: $('headAge'),
       zoomSl: $('zoomSlider'),
@@ -1020,7 +1067,10 @@
       els.scaleIn.innerHTML = '';
       els.pCount.textContent = items.length + t('shown');
 
-      if (!items.length) return;
+      if (!items.length) {
+        els.content.innerHTML = `<div class="empty-state">${t('noR')}</div>`;
+        return;
+      }
 
       const s = computeScale(items);
       els.content.style.width = s.totalWidth + 'px';
@@ -1079,10 +1129,29 @@
           }
         }
 
+        const ageTotals = {};
         p.events.forEach(ev => {
+          ageTotals[ev.age] = (ageTotals[ev.age] || 0) + 1;
+        });
+
+        const ageCount = {};
+        p.events.forEach(ev => {
+          const key = ev.age;
+          const idx = ageCount[key] || 0;
+          ageCount[key] = idx + 1;
+          const total = ageTotals[key];
+
           const d = document.createElement('div');
           d.className = 'dot';
           d.style.left = xOf(state.mode === 'age' ? ev.age : p.start + ev.age, s) + 'px';
+          
+          if (total > 1) {
+            const spacing = 8;
+            const offsetY = -(total - 1) * spacing / 2 + idx * spacing;
+            d.style.transform = `translate(-50%, calc(-50% + ${offsetY}px))`;
+            d.style.zIndex = 150 + idx;
+          }
+          
           d.onclick = e => {
             e.stopPropagation();
             showTip(d, p, ev);
@@ -1143,6 +1212,14 @@
 
     els.search.oninput = e => {
       state.search = e.target.value;
+      els.searchClear.style.display = state.search ? 'block' : 'none';
+      renderTimeline();
+    };
+
+    els.searchClear.onclick = () => {
+      els.search.value = '';
+      state.search = '';
+      els.searchClear.style.display = 'none';
       renderTimeline();
     };
 
