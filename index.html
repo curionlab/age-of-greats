@@ -1,27 +1,117 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Age of Greats</title>
   <style>
-    :root { --bg: #f5f7fa; --bar-h: 26px; --row-gap: 14px; --name-col: 130px; --accent: #667eea; }
-    * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; background: var(--bg); color: #2d3436; padding-bottom: 40px; overflow-x: hidden; }
-    body.modal-open { overflow: hidden; }
+    :root {
+      --bg: #f5f7fa;
+      --bar-h: 26px;
+      --row-gap: 14px;
+      --name-col: 130px;
+      --accent: #667eea;
+    }
 
-    .controls-area { background: #fff; padding: 10px 15px; position: sticky; top: 0; z-index: 5000; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
-    .header-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; gap: 10px; }
-    .header-main { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
-    .header-title-wrap { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
-    .header-title { font-size: 1.05rem; font-weight: 800; color: #333; }
-    .header-subtitle { font-size: 0.735rem; font-weight: 700; color: #888; letter-spacing: 0.2px; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
 
-    .header-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-    .header-btns { display: flex; gap: 8px; align-items: center; flex-shrink: 0; }
-    .lang-btn { border: 1px solid #ddd; background: #fff; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; cursor: pointer; }
-    .lang-btn.active { background: #333; color: #fff; border-color: #333; }
-    .person-count { font-size: 0.7rem; color: #999; font-weight: 600; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      background: var(--bg);
+      color: #2d3436;
+      padding-bottom: 40px;
+      overflow-x: hidden;
+    }
+
+    body.modal-open {
+      overflow: hidden;
+    }
+
+    .controls-area {
+      background: #fff;
+      padding: 10px 15px;
+      position: sticky;
+      top: 0;
+      z-index: 5000;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 8px;
+      gap: 10px;
+    }
+
+    .header-main {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .header-title-wrap {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .header-title {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: #333;
+    }
+
+    .header-subtitle {
+      font-size: 0.735rem;
+      font-weight: 700;
+      color: #888;
+      letter-spacing: 0.2px;
+    }
+
+    .header-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .header-btns {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .lang-btn {
+      border: 1px solid #ddd;
+      background: #fff;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .lang-btn.active {
+      background: #333;
+      color: #fff;
+      border-color: #333;
+    }
+
+    .person-count {
+      font-size: 0.7rem;
+      color: #999;
+      font-weight: 600;
+    }
 
     .app-footer {
       padding: 18px 16px 28px;
@@ -43,76 +133,502 @@
 
 
 
-    .search-box input { width: 100%; padding: 8px 12px; border: 1px solid #e0e0e0; border-radius: 8px; background: #f9f9f9; font-size: 14px; }
-    .ui-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 8px 0; }
-    .ui-item { display: flex; flex-direction: column; gap: 4px; }
-    .ui-label-row { display: flex; justify-content: flex-start; align-items: baseline; gap: 6px; }
-    .ui-label { font-size: 0.6rem; font-weight: 700; color: #999; letter-spacing: 0.5px; }
-    .ui-val { font-size: 0.85rem; font-weight: 900; color: var(--accent); }
-    input[type="range"] { width: 100%; accent-color: var(--accent); cursor: pointer; }
+    .search-box input {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      background: #f9f9f9;
+      font-size: 14px;
+    }
 
-    .mode-tabs { display: flex; background: #eee; border-radius: 8px; padding: 3px; gap: 3px; margin-bottom: 6px; }
-    .tab-btn { flex: 1; border: none; background: transparent; padding: 5px; border-radius: 6px; font-weight: 800; font-size: 0.75rem; color: #666; cursor: pointer; }
-    .tab-btn.active { background: #fff; color: var(--accent); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-    .category-filters { display: flex; gap: 5px; flex-wrap: wrap; }
-    .category-btn { padding: 3px 8px; border: none; border-radius: 12px; font-size: 0.65rem; font-weight: 700; cursor: pointer; color: #fff; opacity: 0.4; transition: opacity 0.15s; }
-    .category-btn.active { opacity: 1; }
+    .ui-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 8px 0;
+    }
 
-    .scale-float { position: sticky; top: var(--controls-h, 160px); z-index: 4000; background: rgba(255,255,255,0.97); backdrop-filter: blur(8px); border-bottom: 2px solid #333; height: 36px; overflow: hidden; }
-    .scale-inner { position: relative; height: 100%; }
-    .timeline-scroll { overflow-x: auto; background: #fff; -webkit-overflow-scrolling: touch; position: relative; z-index: 0; }
-    .timeline-content { position: relative; padding: 8px 0 100px 0; z-index: 0; }
-    .grid-line { position: absolute; top: 0; bottom: 0; width: 1px; background: rgba(0,0,0,0.05); pointer-events: none; }
-    .grid-line.major { background: rgba(0,0,0,0.1); }
-    .tick-label { position: absolute; top: 10px; transform: translateX(-50%); font-size: 0.6rem; color: #444; font-weight: 700; white-space: nowrap; }
-    .my-line-age, .my-line-year { position: absolute; top: 0; bottom: 0; width: 3px; background: #e74c3c; z-index: 200; pointer-events: none; border-radius: 2px; }
+    .ui-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
 
-    .timeline-row { position: relative; min-height: var(--bar-h); height: auto; padding: 4px 0; margin-bottom: var(--row-gap); display: flex; align-items: center; }
-    .row-name { position: sticky; left: 0; z-index: 3000; width: var(--name-col); min-width: var(--name-col); padding-left: 10px; background: linear-gradient(90deg, #fff 88%, transparent 100%); cursor: pointer; }
-    .row-name-main { font-size: 0.75rem; font-weight: 900; color: #222; text-decoration: underline; text-decoration-color: rgba(0,0,0,0.15); text-underline-offset: 2px; white-space: normal; overflow: visible; max-width: none; line-height: 1.15; }
-    .row-name-sub { font-size: 0.55rem; color: #999; white-space: nowrap; }
+    .ui-label-row {
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      gap: 6px;
+    }
 
-    .bar { position: absolute; height: var(--bar-h); top: 50%; transform: translateY(-50%); opacity: 0.85; border-radius: 5px; z-index: 100; }
-    .bar.alive { mask-image: linear-gradient(to right, #000 96%, transparent 100%); -webkit-mask-image: linear-gradient(to right, #000 96%, transparent 100%); }
-    .dot { position: absolute; top: 50%; transform: translate(-50%, -50%); width: 13px; height: 13px; background: #fff; border: 2px solid rgba(255,255,255,0.9); border-radius: 50%; box-shadow: 0 2px 5px rgba(0,0,0,0.3); z-index: 150; cursor: pointer; transition: transform 0.1s; }
-    .dot:active { transform: translate(-50%, -50%) scale(1.3); }
+    .ui-label {
+      font-size: 0.6rem;
+      font-weight: 700;
+      color: #999;
+      letter-spacing: 0.5px;
+    }
 
-    .tooltip { position: absolute; background: rgba(20, 20, 20, 0.97); color: #fff; padding: 12px 14px; border-radius: 10px; font-size: 0.8rem; width: 260px; z-index: 10000; pointer-events: auto; opacity: 0; transition: opacity 0.15s; box-shadow: 0 10px 30px rgba(0,0,0,0.5); line-height: 1.5; }
-    .tooltip.visible { opacity: 1; }
-    .tooltip.arrow-below::after { content: ""; position: absolute; left: 50%; transform: translateX(-50%); top: -8px; border-width: 0 8px 8px 8px; border-style: solid; border-color: transparent transparent rgba(20,20,20,0.97) transparent; }
-    .tooltip.arrow-above::after { content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -8px; border-width: 8px 8px 0 8px; border-style: solid; border-color: rgba(20,20,20,0.97) transparent transparent transparent; }
+    .ui-val {
+      font-size: 0.85rem;
+      font-weight: 900;
+      color: var(--accent);
+    }
 
-    .tooltip-person { font-weight: 900; color: #f1c40f; margin-bottom: 3px; border-bottom: 1px solid #444; padding-bottom: 3px; font-size: 0.85rem; }
-    .tooltip-info { color: #74b9ff; font-weight: 800; margin-bottom: 5px; font-size: 0.75rem; }
-    .tooltip-text { color: #ddd; }
-    .tooltip-link { color: #c7ecee; text-decoration: underline; cursor: pointer; padding: 2px 0; display: inline-block; margin-top: 6px; font-size: 0.75rem; }
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
 
-    .wiki-modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 20000; display: none; align-items: center; justify-content: center; }
-    .wiki-modal.visible { display: flex; animation: fadeIn 0.2s ease-out; }
-    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-    .wiki-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); backdrop-filter: blur(3px); }
-    .wiki-card { position: relative; width: 92%; max-width: 500px; max-height: 85vh; background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 25px 50px rgba(0,0,0,0.5); display: flex; flex-direction: column; animation: zoomUp 0.25s; }
-    @keyframes zoomUp { from { transform: scale(0.92) translateY(15px); opacity: 0; } to { transform: scale(1) translateY(0); opacity: 1; } }
-    .wiki-card-header { padding: 14px 18px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; background: #fafafa; }
-    .wiki-card-title { font-size: 1rem; font-weight: 800; color: #333; }
-    .wiki-close { background: #e0e0e0; border: none; width: 28px; height: 28px; border-radius: 50%; font-size: 16px; color: #555; cursor: pointer; display: flex; align-items: center; justify-content: center; }
-    .wiki-content { padding: 18px; overflow-y: auto; color: #444; line-height: 1.6; font-size: 0.9rem; -webkit-overflow-scrolling: touch; }
-    .wiki-img { width: 100%; height: 200px; object-fit: cover; object-position: top center; border-radius: 8px; margin-bottom: 12px; background: #eee; display: none; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-    .wiki-btn-full { display: block; width: 100%; padding: 12px; background: #333; color: #fff; text-align: center; border-radius: 8px; text-decoration: none; font-weight: 700; margin-top: 16px; font-size: 0.85rem; }
+    .mode-tabs {
+      display: flex;
+      background: #eee;
+      border-radius: 8px;
+      padding: 3px;
+      gap: 3px;
+      margin-bottom: 6px;
+    }
 
-    .sort-btns { display: flex; gap: 4px; margin-top: 6px; }
-    .sort-btn { border: 1px solid #ddd; background: #fff; padding: 2px 7px; border-radius: 4px; font-size: 0.6rem; font-weight: 700; cursor: pointer; color: #777; }
-    .sort-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .tab-btn {
+      flex: 1;
+      border: none;
+      background: transparent;
+      padding: 5px;
+      border-radius: 6px;
+      font-weight: 800;
+      font-size: 0.75rem;
+      color: #666;
+      cursor: pointer;
+    }
+
+    .tab-btn.active {
+      background: #fff;
+      color: var(--accent);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .category-filters {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+    }
+
+    .category-btn {
+      padding: 3px 8px;
+      border: none;
+      border-radius: 12px;
+      font-size: 0.65rem;
+      font-weight: 700;
+      cursor: pointer;
+      color: #fff;
+      opacity: 0.4;
+      transition: opacity 0.15s;
+    }
+
+    .category-btn.active {
+      opacity: 1;
+    }
+
+    .scale-float {
+      position: sticky;
+      top: var(--controls-h, 160px);
+      z-index: 4000;
+      background: rgba(255, 255, 255, 0.97);
+      backdrop-filter: blur(8px);
+      border-bottom: 2px solid #333;
+      height: 36px;
+      overflow: hidden;
+    }
+
+    .scale-inner {
+      position: relative;
+      height: 100%;
+    }
+
+    .timeline-scroll {
+      overflow-x: auto;
+      background: #fff;
+      -webkit-overflow-scrolling: touch;
+      position: relative;
+      display: grid;
+      grid-template-areas: "overlap";
+    }
+
+    .timeline-content {
+      grid-area: overlap;
+      position: relative;
+      padding: 8px 0 100px 0;
+    }
+
+    .grid-line {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: rgba(0, 0, 0, 0.05);
+      pointer-events: none;
+    }
+
+    .grid-line.major {
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    .tick-label {
+      position: absolute;
+      top: 10px;
+      transform: translateX(-50%);
+      font-size: 0.6rem;
+      color: #444;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .my-line-age,
+    .my-line-year {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: #e74c3c;
+      z-index: 200;
+      pointer-events: none;
+      border-radius: 2px;
+    }
+
+    .timeline-wrap {
+      position: relative;
+    }
+
+    .name-column {
+      grid-area: overlap;
+      position: sticky;
+      left: 0;
+      width: var(--name-col);
+      z-index: 3000;
+      min-height: 100%;
+      pointer-events: none;
+      justify-self: start;
+    }
+
+    .name-row {
+      position: absolute;
+      left: 0;
+      width: var(--name-col);
+      padding-left: 10px;
+      background: linear-gradient(90deg, #fff 88%, transparent 100%);
+      pointer-events: auto;
+      cursor: pointer;
+    }
+
+    .row-name-main {
+      font-size: 0.75rem;
+      font-weight: 900;
+      color: #222;
+      text-decoration: underline;
+      text-decoration-color: rgba(0, 0, 0, 0.15);
+      text-underline-offset: 2px;
+      white-space: normal;
+      overflow: visible;
+      max-width: none;
+      line-height: 1.15;
+    }
+
+    .row-name-sub {
+      font-size: 0.55rem;
+      color: #999;
+      white-space: nowrap;
+    }
+
+    .timeline-row {
+      position: relative;
+      min-height: var(--bar-h);
+      height: auto;
+      padding: 4px 0;
+      margin-bottom: var(--row-gap);
+    }
+
+
+
+
+    .bar {
+      position: absolute;
+      height: var(--bar-h);
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0.85;
+      border-radius: 5px;
+      z-index: 100;
+    }
+
+    .bar.alive {
+      mask-image: linear-gradient(to right, #000 96%, transparent 100%);
+      -webkit-mask-image: linear-gradient(to right, #000 96%, transparent 100%);
+    }
+
+    .dot {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 13px;
+      height: 13px;
+      background: #fff;
+      border: 2px solid rgba(255, 255, 255, 0.9);
+      border-radius: 50%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      z-index: 150;
+      cursor: pointer;
+      transition: transform 0.1s;
+    }
+
+    .dot:active {
+      transform: translate(-50%, -50%) scale(1.3);
+    }
+
+
+    .tooltip {
+      position: absolute;
+      background: rgba(20, 20, 20, 0.97);
+      color: #fff;
+      padding: 12px 14px;
+      border-radius: 10px;
+      font-size: 0.8rem;
+      width: 260px;
+      max-width: min(260px, calc(100vw - 20px));
+      z-index: 3500;
+      pointer-events: auto;
+      opacity: 0;
+      transition: opacity 0.15s;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      line-height: 1.5;
+    }
+
+    .tooltip.visible {
+      opacity: 1;
+    }
+
+    .tooltip.arrow-below::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: -8px;
+      border-width: 0 8px 8px 8px;
+      border-style: solid;
+      border-color: transparent transparent rgba(20, 20, 20, 0.97) transparent;
+    }
+
+    .tooltip.arrow-above::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -8px;
+      border-width: 8px 8px 0 8px;
+      border-style: solid;
+      border-color: rgba(20, 20, 20, 0.97) transparent transparent transparent;
+    }
+
+    .tooltip-person {
+      font-weight: 900;
+      color: #f1c40f;
+      margin-bottom: 3px;
+      border-bottom: 1px solid #444;
+      padding-bottom: 3px;
+      font-size: 0.85rem;
+    }
+
+    .tooltip-info {
+      color: #74b9ff;
+      font-weight: 800;
+      margin-bottom: 5px;
+      font-size: 0.75rem;
+    }
+
+    .tooltip-text {
+      color: #ddd;
+    }
+
+    .tooltip-link {
+      color: #c7ecee;
+      text-decoration: underline;
+      cursor: pointer;
+      padding: 2px 0;
+      display: inline-block;
+      margin-top: 6px;
+      font-size: 0.75rem;
+    }
+
+    .wiki-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 20000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .wiki-modal.visible {
+      display: flex;
+      animation: fadeIn 0.2s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    .wiki-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(3px);
+    }
+
+    .wiki-card {
+      position: relative;
+      width: 92%;
+      max-width: 500px;
+      max-height: 85vh;
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      animation: zoomUp 0.25s;
+    }
+
+    @keyframes zoomUp {
+      from {
+        transform: scale(0.92) translateY(15px);
+        opacity: 0;
+      }
+
+      to {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .wiki-card-header {
+      padding: 14px 18px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fafafa;
+    }
+
+    .wiki-card-title {
+      font-size: 1rem;
+      font-weight: 800;
+      color: #333;
+    }
+
+    .wiki-close {
+      background: #e0e0e0;
+      border: none;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      font-size: 16px;
+      color: #555;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .wiki-content {
+      padding: 18px;
+      overflow-y: auto;
+      color: #444;
+      line-height: 1.6;
+      font-size: 0.9rem;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .wiki-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      object-position: top center;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      background: #eee;
+      display: none;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .wiki-btn-full {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 700;
+      margin-top: 16px;
+      font-size: 0.85rem;
+    }
+
+    .sort-btns {
+      display: flex;
+      gap: 4px;
+      margin-top: 6px;
+    }
+
+    .sort-btn {
+      border: 1px solid #ddd;
+      background: #fff;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 0.6rem;
+      font-weight: 700;
+      cursor: pointer;
+      color: #777;
+    }
+
+    .sort-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
 
     .timeline-scroll-top {
       display: none;
     }
 
     @media (max-width: 480px) {
-      .header-top { align-items: flex-start; }
-      .header-title-wrap { gap: 4px; }
-      .header-subtitle { font-size: 0.7rem; }
-      .header-meta { gap: 6px; }
+      .header-top {
+        align-items: flex-start;
+      }
+
+      .header-title-wrap {
+        gap: 4px;
+      }
+
+      .header-subtitle {
+        font-size: 0.7rem;
+      }
+
+      .header-meta {
+        gap: 6px;
+      }
     }
 
     @media (min-width: 769px) {
@@ -124,15 +640,17 @@
         overflow-x: auto;
         overflow-y: hidden;
         height: 16px;
-        background: rgba(255,255,255,0.96);
-        border-bottom: 1px solid rgba(0,0,0,0.08);
+        background: rgba(255, 255, 255, 0.96);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
       }
+
       .timeline-scroll-top-inner {
         height: 1px;
       }
     }
   </style>
 </head>
+
 <body>
   <div class="controls-area" id="controlsArea">
     <div class="header-top">
@@ -184,14 +702,19 @@
     </div>
   </div>
 
-  <div class="scale-float" id="scaleFloat"><div class="scale-inner" id="scaleInner"></div></div>
+  <div class="scale-float" id="scaleFloat">
+    <div class="scale-inner" id="scaleInner"></div>
+  </div>
 
   <div class="timeline-scroll-top" id="timelineScrollTop">
     <div class="timeline-scroll-top-inner" id="timelineScrollTopInner"></div>
   </div>
 
-  <div class="timeline-scroll" id="timelineScroll">
-    <div class="timeline-content" id="timelineContent"></div>
+  <div class="timeline-wrap" id="timelineWrap">
+    <div class="timeline-scroll" id="timelineScroll">
+      <div class="name-column" id="nameColumn"></div>
+      <div class="timeline-content" id="timelineContent"></div>
+    </div>
   </div>
 
   <div class="wiki-modal" id="wikiModal">
@@ -206,12 +729,8 @@
   </div>
 
   <div class="app-footer">
-    <a
-      class="footer-link"
-      href="https://github.com/curionlab/age-of-greats"
-      target="_blank"
-      rel="noopener noreferrer"
-    >GitHub ↗</a>
+    <a class="footer-link" href="https://github.com/curionlab/age-of-greats" target="_blank"
+      rel="noopener noreferrer">GitHub ↗</a>
   </div>
 
   <script>
@@ -237,50 +756,50 @@
     }
 
     const NOW = 2026;
-    let state = { lang:'ja', mode:'age', userAge:31, baseZoomYears:80, search:'', activeCats:new Set(), sort:'birth' };
+    let state = { lang: 'ja', mode: 'age', userAge: 31, baseZoomYears: 80, search: '', activeCats: new Set(), sort: 'birth' };
 
     const UI = {
       ja: {
-        title:"Age of Greats",
-        subtitle:"-同い年の、違う年-",
-        search:"偉人を検索",
-        age:"あなたの年齢",
-        au:"歳",
-        zoom:"ズーム",
-        zu:"年",
-        ma:"年齢比較",
-        my:"西暦年表",
-        noR:"該当なし",
-        sA:"歳",
-        sY:"",
-        bc:"B.C. ",
-        cur:"現在",
-        full:"Wikipediaで全文を読む",
-        birth:"生年順",
-        name:"名前順",
-        life:"寿命順",
-        shown:"人 表示中"
+        title: "Age of Greats",
+        subtitle: "-同い年の、違う年-",
+        search: "偉人を検索",
+        age: "あなたの年齢",
+        au: "歳",
+        zoom: "ズーム",
+        zu: "年",
+        ma: "年齢比較",
+        my: "西暦年表",
+        noR: "該当なし",
+        sA: "歳",
+        sY: "",
+        bc: "B.C. ",
+        cur: "現在",
+        full: "Wikipediaで全文を読む",
+        birth: "生年順",
+        name: "名前順",
+        life: "寿命順",
+        shown: "人 表示中"
       },
       en: {
-        title:"Age of Greats",
-        subtitle:"-Same Age, Different Story-",
-        search:"Search Greats",
-        age:"Your Age",
-        au:"y/o",
-        zoom:"Zoom",
-        zu:"yr",
-        ma:"Age Compare",
-        my:"Calendar",
-        noR:"No results",
-        sA:"y/o",
-        sY:"",
-        bc:"B.C. ",
-        cur:"Now",
-        full:"Read full on Wikipedia",
-        birth:"By Birth",
-        name:"By Name",
-        life:"By Lifespan",
-        shown:" shown"
+        title: "Age of Greats",
+        subtitle: "-Same Age, Different Story-",
+        search: "Search Greats",
+        age: "Your Age",
+        au: "y/o",
+        zoom: "Zoom",
+        zu: "yr",
+        ma: "Age Compare",
+        my: "Calendar",
+        noR: "No results",
+        sA: "y/o",
+        sY: "",
+        bc: "B.C. ",
+        cur: "Now",
+        full: "Read full on Wikipedia",
+        birth: "By Birth",
+        name: "By Name",
+        life: "By Lifespan",
+        shown: " shown"
       }
     };
 
@@ -303,6 +822,8 @@
       filters: $('categoryFilters'),
       scrollTop: $('timelineScrollTop'),
       scrollTopInner: $('timelineScrollTopInner'),
+      wrap: $('timelineWrap'),
+      nameCol: $('nameColumn'),
       scroll: $('timelineScroll'),
       content: $('timelineContent'),
       scaleIn: $('scaleInner'),
@@ -518,7 +1039,7 @@
         l.style.left = xOf(state.userAge, s) + 'px';
         els.content.appendChild(l);
       }
-
+      els.nameCol.innerHTML = '';
       items.forEach(p => {
         const row = document.createElement('div');
         row.className = 'timeline-row';
@@ -526,14 +1047,6 @@
         const lifeEnd = p.isAlive ? NOW : p.end;
         const bs = state.mode === 'age' ? s.plotLeft : xOf(p.start, s);
         const be = state.mode === 'age' ? xOf(lifeEnd - p.start, s) : xOf(lifeEnd, s);
-
-        const subTxt = `${fY(p.start)} - ${p.isAlive ? t('cur') : fY(p.end)}`;
-
-        const nameBox = document.createElement('div');
-        nameBox.className = 'row-name';
-        nameBox.innerHTML = `<div class="row-name-main">${p.name[state.lang]}</div><div class="row-name-sub">${subTxt}</div>`;
-        nameBox.onclick = () => openModal(p.main_wiki[state.lang], p.name[state.lang]);
-        row.appendChild(nameBox);
 
         const cat = DATA.categories.find(c => c.id === p.category);
         const bar = document.createElement('div');
@@ -565,7 +1078,17 @@
         });
 
         els.content.appendChild(row);
+        const subTxt = `${fY(p.start)} - ${p.isAlive ? t('cur') : fY(p.end)}`;
+        const nameBox = document.createElement('div');
+        nameBox.className = 'name-row';
+        nameBox.style.top = row.offsetTop + 'px';
+        nameBox.style.height = row.offsetHeight + 'px';
+        nameBox.innerHTML = `<div class="row-name-main">${p.name[state.lang]}</div><div class="row-name-sub">${subTxt}</div>`;
+        nameBox.onclick = () => openModal(p.main_wiki[state.lang], p.name[state.lang]);
+        els.nameCol.appendChild(nameBox);
       });
+
+      els.nameCol.style.height = els.content.scrollHeight + 'px';
     }
 
     els.ageSl.oninput = e => {
@@ -697,4 +1220,5 @@
     init();
   </script>
 </body>
+
 </html>
